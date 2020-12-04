@@ -94,3 +94,13 @@
 > data.isnull()		data.notnull()		data.describe()		data2=data1.reindex
 >
 > data.sort_index(axis,ascending)		data.sor_values(by)		data.rank(method)
+
+## Matpoltlib(data visualization)
+
+### Matpolitib概述
+
+
+
+### 基于numpy画图
+
+### 基于pandas和 seaborn画图
