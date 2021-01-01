@@ -11,11 +11,11 @@
    * numpy中的dtype对象是与其它系统的交互的源泉
    * astpye可转换数组类型
 
-![屏幕截图 2020-11-14 143032](D:\Coder\Github\学习周记\image\屏幕截图 2020-11-14 143032.jpg)
+![屏幕截图 2020-11-14 143032](.\image\屏幕截图 2020-11-14 143032.jpg)
 
 ### 方法
 
-![屏幕截图 2020-11-14 142453](D:\Coder\Github\学习周记\image\屏幕截图 2020-11-14 142453.jpg)
+![屏幕截图 2020-11-14 142453](.\image\屏幕截图 2020-11-14 142453.jpg)
 
 > data=np.array([1,2,3])
 >
@@ -63,7 +63,7 @@
 
 * Series对象由一组各种Numpy数据类型和一组数据索引组成
 
-![屏幕截图 2020-11-15 152303](D:\Coder\Github\学习周记\image\屏幕截图 2020-11-15 152303.jpg)
+![屏幕截图 2020-11-15 152303](.\image\屏幕截图 2020-11-15 152303.jpg)
 
 ### 方法
 
@@ -99,8 +99,11 @@
 
 ### Matpolitib概述
 
-
+Matplotlib是一个Python 2D绘图库，它以多种硬拷贝格式和跨平台的交互式环境生成出版物质量的图形。Matplotlib可用于Python脚本，Python和[IPython](http://ipython.org/) Shell、[Jupyter](http://jupyter.org/)笔记本，Web应用程序服务器和四个图形用户界面工具包。 
 
 ### 基于numpy画图
 
+
+
 ### 基于pandas和 seaborn画图
+
