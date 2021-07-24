@@ -1,6 +1,6 @@
 ## TensorFlow-v2.1.0
 
-### tensorflow底层概念
+### 计算
 
 ##### 图(graph)
 
@@ -29,48 +29,18 @@
 张量有形状。下面是几个相关术语：
 
 - **形状**：张量的每个维度的长度（元素数量）。
-- **秩**：张量的维度数量。标量的秩为 0，向量的秩为 1，矩阵的秩为 2。
+- **秩**：张量的维度数量。标量的秩为 0，向量的秩为 1，矩阵的秩为 2
 - **轴**或**维度**：张量的一个特殊维度。
 - **大小**：张量的总项数，即乘积形状向量
 
-### Keras
-
-one-hot处理
-
-```python
-iris_target = np.float32(tf.keras.utils.to_categorical(iris_target, num_classes=3))
-```
-
-输入层input
-
-```python
-input_xs  = tf.keras.Input(shape=(4), name='input_xs')
-```
-
-中间层Dens
-
-```python
-x = tf.keras.layers.Dense(32, activation='relu')(inputs)
-```
-
-模型保存与调用
-
-```python
-model.save()
-new_model = tf.keras.models.load_model('./saver/the_save_model.h5')
-model = tf.keras.Model(inputs=inputs, outputs=predictions)
-```
-
-compile函数Tensorflow2.0专用于配置训练模型的编译函数
-
-fit函数用于对输入数据进行修改(泛化)
-
- [The Sequential model  | TensorFlow Core](https://www.tensorflow.org/guide/keras/sequential_model) 
-
-[Module: tf.keras  | TensorFlow Core v2.4.0](https://www.tensorflow.org/api_docs/python/tf/keras) 
-
-### Dataset
-
-
+### 模型
 
 ## Pytorch-v1.7
+
+### 计算
+
+### 模型
+
+1. 模型保存为Orderdict可以使用生成器语法来进行来增删查改模型的某个层
+
+### 特性
