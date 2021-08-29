@@ -1,46 +1,73 @@
+发现这俩东西具体学效率太低，直接贴代码和网页算了
+
 ## TensorFlow-v2.1.0
 
-### 计算
+**TF深度卷积网络实现架构**
 
-##### 图(graph)
-
- 一个`Graph`包含一系列`tf.Operation`对象和`tf.Tensor`对象；`tf.Operation`对象代表计算单元，`tf.Tensor`对象代表operation之间流动的数据单元). 
-
-用 tf.Graph.as_default 创建图。
-
-##### 会话(session)
-
- `Session`对象封装了执行`Operation`对象和计算`Tensor`对象的环境。  调用`tf.Session.close`方法 ，释放会话占用的资源。
-
- 如果在构造会话时没有指定`graph`参数，则将在会话中启动默认图。但是每个图都可以在多个会话中使用。 
-
-##### 变量(varible)
-
- [变量简介  | TensorFlow Core](https://www.tensorflow.org/guide/variable) 
-
- 变量通过 `tf.Variable`类进行创建和跟踪。`tf.Variable`表示张量，对它执行运算可以改变其值。利用特定运算可以读取和修改此张量的值。大部分张量运算在变量上也可以按预期运行，不过变量无法重构形状。 
-
-##### 张量(tensor)
-
- [张量简介  | TensorFlow Core](https://www.tensorflow.org/guide/tensor) 
-
- 张量是具有统一类型（称为 `dtype`）的多维数组，与 `np.arrays` 有一定的相似性，就像 Python 数值和字符串一样，所有张量都是不可变的：永远无法更新张量的内容，只能创建新的张量。 
-
-张量有形状。下面是几个相关术语：
-
-- **形状**：张量的每个维度的长度（元素数量）。
-- **秩**：张量的维度数量。标量的秩为 0，向量的秩为 1，矩阵的秩为 2
-- **轴**或**维度**：张量的一个特殊维度。
-- **大小**：张量的总项数，即乘积形状向量
-
-### 模型
+TF的实现较为直观，以多个函数为模块，无需专门写forward代码，跟着数据流看代码就可以理解网络架构
 
 ## Pytorch-v1.7
 
-### 计算
+[pytorch查看模型的参数总量、占用显存量以及flops_zhuiyuanzhongjia的博客-程序员宅基地_pytorch 查看显存占用 - 程序员宅基地 (cxyzjd.com)](https://www.cxyzjd.com/article/zhuiyuanzhongjia/107230928)
 
-### 模型
+pytorch模型架构的更为系统一些，能够利用到python的很多特性
 
-1. 模型保存为Orderdict可以使用生成器语法来进行来增删查改模型的某个层
+```python
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-### 特性
+dataset = Classification_Dataloader(data)
+train_dataset = DataLoader(dataset, batch_size=batch, shuffle=True, collate_fn=classification_collate)
+
+model = Classification().to(device)
+model.train(mode=True)
+
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+total_step = len(train_dataset)
+        for epoch in range(num_epoches):
+            for i, hands in enumerate(train_dataset):
+                hand, label = hands
+                hand = hand.to(device)
+                label = label.to(device)
+
+                optimizer.zero_grad()
+                outputs = model(hand)
+                outputs = outputs.unsqueeze(dim=0)
+                loss = criterion(outputs, label)
+
+                loss.backward()
+                optimizer.step()
+```
+
+大概所有模型都有这样一段代码
+
+```
+卷积模块 nn.Conv2d(in_channels: int,
+        out_channels: int,
+        kernel_size: _size_2_t,
+        stride: _size_2_t = 1,
+        padding: _size_2_t = 0,)
+```
+
+[(9条消息) 在PyTorch中in-place operation的含义_york1996的博客-CSDN博客_inplace operation](https://blog.csdn.net/york1996/article/details/81835873)
+
+**动态调整学习率**
+
+[pytorch 动态调整学习率 - 超杰 (spytensor.com)](http://www.spytensor.com/index.php/archives/32/)
+
+[ReduceLROnPlateau — PyTorch 1.9.0 documentation](https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)
+
+**实现EarlyStoping**
+
+[Pytorch中实现EarlyStopping方法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/350982073)
+
+**Pytorch深度卷积网络实现架构**
+
+[Pytorch 中的 forward理解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/357021687)
+
+Pytorch的网络架构实现以类为中心，需要有专门的forward代码，并且模型训练时，不需要调用forward这个函数，具体原理看上面的链接
+
+## Pytorch与Tensorflow区别
+
+* 在架构网络模型时，两者的代码逻辑和API调用逻辑都有很大区别，但是可以对标记忆学习

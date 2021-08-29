@@ -28,9 +28,9 @@
 
 <img src=".\image\时间序列特征工程.png" alt="时间序列特征工程" style="zoom:67%;" />
 
-![时间预测xgboost](.\image\时间预测xgboost.png)
+<img src=".\image\时间预测xgboost.png" alt="时间预测xgboost" style="zoom:67%;" />
 
-![时间预测deepar](.\image\时间预测deepar.png)
+<img src=".\image\时间预测deepar.png" alt="时间预测deepar" style="zoom: 67%;" />
 
 
 
