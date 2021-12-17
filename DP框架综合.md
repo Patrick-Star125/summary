@@ -40,14 +40,20 @@ total_step = len(train_dataset)
                 optimizer.step()
 ```
 
-大概所有模型都有这样一段代码
+大概所有模型都有这样一些代码
 
-```
+```python
 卷积模块 nn.Conv2d(in_channels: int,
         out_channels: int,
         kernel_size: _size_2_t,
         stride: _size_2_t = 1,
         padding: _size_2_t = 0,)
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import DataLoader
+from torch.utils.data.dataset import Dataset
 ```
 
 [(9条消息) 在PyTorch中in-place operation的含义_york1996的博客-CSDN博客_inplace operation](https://blog.csdn.net/york1996/article/details/81835873)

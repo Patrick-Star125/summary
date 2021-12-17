@@ -133,7 +133,19 @@
 
 * @property：我们可以使用@property装饰器来创建**只读属性**，@property装饰器会将**方法**转换为相同名称的**只读属性**,可以与所定义的属性配合使用，这样可以防止属性被修改。有两种主要用法。[python @property的介绍与使用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/64487092)
 
-## Python代码规范
+## Python实用方法
+
+**random**
+
+~~~python
+random() 返回0<=n<1之间的随机实数n；
+choice(seq) 从序列seq中返回随机的元素；
+getrandbits(n) 以长整型形式返回n个随机位；
+shuffle(seq[, random]) 原地指定seq序列；
+sample(seq, n) 从序列seq中选择n个随机且独立的元素；
+~~~
+
+
 
 
 
@@ -252,6 +264,7 @@ df.memory_usage():                # 占用内存(字节B)
 ```python
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 import  sklearn.preprocessing.OneHotEncoder
+# s
 from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import KFold, cross_val_score, train_test_split, GridSearchCV
@@ -271,7 +284,7 @@ from sklearn.feature_selection import f_regression
 from sklearn.feature_selection import SequentialFeatureSelector
 ```
 
-
+具体的sklearn的逻辑还没有梳理出来，API实在是太多了
 
 
 
