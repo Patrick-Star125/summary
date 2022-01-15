@@ -162,11 +162,11 @@ sample(seq, n) 从序列seq中选择n个随机且独立的元素；
    * numpy中的dtype对象是与其它系统的交互的源泉
    * astpye可转换数组类型
 
-<img src="D:\Coder\Github\学习笔记\image\屏幕截图 2020-11-14 143032.png" alt="屏幕截图 2020-11-14 143032" style="zoom:50%;" />
+<img src="http://1.14.100.228:8002/images/2022/01/11/-2020-11-14-143032.png" style="zoom:50%;" />
 
 **方法**
 
-<img src="D:\Coder\Github\学习笔记\image\屏幕截图 2020-11-14 142453.png" alt="屏幕截图 2020-11-14 142453" style="zoom:50%;" />
+![](http://1.14.100.228:8002/images/2022/01/11/-2020-11-14-142453.png)
 
 > data=np.array([1,2,3])
 >
@@ -214,7 +214,7 @@ sample(seq, n) 从序列seq中选择n个随机且独立的元素；
 
 * Series对象由一组各种Numpy数据类型和一组数据索引组成
 
-![屏幕截图 2020-11-15 152303](D:\Coder\Github\学习笔记\image\屏幕截图 2020-11-15 152303.png)
+![](http://1.14.100.228:8002/images/2022/01/11/-2020-11-15-152303.png)
 
 **方法**
 
@@ -264,7 +264,6 @@ df.memory_usage():                # 占用内存(字节B)
 ```python
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 import  sklearn.preprocessing.OneHotEncoder
-# s
 from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import KFold, cross_val_score, train_test_split, GridSearchCV

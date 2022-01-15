@@ -12,25 +12,24 @@
 
 ##### 特征类别
 
-<img src=".\image\特征类别.png" alt="特征类别" style="zoom: 67%;" />
+![](http://1.14.100.228:8002/images/2022/01/11/4e2233744edc389680632b833d450465.png)
 
 #### 特征工程
 
-<img src=".\image\特征工程.png" alt="特征工程" style="zoom:67%;" />
+![](http://1.14.100.228:8002/images/2022/01/11/2c89c8f8bc1bd54f9f62337023dbb3b8.png)
 
 ## 表格预测
 
 **应用场景：**精准营销、房价预测、信用评分、个性化推荐
 
-<img src=".\image\时序预测分类.png" alt="时序预测分类" style="zoom: 67%;" />
+![](http://1.14.100.228:8002/images/2022/01/11/2cfd2b6954206f0fb5fb0898b163d52e.png)
 
 <img src=".\image\时序预测预处理.png" alt="时序预测预处理" style="zoom:67%;" />
 
-<img src=".\image\时间序列特征工程.png" alt="时间序列特征工程" style="zoom:67%;" />
+![](http://1.14.100.228:8002/images/2022/01/11/8111f182a8e4d58ec723748ea521e52a.png)
 
-<img src=".\image\时间预测xgboost.png" alt="时间预测xgboost" style="zoom:67%;" />
-
-<img src=".\image\时间预测deepar.png" alt="时间预测deepar" style="zoom: 67%;" />
+![](http://1.14.100.228:8002/images/2022/01/11/xgboost.png)
+![](http://1.14.100.228:8002/images/2022/01/11/deepar.png)
 
 
 
