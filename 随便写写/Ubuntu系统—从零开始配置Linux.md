@@ -99,7 +99,7 @@ docker run -d --name sqlite \
 
 ```bash
 cd /etc/docker
-sudo n daemon.json
+sudo nano daemon.json
 //然后添加源
 {
   "registry-mirrors": [
@@ -122,4 +122,41 @@ sudo docker pull 4pdosc/openmldb:0.4.0
 sudo docker run -it 4pdosc/openmldb:0.4.0 bash
 ~~~
 
-如果这时候查看容器会发现由镜像创建的容器处于Exited(0)的状态，具体原因不详，目前没有解决，所以不知道该怎样上线
+因为openMLDB并不是挂起即上线的数据库镜像，因此需要进入容器中进行配置后才能上线服务，具体可以看[官方案例](https://openmldb.ai/docs/zh/main/use_case/taxi_tour_duration_prediction.html)。
+
+## 系统总览
+
+如果在整个系统文件目录的最上层可以看到系统目录的结构如下图所示
+
+![](http://1.14.100.228:8002/images/2022/05/15/20220515105557.png)
+
+这里有一些文章解释了这些目录的作用，因为实在是太多了，所以不在这里一一列举。
+
+* [Linux /dev目录详解和Linux系统各个目录的作用_maopig的博客-CSDN博客_linux各个目录的作用](https://blog.csdn.net/maopig/article/details/7195048)
+
+上面文章简单讲解了root、bin、etc、dev、home、tmp、usr、opt、media的功能，详细讲解了dev目录和proc目录。
+
+* [ubuntu中 /usr、/var、/opt目录解析_echo_________的博客-CSDN博客_ubuntu usr目录在哪](https://blog.csdn.net/weixin_40822665/article/details/115057223)
+
+上面文章详细讲解了var、usr目录。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

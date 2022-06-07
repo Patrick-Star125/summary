@@ -77,19 +77,231 @@ grep 指令用于查找内容包含指定的范本样式的文件，如果发现
 
 grep命令十分复杂，功能也很强，用于查看各种文件和日志的信息，自带过滤功能。
 
+#### tail
+
+[Linux tail 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-tail.html)
+
+tail 命令可用于查看文件的内容，有一个常用的参数 **-f** 常用于查阅正在改变的日志文件。
+
+**tail -f filename** 会把 filename 文件里的最尾部的内容显示在屏幕上，并且不断刷新，只要 filename 更新就可以看到最新的文件内容。
+
 ### wc
 
 [Linux wc命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-wc.html)
 
 
 
-# tools
+## 认识Shell
 
-#### objdump
+在shell中，程序有两个主要的“流”：他们的输入流和输出流。 当程序尝试读取信息时，它们会从输入流中进行读取，当程序打印信息时，它们会将信息输出到输出流中。 通常，一个程序的输入输出流都是您的终端。也就是，您的键盘作为输入，显示器作为输出。 但是，我们也可以重定向这些流！
 
-#### gdb
+最简单的重定向是 `< file` 和 `> file`。这两个命令可以将程序的输入输出流分别重定向到文件：
 
-#### valgrind
+```bash
+missing:~$ echo hello > hello.txt
+missing:~$ cat hello.txt
+hello
+missing:~$ cat < hello.txt
+hello
+missing:~$ cat < hello.txt > hello2.txt
+missing:~$ cat hello2.txt
+hello
+```
 
-#### purify
+您还可以使用 `>>` 来向一个文件追加内容。使用管道（ *pipes*），我们能够更好的利用文件重定向。 `|`操作符允许我们将一个程序的输出和另外一个程序的输入连接起来：
+
+```bash
+missing:~$ ls -l / | tail -n1
+drwxr-xr-x 1 root  root  4096 Jun 20  2019 var
+missing:~$ curl --head --silent google.com | grep --ignore-case content-length | cut --delimiter=' ' -f2
+219
+```
+
+对于大多数的类Unix系统，有一类用户是非常特殊的，那就是：根用户（root用户）。 您应该已经注意到来，在上面的输出结果中，根用户几乎不受任何限制，他可以创建、读取、更新和删除系统中的任何文件。 通常在我们并不会以根用户的身份直接登陆系统，因为这样可能会因为某些错误的操作而破坏系统。 取而代之的是我们会在需要的时候使用 `sudo` 命令。顾名思义，它的作用是让您可以以su（super user 或 root的简写）的身份do一些事情。 当您遇到拒绝访问（permission denied）的错误时，通常是因为此时您必须是根用户才能操作。此时也请再次确认您是真的要执行此操作。
+
+有一件事情是您必须作为根用户才能做的，那就是向`sysfs` 文件写入内容。系统被挂在在`/sys`下， `sysfs` 文件则暴露了一些内核（kernel）参数。 因此，您不需要借助任何专用的工具，就可以轻松地在运行期间配置系统内核。**注意 Windows or macOS没有这个文件**
+
+例如，您笔记本电脑的屏幕亮度写在 `brightness` 文件中，它位于
+
+```groovy
+/sys/class/backlight
+```
+
+通过将数值写入该文件，我们可以改变屏幕的亮度。现在，蹦到您脑袋里的第一个想法可能是：
+
+```ruby
+$ sudo find -L /sys/class/backlight -maxdepth 2 -name '*brightness*'
+/sys/class/backlight/thinkpad_screen/brightness
+$ cd /sys/class/backlight/thinkpad_screen
+$ sudo echo 3 > brightness
+An error occurred while redirecting file 'brightness'
+open: Permission denied
+```
+
+出乎意料的是，我们还是得到了一个错误信息。毕竟，我们已经使用了 `sudo` 命令！关于shell，有件事我们必须要知道。`|`、`>`、和 `<` 是通过shell执行的，而不是被各个程序单独执行。 `echo` 等程序并不知道`|`的存在，它们只知道从自己的输入输出流中进行读写。 对于上面这种情况， *shell* (权限为您的当前用户) 在设置 `sudo echo` 前尝试打开 brightness 文件并写入，但是系统拒绝了shell的操作因为此时shell不是根用户。
+
+明白这一点后，我们可以这样操作：
+
+```bash
+$ echo 3 | sudo tee brightness
+```
+
+因为打开`/sys` 文件的是`tee`这个程序，并且该程序以`root`权限在运行，因此操作可以进行。 这样您就可以在`/sys`中愉快地玩耍了，例如修改系统中各种LED的状态（路径可能会有所不同）：
+
+```bash
+$ echo 1 | sudo tee /sys/class/leds/input6::scrolllock/brightness
+```
+
+## Shell脚本
+
+shell脚本是深入使用shell的基础，关于shell有以下特点：
+
+* 大多数shell都有自己的脚本语言，其中包含变量、控制流和自己的语法。
+
+* 在shell脚本中，创建命令管道、将结果保存到文件中以及读取标准输入都是基本的操作
+
+* 赋值：`foo=bar`可以将foo赋值为bar，并且可以用`$foo`访问foo变量
+
+* 条件和函数：bash支持控制流技术，包括if、case、while和for，以及基本的函数
+
+* 函数：以一个简单的函数为例
+
+  ~~~bash
+  mcd () {
+      mkdir -p "$1"
+      cd "$1"
+  }
+  ~~~
+
+  上面的`$1`指第一个参数，bash使用各种特殊符号来表示参数，如下图所示
+
+  ![](http://pic.netpunk.space/images/2022/05/29/20220529101124.png)
+
+* 返回码
+
+  * 命令行总是会返回结果到`STDOUT`，返回异常到`SEDERR`，返回码或退出状态是一种很好的标志脚本/命令执行状态的方式。例如，返回码为0通常表示一切正常；任何与0不同的内容都表示发生错误。
+  * 返回码也可以用来作为判断下一条执行语句的条件变量，使用`&&`和`||`操作符把判断条件和执行命令联系起来，`;`操作符只是单纯的分隔符。
+
+* 子命令：另一种常见的设计模式是将命令的输出当作参数
+
+  * 例如，`for file in $(ls)`是一个很明显的命令替换模式
+  * 在上面讲的输出重定向中，也有一种进程替换的方法，例如`diff <(ls foo) <(ls bar)`，将显示dirs`foo`和`bar`中文件之间的差异。
+
+  ~~~bash
+  #这里是一个综合了以上知识的例子
+  #!/bin/bash
+  
+  echo "Starting program at $(date)" # Date will be substituted
+  #在shell脚本里，“”和‘’含义不相同
+  echo "Running program $0 with $# arguments with pid $$"
+  
+  for file in "$@"; do
+      grep foobar "$file" > /dev/null 2> /dev/null
+      # When pattern is not found, grep has exit status 1
+      # We redirect STDOUT and STDERR to a null register since we do not care about them
+      if [[ $? -ne 0 ]]; then
+          echo "File $file does not have any foobar, adding one"
+          echo "# foobar" >> "$file"
+      fi
+  done
+  ~~~
+
+* 参数通配符
+
+  * 如果我们想在命令行参数里面用通配符，可以用`?`和`*`，其中`?`表示匹配1个任意字符，`*`表示匹配多个任意字符
+  * 在shell脚本中，大括号表示匹配，例如`mv *{.py,.sh} folder`表示移动所有后缀为.py和.sh的文件
+  
+* shebang符号行
+
+  * Shebang 通常在 Unix 系统脚本的第一行开头使用 指明执行这个脚本文件的执行程序，无论脚本在系统的什么位置，都会使用Shebang指定的应用程序（在环境变量里）来执行。
+
+* Shell函数和Shell脚本的区别
+
+  * 函数必须使用与shell相同的语言，而脚本可以使用任何语言编写。这就是为什么为脚本包含shebang很重要。
+  * 函数在读取其定义时加载一次。每次执行脚本时都会加载脚本。这使得函数的加载速度略快，但无论何时更改它们，都必须重新加载其定义。
+  * 函数在当前shell环境中执行，而脚本在其自己的进程中执行。因此，函数可以修改环境变量，例如更改当前目录，而脚本不能。脚本将通过使用export导出的值环境变量传递
+  * 与任何编程语言一样，函数是实现模块化、代码重用和shell代码清晰性的强大构造。shell脚本通常会包含自己的函数定义。
+
+## Shell工具
+
+### 帮助手册
+
+如果你没有具体的学习过一个命令的使用方法，那么在使用这个命令的时候我们可以有哪些可选的参数呢？答案是肯定的，系统内置就有
+
+最常用的方法是为对应的命令行添加`-h` 或 `--help` 标记。另外一个更详细的方法则是使用`man` 命令。[`man`](http://man7.org/linux/man-pages/man1/man.1.html) 命令是手册（manual）的缩写，它提供了命令的用户手册。例如`man ls`可以打印出ls命令的详细信息，但有时候手册内容太过详实，让我们难以在其中查找哪些最常用的标记和语法。[TLDR pages](https://tldr.sh/) 是一个很不错的替代品，它提供了一些案例，可以帮助您快速找到正确的选项。
+
+### 查找文件
+
+程序员们面对的最常见的重复任务就是查找文件或目录。所有的类UNIX系统都包含一个名为 [`find`](http://man7.org/linux/man-pages/man1/find.1.html)的工具，它是shell上用于查找文件的绝佳工具。`find`命令会递归地搜索符合条件的文件，例如：
+
+```python
+# Find all directories named src
+find . -name src -type d
+# Find all python files that have a folder named test in their path
+find . -path '**/test/**/*.py' -type f
+# Find all files modified in the last day
+find . -mtime -1
+# Find all zip files with size in range 500k to 10M
+find . -size +500k -size -10M -name '*.tar.gz'
+```
+
+除了列出所寻找的文件之外，find还能对所有查找到的文件进行操作。这能极大地简化一些单调的任务。
+
+```bash
+# Delete all files with .tmp extension
+find . -name '*.tmp' -exec rm {} \;
+# Find all PNG files and convert them to JPG
+find . -name '*.png' -exec convert {} {.}.jpg \;
+```
+
+尽管 `find` 用途广泛，它的语法却比较难以记忆。但shell的哲学之一便是寻找（更好用的）替代方案。 记住，shell最好的特性就是您只是在调用程序，因此您只要找到合适的替代程序即可（甚至自己编写）。
+
+例如， [`fd`](https://github.com/sharkdp/fd) 就是一个更简单、更快速、更友好的程序，它可以用来作为`find`的替代品。它有很多不错的默认设置，例如输出着色、默认支持正则匹配、支持unicode并且我认为它的语法更符合直觉。以模式`PATTERN` 搜索的语法是 `fd PATTERN`。
+
+### 查找代码
+
+查找文件是很有用的技能，但是很多时候您的目标其实是查看文件的内容。一个最常见的场景是您希望查找具有某种模式的全部文件，并找它们的位置。
+
+为了实现这一点，很多类UNIX的系统都提供了[`grep`](http://man7.org/linux/man-pages/man1/grep.1.html)命令，它是用于对输入文本进行匹配的通用工具。它是一个非常重要的shell工具，我们会在后续的数据清理课程中深入的探讨它。
+
+`grep` 有很多选项，这也使它成为一个非常全能的工具。其中我经常使用的有 `-C` ：获取查找结果的上下文（Context）；`-v` 将对结果进行反选（Invert），也就是输出不匹配的结果。举例来说， `grep -C 5` 会输出匹配结果前后五行。当需要搜索大量文件的时候，使用 `-R` 会递归地进入子目录并搜索所有的文本文件。
+
+但是，我们有很多办法可以对 `grep -R` 进行改进，例如使其忽略`.git` 文件夹，使用多CPU等等。
+
+因此也出现了很多它的替代品，包括 [ack](https://beyondgrep.com/), [ag](https://github.com/ggreer/the_silver_searcher) 和 [rg](https://github.com/BurntSushi/ripgrep)。它们都特别好用，但是功能也都差不多，我比较常用的是 ripgrep (`rg`) ，因为它速度快，而且用法非常符合直觉。例子如下：
+
+```python
+# Find all python files where I used the requests library
+rg -t py 'import requests'
+# Find all files (including hidden files) without a shebang line
+rg -u --files-without-match "^#!"
+# Find all matches of foo and print the following 5 lines
+rg foo -A 5
+# Print statistics of matches (# of matched lines and files )
+rg --stats PATTERN
+```
+
+与 `find`/`fd` 一样，重要的是你要知道有些问题使用合适的工具就会迎刃而解，而具体选择哪个工具则不是那么重要。
+
+### 查找命令
+
+目前为止，我们已经学习了如何查找文件和代码，但随着你使用shell的时间越来越久，您可能想要找到之前输入过的某条命令。首先，按向上的方向键会显示你使用过的上一条命令，继续按上键则会遍历整个历史记录。
+
+`history` 命令允许您以程序员的方式来访问shell中输入的历史命令。这个命令会在标准输出中打印shell中的里面命令。如果我们要搜索历史记录，则可以利用管道将输出结果传递给 `grep` 进行模式搜索。 `history | grep find` 会打印包含find子串的命令。
+
+对于大多数的shell来说，您可以使用 `Ctrl+R` 对命令历史记录进行回溯搜索。敲 `Ctrl+R` 后您可以输入子串来进行匹配，查找历史命令行。
+
+反复按下就会在所有搜索结果中循环。在 [zsh](https://github.com/zsh-users/zsh-history-substring-search)中，使用方向键上或下也可以完成这项工作。
+
+`Ctrl+R` 可以配合 [fzf](https://github.com/junegunn/fzf/wiki/Configuring-shell-key-bindings#ctrl-r) 使用。`fzf` 是一个通用对模糊查找工具，它可以和很多命令一起使用。这里我们可以对历史命令进行模糊查找并将结果以赏心悦目的格式输出。
+
+另外一个和历史命令相关的技巧我喜欢称之为**基于历史的自动补全**。 这一特性最初是由 [fish](https://fishshell.com/) shell 创建的，它可以根据您最近使用过的开头相同的命令，动态地对当前对shell命令进行补全。这一功能在 [zsh](https://github.com/zsh-users/zsh-autosuggestions) 中也可以使用，它可以极大对提高用户体验。
+
+最后，有一点值得注意，输入命令时，如果您在命令的开头加上一个空格，它就不会被加进shell记录中。当你输入包含密码或是其他敏感信息的命令时会用到这一特性。如果你不小心忘了在前面加空格，可以通过编辑。`bash_history`或 `.zhistory` 来手动地从历史记录中移除那一项。
+
+
+
+
+
+
 

@@ -447,3 +447,78 @@ flattened as (
 
 明显能够发现from是比select要先执行的，因此会进入一种递归的状态
 
+
+
+
+
+### 一个全流程
+
+建数据库和表
+
+~~~sql
+CREATE student 
+~~~
+
+数据入表
+
+~~~sql
+
+~~~
+
+查询数据
+
+~~~sql
+#1
+SELECT stno, sname FROM student WHERE sname = 'Madin';
+#2
+SELECT stno, course FROM study WHERE stno = '0004';
+#3
+
+#4
+
+#5
+SELECT * FROM score WHERE course = 'Maths' AND grade = 'A';
+#6
+SELECT stname, sex FROM (
+	student LEFT JOIN score
+	ON student.stno = score.stno
+) AS s
+WHERE s.course = 'English' AND s.grade = 'A';
+#7
+SELECT course, grade FROM (
+	SELECT * FROM student
+	WHERE stname = 'Amanda'
+) AS s
+LEFT JOIN score ON s.stno = score.stno;
+#8
+SELECT course, COUNT(*) FROM study GROUP BY course;
+#9
+SELECT grade, COUNT(*) FROM score GROUP BY grade;
+#10
+SELECT sex, COUNT(*) FROM student GROUP BY sex;
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
