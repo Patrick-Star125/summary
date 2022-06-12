@@ -4,93 +4,6 @@ shell是一种负责人机交互的抽象，本身是一种脚本语言。而Bas
 
 命令的参数如果只有一个字母用单横杠-，如果是一个单词用双横杠--，如果想知道有哪些命令可以用--help
 
-## File operation
-
-- ls
-- pwd
-- cd
-- mkdir
-- rmdir
-- touch
-- cp
-- mv
-- rm
-- cat
-- head
-- tail
-- grep
-- |(pipe)
-
-#### Free
-
-使用free命令来查看内存的使用情况，free命令产生内存使用表，利用man(manual操作面板)命令来查看free的使用描述和表头含义，利用man可以查看很多表的信息
-
-关于free的基础信息可以看[Linux free命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-free.html)
-
-还有一些有意思的东西[大佬们， Linux 内存情况看 free 还是看 available 呀-V2EX-非常论坛 (machbbs.com)](http://machbbs.com/v2ex/160267#:~:text=Linux 内存情况看 free 还是看 available 呀？ free 与,是应用程序认为可用内存数量，available %3D free %2B buffer %2B cache (注：只是大概的计算方法))
-
->available 是应用程序认为可用内存数量，available = free + buffer + cache (注：只是大概的计算方法)
->
->Linux 为了提升读写性能，会消耗一部分内存资源缓存磁盘数据，对于内核来说，buffer 和 cache 其实都属于已经被使用的内存。但当应用程序申请内存时，如果 free 内存不够，内核就会回收 buffer 和 cache 的内存来满足应用程序的请求。
-
-#### Ps
-
-[Linux ps 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-ps.html)
-
-ps（process status）命令用于显示当前进程的状态，类似于 windows 的任务管理器，参数非常多，这里只记我用过的
-
-> ps auxw	//查看当前所有进程按PID排序
-
-#### vmstat
-
-[Linux vmstat命令实战详解 - ggjucheng - 博客园 (cnblogs.com)](https://www.cnblogs.com/ggjucheng/archive/2012/01/05/2312625.html)
-
-vmstat命令能够实时观看虚拟内存使用情况，非常有用的一个命令，可以看到机器整体使用的情况
-
-> man vmstat  //查看表格各个参数的意思
-
-#### swapon
-
-> enable/disable devices and files for paging and swapping
-
-#### find
-
-[Linux find 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-find.html)
-
-Linux find 命令用来在指定目录下查找文件。任何位于参数之前的字符串都将被视为欲查找的目录名。语法如下：
-
-> find   path   -option   [   -print ]   [ -exec   -ok   command ]   {} \;
-
-find 根据下列规则判断 path 和 expression，在命令列上第一个 - ( ) , ! 之前的部份为 path，之后的是 expression。如果 path 是空字串则使用目前路径，如果 expression 是空字串则使用 -print 为预设 expression。下面记录一些常用的expression
-
--ipath p, -path p : 路径名称符合 p 的文件，ipath 会忽略大小写
-
--name name, -iname name : 文件名称符合 name 的文件。iname 会忽略大小写
-
--type c : 文件类型是 c 的文件。
-
-#### grep
-
-[Linux grep 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-grep.html)
-
-grep 指令用于查找内容包含指定的范本样式的文件，如果发现某文件的内容符合所指定的范本样式，预设 grep 指令会把含有范本样式的那一列显示出来。若不指定任何文件名称，或是所给予的文件名为 **-**，则 grep 指令会从标准输入设备读取数据。
-
-grep命令十分复杂，功能也很强，用于查看各种文件和日志的信息，自带过滤功能。
-
-#### tail
-
-[Linux tail 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-tail.html)
-
-tail 命令可用于查看文件的内容，有一个常用的参数 **-f** 常用于查阅正在改变的日志文件。
-
-**tail -f filename** 会把 filename 文件里的最尾部的内容显示在屏幕上，并且不断刷新，只要 filename 更新就可以看到最新的文件内容。
-
-### wc
-
-[Linux wc命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-wc.html)
-
-
-
 ## 认识Shell
 
 在shell中，程序有两个主要的“流”：他们的输入流和输出流。 当程序尝试读取信息时，它们会从输入流中进行读取，当程序打印信息时，它们会将信息输出到输出流中。 通常，一个程序的输入输出流都是您的终端。也就是，您的键盘作为输入，显示器作为输出。 但是，我们也可以重定向这些流！
@@ -298,6 +211,173 @@ rg --stats PATTERN
 另外一个和历史命令相关的技巧我喜欢称之为**基于历史的自动补全**。 这一特性最初是由 [fish](https://fishshell.com/) shell 创建的，它可以根据您最近使用过的开头相同的命令，动态地对当前对shell命令进行补全。这一功能在 [zsh](https://github.com/zsh-users/zsh-autosuggestions) 中也可以使用，它可以极大对提高用户体验。
 
 最后，有一点值得注意，输入命令时，如果您在命令的开头加上一个空格，它就不会被加进shell记录中。当你输入包含密码或是其他敏感信息的命令时会用到这一特性。如果你不小心忘了在前面加空格，可以通过编辑。`bash_history`或 `.zhistory` 来手动地从历史记录中移除那一项。
+
+## 常用工具
+
+### fd
+
+fd是Linux原生find命令的一个更快更易用的一个版本，常用的查找方式如下：
+
+在当前目录里递归的找到符合模式的文件
+
+```bash
+fd {{pattern}}
+```
+
+找foo开头的文件
+
+```bash
+fd {{'^foo'}}
+```
+
+寻找后缀为txt的文件
+
+```bash
+fd --extension {{txt}}
+```
+
+在特定的目录内找符合模式的文件
+
+```bash
+fd {{pattern}} {{path/to/directory}}
+```
+
+查找时包括隐藏文件
+
+```bash
+fd --hidden --no-ignore {{pattern}}
+```
+
+对所有找到的文件执行命令，并返回结果
+
+```bash
+fd {{pattern}} --exec {{command}}
+```
+
+### fish
+
+fish是一个功能齐舍，智能且对用户友好的Linux命令行Shell，它带有一些在大多数Shell中都不具备的方便功能。这些功能包括自动补全建议、Sane Scripting、手册页补全、基于Web的配置器和Glorious VGA Color。
+
+### htop
+
+htop是top的升级版，允许用户监视系统上运行的进程及其完整的命令行。
+
+## 常用操作
+
+### 硬件信息
+
+**Free**
+
+使用free命令来查看内存的使用情况，free命令产生内存使用表，利用man(manual操作面板)命令来查看free的使用描述和表头含义，利用man可以查看很多表的信息
+
+关于free的基础信息可以看[Linux free命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-free.html)
+
+还有一些有意思的东西[大佬们， Linux 内存情况看 free 还是看 available 呀-V2EX-非常论坛 (machbbs.com)](http://machbbs.com/v2ex/160267#:~:text=Linux 内存情况看 free 还是看 available 呀？ free 与,是应用程序认为可用内存数量，available %3D free %2B buffer %2B cache (注：只是大概的计算方法))
+
+>available 是应用程序认为可用内存数量，available = free + buffer + cache (注：只是大概的计算方法)
+>
+>Linux 为了提升读写性能，会消耗一部分内存资源缓存磁盘数据，对于内核来说，buffer 和 cache 其实都属于已经被使用的内存。但当应用程序申请内存时，如果 free 内存不够，内核就会回收 buffer 和 cache 的内存来满足应用程序的请求。
+
+**vmstat**
+
+[Linux vmstat命令实战详解 - ggjucheng - 博客园 (cnblogs.com)](https://www.cnblogs.com/ggjucheng/archive/2012/01/05/2312625.html)
+
+vmstat命令能够实时观看虚拟内存使用情况，非常有用的一个命令，可以看到机器整体使用的情况
+
+> man vmstat  //查看表格各个参数的意思
+
+**lshw**
+
+lshw 这个命令是一个比较通用的工具，它可以详细的列出本机的硬件信息。但这个命令并非所有的发行版都有，比如 Fedora 就默认没有，a需要自己安装。
+
+lshw 可以从各个 /proc 文件中提取出硬件信息，比如：CPU、内存、usb 控制器、硬盘等。如果不带选项的话，列出的信息将很长，加上 `-short` 选项时，将只列出概要信息。
+
+~~~bash
+[alvin@VM_0_16_centos ~]$ sudo lshw -short
+#篇幅关系，以下结果有删减
+H/W path            Device      Class          Description
+==========================================================
+                                system         Bochs
+/0                              bus            Motherboard
+/0/0                            memory         96KiB BIOS
+/0/401                          processor      Intel(R) Xeon(R) CPU E5-26xx v4
+/0/1000                         memory         2GiB System Memory
+/0/1000/0                       memory         2GiB DIMM RAM
+/0/100                          bridge         440FX - 82441FX PMC [Natoma]
+/0/100/1                        bridge         82371SB PIIX3 ISA [Natoma/Triton II]
+...
+~~~
+
+
+
+### 文件操作
+
+**find**
+
+[Linux find 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-find.html)
+
+Linux find 命令用来在指定目录下查找文件。任何位于参数之前的字符串都将被视为欲查找的目录名。语法如下：
+
+> find   path   -option   [   -print ]   [ -exec   -ok   command ]   {} \;
+
+find 根据下列规则判断 path 和 expression，在命令列上第一个 - ( ) , ! 之前的部份为 path，之后的是 expression。如果 path 是空字串则使用目前路径，如果 expression 是空字串则使用 -print 为预设 expression。下面记录一些常用的expression
+
+-ipath p, -path p : 路径名称符合 p 的文件，ipath 会忽略大小写
+
+-name name, -iname name : 文件名称符合 name 的文件。iname 会忽略大小写
+
+-type c : 文件类型是 c 的文件。
+
+**grep**
+
+[Linux grep 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-grep.html)
+
+grep 指令用于查找内容包含指定的范本样式的文件，如果发现某文件的内容符合所指定的范本样式，预设 grep 指令会把含有范本样式的那一列显示出来。若不指定任何文件名称，或是所给予的文件名为 **-**，则 grep 指令会从标准输入设备读取数据。
+
+grep命令十分复杂，功能也很强，用于查看各种文件和日志的信息，自带过滤功能。
+
+**tail**
+
+[Linux tail 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-tail.html)
+
+tail 命令可用于查看文件的内容，有一个常用的参数 **-f** 常用于查阅正在改变的日志文件。
+
+**tail -f filename** 会把 filename 文件里的最尾部的内容显示在屏幕上，并且不断刷新，只要 filename 更新就可以看到最新的文件内容。
+
+
+### 进程相关
+
+**Ps**
+
+[Linux ps 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-ps.html)
+
+ps（process status）命令用于显示当前进程的状态，类似于 windows 的任务管理器，参数非常多，这里只记我用过的
+
+> ps auxw	//查看当前所有进程按PID排序
+
+### 网络管理
+
+[(32条消息) Linux中的网络管理——网络配置及命令_葡萄干是个程序员的博客-CSDN博客_linux网络配置](https://blog.csdn.net/qq_15096707/article/details/78420069)
+
+### 其它
+
+**swapon**
+
+> enable/disable devices and files for paging and swapping
+
+**journalctl**
+
+journalctl命令来自于英文词组“journal control”的缩写，其功能是**用于查看指定的日志信息**。 在RHEL7/CentOS7及以后版本的Linux系统中，Systemd服务统一管理了所有服务的启动日志，带来的好处就是可以只用journalctl一个命令，查看到全部的日志信息了。
+
+> journalctl //全部日志
+>
+> journalctl | grep sshd //有关ssh登录的日志
+>
+> journalctl | grep sshd | grep "Disconnected from"' | less //有关ssh登录失败的日志，且可翻页查看
+>
+> journalctl | grep sshd | grep "Disconnected from" | sed 's/.*Disconnected from //' //有关ssh登录失败的日志，且将Disconnected from内容删除
+
+
 
 
 

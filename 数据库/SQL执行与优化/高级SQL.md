@@ -1,4 +1,4 @@
-## 高级（中级）SQL
+## SQL进阶
 
 SQL（Structured Query Language）并不是全是对数据库的基础操作，高级的SQL语句可以让我们只需要关系需要怎样的数据，而不需要关系怎样构造查询路径。高端的数据库系统一般都会有一个极其复杂的查询优化器，其性能也是数据库系统的差距所在。
 
@@ -57,11 +57,7 @@ Like用于字符串匹配，%和_是常见的字符串匹配运算符
 
 **Date ＆ Time**
 
-关于Date ＆ Time的操作在不同系统中差异过大，这里只列举我知道的部分
-
-**SQLite**
-
-julianday函数：
+关于Date ＆ Time的操作在不同系统中差异过大，这里不过多列举
 
 ### Output Control ＆ Redirection
 
