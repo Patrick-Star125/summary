@@ -49,6 +49,10 @@ deb-src http://mirrors.tencentyun.com/ubuntu/ focal-updates main restricted univ
 保存后退出，再更新源
 
 > apt-get update
+>
+> 这里如果出现Repository is not signed的error，可以添加--allow-insecure-repositories，即
+>
+> apt-get update --allow-insecure-repositories
 
 安装openssh-server并启动
 
@@ -91,7 +95,7 @@ kill -9 pid
 /usr/sbin/sshd -D &
 ~~~
 
-> ps -aux | grep ssh # 找到ssh的pid
+> ps -aux | grep ssh # 这个命令用于找到ssh的pid
 
 ![](http://1.14.100.228:8002/images/2022/04/04/20220404100239.png)
 
@@ -110,16 +114,3 @@ kill -9 pid
 ![](http://1.14.100.228:8002/images/2022/04/04/20220404100853.png)
 
 注意此时是**root用户**登录，如果是要公开访问的容器，最好配置**普通用户登录**
-
-
-
-
-
-
-
-
-
-
-
-
-

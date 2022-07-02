@@ -3,8 +3,8 @@
 **大括号公式**
 $$
 \begin{cases}
-min(dp[i-1] [j-1]，dp[i] [j-1]，dp[i-1] [j]) + 1 \ \ \ \ \ \ \ \ \ ij位置字符不相等\\
-min(dp[i-1] [j-1]，dp[i] [j-1] + 1，dp[i-1] [j]+ 1) \ \ ij位置字符相等
+min(dp[i-1] [j-1]，dp[i] [j-1]，dp[i-1] [j]) + 1 \ & ij位置字符不相等\\
+min(dp[i-1] [j-1]，dp[i] [j-1] + 1，dp[i-1] [j]+ 1) \ & ij位置字符相等
 \end{cases}
 $$
 **联排公式**

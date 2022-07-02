@@ -359,6 +359,70 @@ ps（process status）命令用于显示当前进程的状态，类似于 window
 
 [(32条消息) Linux中的网络管理——网络配置及命令_葡萄干是个程序员的博客-CSDN博客_linux网络配置](https://blog.csdn.net/qq_15096707/article/details/78420069)
 
+**wget**
+
+它支持HTTP、HTTPS，月以及FTP这三个常见的的TCP/IP协议下载。主要特点包括：
+
+- 支持递归下载
+- 恰当地转换页面中的连接
+- 生成可在本地浏览的页面镜像
+- 支持代理服务器
+
+1. 使用wget下载单个文件：
+
+~~~bash
+wget https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.10/ubuntu-20.10-desktop-amd64.iso
+~~~
+
+会下载到当前文件夹（打开终端的所在文件夹）。在下载的过程中会显示进度条，包含（下载完成百分比，已经下载的字节，当前下载速度，剩余下载时间）。
+
+2. 使用wget -O下载并以不同的文件名保存
+
+wget默认会以最后一个符合'/'的后面的字符来命名，那么如果一个动态链接的下载通常会有问题。那么需要自己定义一个名字，下面是将上述的名字定义为ubuntu的下载：
+
+```text
+wget -O https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.10/ubuntu-20.10-desktop-amd64.iso
+```
+
+3. wget还可以限定速度下载
+
+下面的命令是将下载速度限制在500k/s的速度：
+
+```text
+wget –limit-rate=500k https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.10/ubuntu-20.10-desktop-amd64.iso
+```
+
+4. 断续下载
+
+在一般下在中，最让人头疼的是下载这网络不稳定，突然断网了，那么最好用下面的断续下在：
+
+```text
+wget -c https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.10/ubuntu-20.10-desktop-amd64.iso
+```
+
+5. 下载整个网站
+
+如果你想下载某个不错的个人网站（当然该网站支持wget下载），而内容很多的情况下，不能逐个下载，那么就可以使用wget的递归功能来下载整个网站：
+
+```text
+wget -c -r -np -k -L -p https://***.org/path/
+```
+
+上述的https://***.org/path/是要下载的网址。
+
+如果在该网址中，有一些需其它连接的数据， 就需要加一个-H参数，如下：
+
+```text
+wget -np -nH -R index https://***.org/path/
+```
+
+上述的https://***.org/path/是要下载的网址。下载完毕后，将会自动生成一个index.html的文件，打开文件就是需要下载的网址内容了。
+
+- -r : 遍历所有子目录
+- -np : 不到上一层子目录去
+- -nH : 不要将文件保存到主机名文件夹
+- -R index ： 不下载 index.html 文件，会自动生成index文件
+
 ### 其它
 
 **swapon**
@@ -377,9 +441,23 @@ journalctl命令来自于英文词组“journal control”的缩写，其功能�
 >
 > journalctl | grep sshd | grep "Disconnected from" | sed 's/.*Disconnected from //' //有关ssh登录失败的日志，且将Disconnected from内容删除
 
+**unzip**
 
+unzip 命令可以查看和解压缩 **zip** 文件。该命令的基本格式如下：
 
+~~~shell
+[root@localhost ~]# unzip [选项] zipfilename
+~~~
 
+此命令常用的选项以及各自的含义如表 1 所示。
+
+| 选项      | 含义                                                         |
+| --------- | ------------------------------------------------------------ |
+| -d 目录名 | 将压缩文件解压到指定目录下。                                 |
+| -n        | 解压时并不覆盖已经存在的文件。                               |
+| -o        | 解压时覆盖已经存在的文件，并且无需用户确认。                 |
+| -v        | 查看压缩文件的详细信息，包括压缩文件中包含的文件大小、文件名以及压缩比等，但并不做解压操作。 |
+| -t        | 测试压缩文件有无损坏，但并不解压。                           |
 
 
 
