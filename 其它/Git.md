@@ -74,6 +74,30 @@
 >
 >git log
 
+### clone
+
+**git clone** 拷贝一个 Git 仓库到本地，让自己能够查看该项目，或者进行修改。
+
+参数：
+
+~~~bash
+git clone [--template=<template_directory>]
+          [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]
+          [-o <name>] [-b <name>] [-u <upload-pack>] [--reference <repository>]
+          [--dissociate] [--separate-git-dir <git dir>]
+          [--depth <depth>] [--[no-]single-branch] [--no-tags]
+          [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules]
+          [--[no-]remote-submodules] [--jobs <n>] [--sparse]
+          [--filter=<filter>] [--] <repository>
+          [<directory>]
+~~~
+
+`depth`：如果要克隆的库太大，而我们只想看代码，就可以使用如下命令，不克隆历史提交数据
+
+> git clone --depth 1 github/url
+
+
+
 ###  branch
 
 [git branch命令 - Git教程™ (yiibai.com)](https://www.yiibai.com/git/git_branch.html)
