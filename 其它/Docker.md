@@ -1,8 +1,39 @@
 ## docker基础
 
-### 基础概念
+### docker网络模式
 
+网络是Docker中相对比较薄弱的部分，我们有必要了解Docker的网络知识，以满足更高的网络需求。
 
+当主机安装Docker后，Docker会自动创建三个网络。你可以使用`docker network ls`命令列出这些网络：
+
+~~~bash
+NETWORK ID          NAME                DRIVER              SCOPE
+594430d2d4bb        bridge              bridge              local
+d855b34c5d51        host                host                local
+b1ecee29ed5e        none                null                local
+~~~
+
+运行容器时，你可以使用`--network NAME`来指定容器应连接到哪些网络，Docker有以下4种网络模式：
+
+host模式：使用 --net=host 指定。
+
+none模式：使用 --net=none 指定。
+
+bridge模式：使用 --net=bridge 指定，默认设置。
+
+container模式：使用 --net=container:NAME_or_ID 指定。
+
+**host模式**
+
+Docker使用了Linux的Namespaces技术来进行资源隔离，如PID Namespace隔离进程，Mount Namespace隔离文件系统，Network Namespace隔离网络等。一个Network Namespace提供了一份独立的网络环境，包括**网卡、路由、Iptable规则**等都与其他的Network Namespace隔离。
+
+host模式类似于Vmware的**桥接**模式，与宿主机在同一个网络中，但没有独立IP地址。一个Docker容器一般会分配一个独立的Network Namespace。但如果启动容器的时候使用host模式，那么这个容器将不会获得一个独立的Network Namespace，而是和宿主机共用一个Network Namespace。容器将不会虚拟出自己的网卡，配置自己的IP等，而是使用宿主机的IP和端口。
+
+如下图所示：容器与主机在相同的网络命名空间下面，使用相同的网络协议栈，容器可以直接使用主机的所有网络接口
+
+![](http://pic.netpunk.space/images/2022/07/11/20220711103915.png)
+
+host 模式简单并且性能高，host 模式下面的网络模型是**最简单**和**最低延迟**的模式，容器进程直接与主机网络接口通信，与物理机性能一致，host不利于**网络自定配置和管理**，并且所有主机的容器使用相同的IP。也不利于**主机资源的利用**。对网络性能要求比较高，当有特殊需求的时候可以使用该模式，否则应该使用其他模式
 
 ## docker进阶
 

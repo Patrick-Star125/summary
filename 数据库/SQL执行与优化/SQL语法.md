@@ -1,4 +1,4 @@
-## SQL-1
+## SQL
 
 这一节并不是CMU-15445的课程，但是很多人包括我在学习CMU-15445的时候完全没有数据库的基础，因此学习基础SQL的使用对于学习Advanced SQL课程是必要的。
 
@@ -180,6 +180,8 @@ JOIN有四种方式，INNER、LEFT、RIGHT、FULL
 **RIGHT JOIN**：右连接与左连接类似，只返回右表
 
 **FULL JOIN**：全连接保存两个表所有行的信息，
+
+以MySQL为例，在MySQL中JOIN有
 
 **AS语句**
 

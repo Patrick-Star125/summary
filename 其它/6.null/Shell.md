@@ -308,6 +308,17 @@ H/W path            Device      Class          Description
 ...
 ~~~
 
+~~~bash
+H/W path       Device     Class          Description
+====================================================
+                          system         30CBS0A400 (LENOVO_MT_30CB_BU_LENOVO_FM_ThinkStation P318)
+/0/3e                     memory         16GiB System Memory
+/0/48                     processor      Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+/0/100/1/0                display        GP106 [GeForce GTX 1060 6GB]
+> uname -a
+Linux BreezeShaneKXServer 5.17.9-arch1-1 #1 SMP PREEMPT Wed, 18 May 2022 17:30:11 +0000 x86_64 GNU/Linux
+~~~
+
 
 
 ### 文件操作
@@ -326,7 +337,7 @@ find 根据下列规则判断 path 和 expression，在命令列上第一个 - (
 
 -name name, -iname name : 文件名称符合 name 的文件。iname 会忽略大小写
 
--type c : 文件类型是 c 的文件。
+-type c : 文件类型是 c 的文件。 
 
 **grep**
 
@@ -342,8 +353,41 @@ grep命令十分复杂，功能也很强，用于查看各种文件和日志的�
 
 tail 命令可用于查看文件的内容，有一个常用的参数 **-f** 常用于查阅正在改变的日志文件。
 
-**tail -f filename** 会把 filename 文件里的最尾部的内容显示在屏幕上，并且不断刷新，只要 filename 更新就可以看到最新的文件内容。
+`tail -f filename` 会把 filename 文件里的最尾部的内容显示在屏幕上，并且不断刷新，只要 filename 更新就可以看到最新的文件内容。
 
+**rm**
+
+这个命令已经用了很久了，这里就记一下常用用法
+
+`rm -rf /foldername`：删除文件夹
+
+`rm -rf /foldername/*`：删除文件夹内所有文件
+
+`rm -f /foldername/*.txt`：删除文件夹内所有txt文件
+
+**mv**
+
+这个命令已经用了很久了，这里就记一下常用用法
+
+`mv webdata /bin/usr/`：移动文件夹
+
+`mv /usr/lib/* /zone`：移动文件夹内所有文件
+
+`mv /usr/lib/*.txt /zone`：移动文件夹内所有txt文件
+
+**du**
+
+[Linux du 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-du.html)
+
+Linux du （英文全拼：disk usage）命令用于显示目录或文件的大小。
+
+du 会显示指定的目录或文件所占用的磁盘空间。
+
+- -a或-all 显示目录中个别文件的大小。
+- -h或--human-readable 以K，M，G为单位，提高信息的可读性。
+- -s或--summarize 仅显示总计。
+
+`du -sh *`：统计当前文件夹下所有文件/文件夹的大小
 
 ### 进程相关
 
@@ -354,6 +398,18 @@ tail 命令可用于查看文件的内容，有一个常用的参数 **-f** 常�
 ps（process status）命令用于显示当前进程的状态，类似于 windows 的任务管理器，参数非常多，这里只记我用过的
 
 > ps auxw	//查看当前所有进程按PID排序
+
+**快捷键进程控制**
+
+ shell 会使用 UNIX 提供的信号机制执行进程间通信。当一个进程接收到信号时，它会停止执行、处理该信号并基于信号传递的信息来改变其执行。就这一点而言，信号是一种*软件中断*。
+
+`Ctrl+C`：shell 会发送一个`SIGINT` 信号到进程，一般来讲这个信号会中断进程，但是如果代码有接收处理的话则不能中断
+
+`Ctrl+\`：shell 会发送一个`SIGQUIT` 信号到进程，这个信号会直接中断进程
+
+`Ctrl+Z`：shell 会发送一个`SIGTSTP` 信号到进程，这个信号会暂停进程，我们可以使用 [`fg`](https://www.man7.org/linux/man-pages/man1/fg.1p.html) 或 [`bg`](http://man7.org/linux/man-pages/man1/bg.1p.html) 命令恢复暂停的工作。它们分别表示在前台继续或在后台继续。
+
+
 
 ### 网络管理
 

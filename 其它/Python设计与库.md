@@ -147,9 +147,11 @@ sample(seq, n) 从序列seq中选择n个随机且独立的元素；
 
 
 
-
-
 # Python技巧
+
+### 安装
+
+**在Linux上更新python版本**
 
 
 

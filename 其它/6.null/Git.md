@@ -372,9 +372,43 @@ upstream
 - 请给出总体的修改情况。
 - 请采用[start a review](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/)进行回复，而非直接回复的方式。原因是每个回复都会发送一封邮件，会造成邮件灾难。
 
+## Git使用技巧
+
+### 合并commit
+
+~~~bash
+> git rebase -i commit_id
+修改commit记录
+> git commit --amend
+修改commit的名字
+> git rebase --continue
+> git push -f origin master
+因为commit记录修改了，所以本地和云端不一致，要强制上传
+~~~
 
 
 
+# GitHub
+
+### 配置ssh token
+
+在不同主机上传代码我们不需要再次配置账号密码那么麻烦了，github在2021年8月份之后就不支持账号密码链接库，而是一个库单独设置一个ssh密钥
+
+获得令牌后，您可以在通过 HTTPS 执行 Git 操作时输入它而不是密码。
+
+例如，在命令行中输入以下内容：
+
+~~~bash
+$ git clone https://github.com/username/repo.git
+Username: your_username
+Password: your_token
+~~~
+
+个人访问令牌只能用于 HTTPS Git 操作。如果您的存储库使用 SSH 远程 URL，则需要将远程从 SSH 切换到 HTTPS。
+
+如果系统未提示您输入用户名和密码，则您的凭据可能已缓存在您的计算机上。您可以更新钥匙串中的凭据以使用令牌替换旧密码。
+
+或者用万能的Visual Studio Code，在VSCode里面整合的命令行工具中直接`git push`就会自动在浏览器弹出GitHub登陆界面，直接登陆即可一键配置。
 
 
 

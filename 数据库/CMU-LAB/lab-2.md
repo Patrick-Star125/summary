@@ -21,45 +21,128 @@
 
 ## Task1-Page Layout
 
+你的哈希表是要通过DBMS的`BufferPoolManager`来访问。这意味着你不能分配内存来存储信息。所有的东西都必须存储在磁盘页中，这样它们就可以从DiskManager中读/写。如果你创建了一个哈希表，把它的页面写到磁盘上，然后重新启动DBMS，你应该能够在重新启动后从磁盘加载回哈希表。
 
+> 说白了，page就是存储层的接口，要实现hash table在磁盘的单独存储
 
+为了支持在页面之上读/写哈希表桶，你将**实现两个Page类**来存储哈希表的数据。这是要教你如何从`BufferPoolManager`中分配内存作为页。
 
+**哈希表目录页**
 
+这个类持有哈希表的所有元数据。它被划分为如下表所示的字段。
 
+| 变量名             | 大小       | 描述                               |
+| ------------------ | ---------- | ---------------------------------- |
+| `page_id_`         | 4 bytes    | 自身的page id                      |
+| `lsn_`             | 4 bytes    | 日志序号 (Used in Project 4)       |
+| `global_depth_`    | 4 bytes    | 目录的全局深度                     |
+| `local_depths_`    | 512 bytes  | 包含每个桶的局部深度的数组 (uint8) |
+| `bucket_page_ids_` | 2048 bytes | 包含每个桶的page id的数组          |
 
+`bucket_page_ids_`数组将桶的id映射到page_id_t的id。`bucket_page_ids_`中的第i个元素是第i个桶的page_id。
 
+你必须在指定的文件中实现你的哈希表目录页。你只允许修改目录文件`src/include/storage/page/hash_table_directory_page.h`和其对应的源文件`src/storage/page/hash_table_directory_page.cpp`。目录和Bucket页面与`LinearProbeHashTable`的Header和Block页面完全分开，所以请确保你正在编辑正确的文件。
 
+**哈希表Bucket页**
 
+哈希表Bucket页持有三个数组：
 
+`occupied_`：如果`array_`的第i个索引曾经被占用，则`occupied_`的第i位为1。
 
+`readable_` : 如果`array_`的第i个索引持有一个可读的值，则`readable_`的第i位为1。
 
+`array_` : 保存键值对的数组。
 
+哈希表桶页中可用的槽的数量取决于被存储的键和值的类型。你只需要支持固定长度的键和值。在单个哈希表实例中，键/值的大小将是相同的，但你不能假设它们在所有实例中都是相同的（例如，哈希表#1可以有32位的键，哈希表#2可以有64位的键）。
 
+你必须在指定的文件中实现你的Hash Table Bucket Page。你只允许修改头文件`src/include/storage/page/hash_table_bucket_page.h`和其对应的源文件`src/storage/page/hash_table_bucket_page.cpp`。Directory和Bucket页面与LinearProbeHashTable的Header和Block页面完全分开，所以请确保你正在编辑正确的文件。
 
+每个哈希表目录/桶页都对应于由缓冲池获取的内存页的内容（即，字节数组data_）。每当你试图读取或写入一个页面时，你需要首先使用其唯一的page_id从缓冲池中获取该页面，然后重新解释铸成一个目录或桶的页面，并在任何写入或读取操作后取消该页面。
 
+我们已经提供了各种帮助，或建议使用帮助函数的文档。你必须实现的唯一功能如下。
 
+桶状页：- 插入-移除-IsOccupied-IsReadable-KeyAt-ValueAt
 
+目录页：- GetGlobalDepth - IncrGlobalDepth - SetLocalDepth - SetBucketPageId - GetBucketPageId
 
+你可以自由地设计和实现你认为合适的其他新函数。然而，你必须小心注意名称的冲突（下划线开头的变量会被编译器使用）。这应该是很少见的，但在Gradescope中会作为一个编译器错误出现。
 
+## TASK #2 - HASH TABLE IMPLEMENTATION
 
+你将实现一个使用可扩展散列方案的哈希表。它需要支持插入（Insert），点搜索（GetValue），和删除（Remove）。在可扩展哈希表的头文件和cpp文件中，有许多已经实现或记录的辅助函数。你唯一严格的API要求是遵守Insert、GetValue和Remove。你还必须保持VerifyIntegrity函数的原样。请自由地设计和实现你认为合适的其他函数。
 
+你的哈希表必须同时支持唯一和非唯一的键。**不允许同一个键有重复的值**。这意味着(key_0, value_0)和(key_0, value_1)可以存在于同一个哈希表中，但(key_0, value_0)和(key_0, value_0)则不可以。如果Insert方法试图插入一个现有的键值对，它只返回false。
 
+你的哈希表实现必须隐藏键/值类型和相关比较器的细节，像这样：
 
+~~~c++
+template <typename KeyType, typename ValueType, typename KeyComparator>
+class ExtendibleHashTable {
+   // ---
+};
+~~~
 
+这些类已经为你实现了。
 
+`KeyType`。哈希表中每个键的类型。这将只是GenericKey，GenericKey的实际大小是通过模板参数指定和实例化的，并取决于索引属性的数据类型。
 
+`ValueType`。哈希表中每个值的类型。这将只是64位RID。
 
+`KeyComparator`: 用来比较两个KeyType实例是否小于/大于对方的类。这些将被包含在KeyType的实现文件中。具有`KeyComparator`类型的变量本质上是函数；
 
+例如，给定两个键`KeyType key1`和`KeyType key2`，以及一个键比较器`KeyComparator cmp`，你可以通过`cmp(key1, key2)`来比较这些键。
 
+请注意，你可以简单地使用==操作符对ValueType实例进行相同测试。
 
+### EXTENDIBLE HASHING IMPLEMENTATION DETAILS
 
+这个实现需要你实现桶的分割/合并和目录的增长/收缩。一些可扩展散列的实现跳过了桶的合并，因为它在某些情况下会导致数据碰撞。我们在这里实现它是为了提供对数据结构的全面理解，并提供更多的机会来学习如何管理锁、锁、页操作（取/销/删除/等等）。
 
+**目录索引：**当插入你的哈希索引时，你会希望使用最小显著位来索引到目录中。当然，也可以正确地使用最重要的位，但使用最不重要的位会使目录扩展操作更简单。
 
+**拆分桶：**如果没有插入的空间，你必须分割一个桶。表面上看，你可以在桶变满后立即分割，如果你觉得这样做更容易。然而，参考方案只有在插入会溢出页面时才会分割。因此，你可能会发现，所提供的API更适合于这种方法。像往常一样，我们欢迎你考虑自己的内部API。
 
+**合并桶：**当一个桶变空时，必须尝试合并。有一些方法可以通过检查桶的占用率和它们的分割图像来更积极地进行合并，但这些昂贵的检查和额外的合并会增加激动。
 
+为了使事情相对简单，我们提供了以下的合并规则。
 
+1. 只有空桶可以被合并。
+2. 只有在`split image`具有相同的局部深度的情况下，才可以将水桶与它们的分割图像合并。
+3. 只有当桶的局部深度大于0时才能合并。
 
+> 如果你对`split image`感到困惑，请查看算法和代码文档。这个概念很自然地就落下了。
 
+**目录增长：**这方面没有什么花哨的规则。你要么必须增长目录，要么不增长。
+
+**缩减目录：**只有当每个桶的本地深度严格小于目录的全局深度时，才收缩目录。你可能会看到其他关于目录收缩的测试，但这个测试是微不足道的，因为我们在目录页中保留了本地深度。
+
+### PERFORMANCE
+
+一个重要的性能细节是只在需要的时候采取写锁和锁定。始终采取写锁将不可避免地在Gradescope上超时。
+
+此外，一个潜在的优化是将你自己的扫描类型在桶页上进行因子化，这可以在某些情况下避免重复扫描。你会发现，检查关于桶页的状态时往往会进行一次完整的扫描，所以你有可能在一次就收集到所有这些信息。
+
+## TASK #3 - CONCURRENCY CONTROL
+
+**各种锁**
+
+到此为止，你可以假设你的哈希表只支持单线程执行。在最后一项任务中，你将修改你的实现，使其支持多个线程同时读/写该表。
+
+你需要在**每个桶上设置锁存器**，这样当一个线程在写一个桶时，其他线程就不会同时读取或修改该索引。你也应该允许多个读者在同一时间读取同一个桶。
+
+当你需要拆分或合并桶时，以及当全局深度发生变化时，你将需要对整个哈希表进行锁存。
+
+### REQUIREMENTS AND HINTS
+
+在这个项目中，有两个需要注意的锁存器。第一个是`extendible_hash_table.h`中的`table_latch_`，它对可扩展哈希表进行锁存。这来自于 `src/include/common/rwlatch.h` 中的 `RWLatch` 类。正如你在代码中看到的，它是由`std::mutex`支持的。第二个是`src/include/storage/page.h`中的内置页锁功能，这是你必须用来保护你的bucket页。注意，如果要对`table_latch_`进行读锁，你可以从`RWLatch.h`中调用`RLock`，但如果要对一个桶的页面进行读锁，你必须重新解释`_cast<Page *>`为一个页面指针，然后从`page.h`中调用`RLatch`方法。
+
+我们建议你看看可扩展的哈希表类，看看它的成员，并分析到底哪些锁会允许哪些行为。我们还建议你对桶状页做同样的事情。
+
+项目4将通过`LockManager.h`中的`LockManager`锁来探索并发控制。在这个项目中，你根本不需要`LockManager`。
+
+### TRANSACTION POINTER
+
+当需要时，你可以简单地传递`nullptr`作为事务指针参数。这个Transaction对象来自`src/include/concurrency/transaction.h`。它提供了一些方法来存储你在遍历哈希表时获得的锁定页。你不需要这样做来通过测试。(没看懂)
 
 
 
