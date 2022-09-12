@@ -45,6 +45,29 @@ while True:
 
 用 [`tmux`](https://www.man7.org/linux/man-pages/man1/tmux.1.html) 这类的终端多路复用器，[Tmux使用手册 | louis blog (louiszhai.github.io)](http://louiszhai.github.io/2017/09/30/tmux/#关闭会话)
 
+这里记录一些最基础的用法
+
+```
+创建并命名一个新会话：tmux new-session -s <会话名称>
+重命名一个会话：tmux rename-session [-t current-name] [new-name]
+显示所有会话：tmux ls
+连接一个会话：tmux attach -a <会话名称>
+退出会话：先按下组合键 [Ctrl+b] 然后再接着按 [d]
+```
+
+会话内操作
+
+~~~
+Ctrl+b %：划分左右两个窗格。
+Ctrl+b "：划分上下两个窗格。
+Ctrl+b <arrow key>：光标切换到其他窗格。<arrow key>是指向要切换到的窗格的方向键，比如切换到下方窗格，就按方向键↓。
+Ctrl+b x：关闭当前窗格。
+Ctrl+b !：将当前窗格拆分为一个独立窗口。
+Ctrl+b z：当前窗格全屏显示，再使用一次会变回原来大小。
+按完前缀ctrl+B后，再按冒号：进入命令行模式，
+输入命令：set -g mouse on
+~~~
+
 # 别名
 
 注意， `=`两边是没有空格的，因为 [`alias`](https://www.man7.org/linux/man-pages/man1/alias.1p.html) 是一个 shell 命令，它只接受一个参数。
