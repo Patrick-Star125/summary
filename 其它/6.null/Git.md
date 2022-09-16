@@ -135,7 +135,11 @@ git reset --hard HEAD^ #从上一次提交的版本退回
 git reset --hard e09af7ae711e2a79c15144c1e792fb2e27d201ff #退回某一次版本
 ~~~
 
+
+
 ### 其它
+
+**强制覆盖**
 
 [(35条消息) 【git】强制覆盖本地代码（与git远程仓库保持一致）_不才Jerry的博客-CSDN博客_git 远程覆盖本地](https://blog.csdn.net/sinat_36184075/article/details/80115000)
 
@@ -145,6 +149,10 @@ git reset --hard e09af7ae711e2a79c15144c1e792fb2e27d201ff #退回某一次版本
 git fetch --all
 git reset --hard origin/master
 ~~~
+
+**创建新分支**
+
+> git checkout -b name
 
 ## Git 本地开发流程
 
