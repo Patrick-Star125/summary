@@ -12,4 +12,56 @@ BigTable使用行和列名称对数据进行索引，这些名称可以是任意
 
 ## 数据模型
 
-BigTable是一个稀疏的、分布式的、持久化存储的多维排序Map。Map的索引是行关键字、列关键字以及时间戳；Map中的每个value都是一个未经解析的byte数组。
+BigTable是一个稀疏的、分布式的、持久化存储的多维排序Map表，表中的数据通过一个行关键字（Row Key）、一个列关键字（Column Key）以及一个时间戳（Time Stamp）进行索引. 在Bigtable中一共有三级索引. 行关键字为第一级索引，列关键字为第二级索引，时间戳为第三级索引；Map中的每个value都是一个未经解析的byte数组，例如：
+
+~~~go
+(row:string,column:string,time:int64)->byte-array(string)
+~~~
+
+![](http://pic.netpunk.space/images/2022/09/19/20220919105434.png)
+
+### **row 的特点**
+
+- Bigtable 的行关键字可以是任意的字符串，但是大小不能够超过 64KB
+- 表中数据都是根据行关键字进行排序的，排序使用的是**词典序**
+- 同一地址域的网页会被存储在表中的连续位置
+- **倒排**便于数据压缩，可以大幅提高压缩率
+
+需要特别注意的是对于一个网站 [www.cnn.com](https://link.zhihu.com/?target=http%3A//www.cnn.com/) 存储在 Bigtable 中的格式是 com.cnn.www
+
+这样倒排的好处是,对于同一域名下的内容,我们可以进行更加快速的索引.
+
+### **column 的特点**
+
+- 将其组织成列族（Column Family）
+- 族名必须有意义，限定词则可以任意选定, 比如 “contents”, “title” 等等.
+- 组织的数据结构清晰明了，含义也很清楚
+- 族同时也是 Bigtable 中访问控制（Access Control）的基本单元
+
+我们从 Bigtable 中读取数据先找到哪一行 然后再去选择读取那个一个 column.
+
+### **time 的特点**
+
+- Google的很多服务比如网页检索和用户的个性化设置等都需要保存不同时间的数据，这些不同的数据版本必须通过时间戳来区分。
+- Bigtable中的时间戳是64位整型数，具体的赋值方式可以用户自行定义
+
+选定了 row 和 column 之后,我们就会选择读取哪一个版本的,不同的时间戳代表着不同的数据版本.
+
+## 组件
+
+大概就是这样，bigtable在实际应用中和MapReduce、GFS、Chubby一起构成谷歌云服务基本架构
+
+![](http://pic.netpunk.space/images/2022/09/19/20220919105623.png)
+
+
+
+## 实现
+
+
+
+## 优化
+
+
+
+## 总结
+
