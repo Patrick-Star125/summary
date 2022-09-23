@@ -409,7 +409,9 @@ ps（process status）命令用于显示当前进程的状态，类似于 window
 
 `Ctrl+Z`：shell 会发送一个`SIGTSTP` 信号到进程，这个信号会暂停进程，我们可以使用 [`fg`](https://www.man7.org/linux/man-pages/man1/fg.1p.html) 或 [`bg`](http://man7.org/linux/man-pages/man1/bg.1p.html) 命令恢复暂停的工作。它们分别表示在前台继续或在后台继续。
 
+**top/htop**
 
+[linux下查询进程占用的内存方法总结 - wangmo - 博客园 (cnblogs.com)](https://www.cnblogs.com/wangmo/p/9486569.html)
 
 ### 网络管理
 
