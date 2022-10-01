@@ -267,7 +267,41 @@ std::unordered_set<std::string> uset2(++uset.begin(),uset.end());
 
 > 注意，此容器模板类中没有重载 [ ] 运算符，也没有提供 at() 成员方法。不仅如此，由于 unordered_set 容器内部存储的元素值不能被修改，因此无论使用那个迭代器方法获得的迭代器，都不能用于修改容器中元素的值。
 
+**用法**
 
+对于顺序结构难以解决的问题，可以用该结构来组成容易操作的数据，例如leetcode128题
+
+> 增：set.insert(data)
+>
+> 删：set.erase(data|pointer)
+>
+> 查：set.count(data)
+
+### unordered_map
+
+unordered_map 容器，直译过来就是"无序 map 容器"的意思。所谓“无序”，指的是 unordered_map 容器不会像 map 容器那样对存储的数据进行排序。换句话说，unordered_map 容器和 map 容器仅有一点不同，即 map 容器中存储的数据是有序的，而 unordered_map 容器中是无序的。对于已经学过 map 容器的读者，可以将 unordered_map 容器等价为无序的 map 容器。
+
+unordered_map 容器模板的定义如下所示：
+
+```c++
+template < class Key,                        //键值对中键的类型
+           class T,                          //键值对中值的类型
+           class Hash = hash<Key>,           //容器内部存储键值对所用的哈希函数
+           class Pred = equal_to<Key>,       //判断各个键值对键相同的规则
+           class Alloc = allocator< pair<const Key,T> >  // 指定分配器对象的类型
+           > class unordered_map;
+```
+
+以上 5 个参数中，必须显式给前 2 个参数传值，并且除特殊情况外，最多只需要使用前 4 个参数，各自的含义和功能如表 1 所示。
+
+**创建：**老一套
+
+1. 空容器
+2. 初始化
+3. 内存复制，注意，无论是调用复制构造函数还是拷贝构造函数，必须保证 2 个容器的类型完全相同
+4. 迭代器复制
+
+**用法**
 
 
 
