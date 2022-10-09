@@ -4,25 +4,51 @@
 * 熟悉不同题型的说话风格
 * 
 
+**资料**
+
+* 
+
 # 口语
 
 * 找陪练
+* 记录播客中对于各种话题的slang
+* 
 
 
+
+**资料**
+
+* 讲的抽象一点：[雅思口语part3 考前急救 — 一些抽象的骚话](https://www.bilibili.com/video/BV1Ba411u73U/?spm_id_from=333.337.search-card.all.click)
+* 
 
 # 阅读
 
 * 就做真题，保证每一套题都要总结错误，写一个文档
 * 
 
+**资料**
 
+* 
 
 # 写作
 
 * 就按自己的写作方式就行
 * 不能挑着做，写每一篇作文并且计时
 * 结构清晰是基础
-* 增加
+* 忘记拼写就按照音标慢慢写出来
+* 
+
+**资料**
+
+* 
+
+
+
+# 词汇
+
+* 开心词场
+* [(48) Kurzgesagt – In a Nutshell - YouTube](https://www.youtube.com/c/inanutshell/videos)
+* Podcast
 
 
 
