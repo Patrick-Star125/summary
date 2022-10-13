@@ -13,9 +13,11 @@
 
 首先介绍一下B站早期的存储演进。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/zHbzQPKIBPhVuvicV5KeGspTdPTw9CibWmdRhvCKK7X7tfuLjWJicFcr8cy4teveiaKqkVmEknKtJianUDhotO25U4A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](http://pic.netpunk.space/images/2022/10/11/20221011164742.png)
 
 针对不同的场景，早期的KV存储包括Redix/Memcache，Redis+MySQL，HBASE。
+
+
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/zHbzQPKIBPhVuvicV5KeGspTdPTw9CibWmAGCsP4IP5XjQZDicelLI5fGiaPMuYjDmhvUpmcvXu1kPFhjYGsek9wkA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
@@ -43,7 +45,7 @@
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/zHbzQPKIBPhVuvicV5KeGspTdPTw9CibWmdM92Z5JABnJTYZFm7wAUxoyKxCHWYsgdh54skWb5A30unmLMVK6erQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
-**总体架构共分为三个部分Client，Node，Metaserve**。Client是用户接入端，确定了用户的接入方式，用户可以采用SDK的方式进行接入。Metaserver主要是存储表的元数据信息，表分为了哪些分片，这些分片位于哪些node之上。用户在读写操作的时候，只需要put、get方法，无需关注分布式实现的技术细节。Node的核心点就是Replica，每一张表会有多个分片，而每个分片会有多个Replica副本，通过Raft实现副本之间的同步复制，保证高可用。
+**总体架构共分为三个部分Client，Node，Metaserve****r**。Client是用户接入端，确定了用户的接入方式，用户可以采用SDK的方式进行接入。Metaserver主要是存储表的元数据信息，表分为了哪些分片，这些分片位于哪些node之上。用户在读写操作的时候，只需要put、get方法，无需关注分布式实现的技术细节。Node的核心点就是Replica，每一张表会有多个分片，而每个分片会有多个Replica副本，通过Raft实现副本之间的同步复制，保证高可用。
 
 **2. 集群拓扑**
 
@@ -55,7 +57,7 @@
 
 **Node：存储节点**，可包含多个磁盘，存储着Replica。
 
-**Sha****rd：一张表数据量过大的时候可以拆分为多个Shard**。拆分策略有Range，Hash。
+**Shard**：一张表数据量过大的时候可以拆分为多个Shard。拆分策略有Range，Hash。
 
 **3. Metaserver**
 
