@@ -66,3 +66,10 @@
 * 在考试的时间点做模拟题
 * 严谨做题
 
+
+
+## 申请文书
+
+* [优秀文书解密 - 英美香港名校offer成功PS原文分享](https://www.bilibili.com/video/BV15T411N7EP/?vd_source=2cb4eb8b99629d942421bfd0843ee608)
+
+* [成功率100%的个人陈述怎么写？修改了上百篇PS的北外小姐姐分享要点秘籍_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1h34y1X7iV/?spm_id_from=333.788.recommend_more_video.2&vd_source=2cb4eb8b99629d942421bfd0843ee608)
