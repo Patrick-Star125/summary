@@ -19,7 +19,14 @@
 **资料**
 
 * 讲的抽象一点：[雅思口语part3 考前急救 — 一些抽象的骚话](https://www.bilibili.com/video/BV1Ba411u73U/?spm_id_from=333.337.search-card.all.click)
-* 
+* 不要讲偏题：[9分干货｜简单话术让你稳稳拿捏考官注意力！想偏题都难！](https://www.bilibili.com/video/BV1w341147Pa/?spm_id_from=333.788.recommend_more_video.1&vd_source=2cb4eb8b99629d942421bfd0843ee608)
+* 注意时间，自然结束：[雅思口语9分｜自然结束一句话 再也不给自己挖坑！不用考官叫停！](https://www.bilibili.com/video/BV1Ta411W7u8/?spm_id_from=333.337.search-card.all.click&vd_source=2cb4eb8b99629d942421bfd0843ee608)
+
+
+
+**范例**
+
+* [雅思官方给出中国考生6.5分范例，对照视频，理性分析自己的得失点，下次考试争取超越6.5分](https://www.bilibili.com/video/BV1Yy4y1a7kT/?spm_id_from=333.788.recommend_more_video.4&vd_source=2cb4eb8b99629d942421bfd0843ee608)
 
 # 阅读
 
