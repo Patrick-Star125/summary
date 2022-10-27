@@ -339,6 +339,15 @@ find 根据下列规则判断 path 和 expression，在命令列上第一个 - (
 
 -type c : 文件类型是 c 的文件。 
 
+示例：
+
+```shell
+# 当前目录搜索所有文件，文件内容 包含 “140.206.111.111” 的内容
+find . -type f -name "*" | xargs grep "140.206.111.111"
+```
+
+**根据文件或者正则表达式进行匹配**
+
 **grep**
 
 [Linux grep 命令 | 菜鸟教程 (runoob.com)](https://www.runoob.com/linux/linux-comm-grep.html)
