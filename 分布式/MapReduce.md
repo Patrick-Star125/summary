@@ -196,5 +196,12 @@ grep程序要扫描1010个长度为100字节的记录来寻找一个相当罕见
 
 
 
+~~~
+hadoop fs -mkdir test //创建test文件夹
+hadoop fs -ls //查看/user/hadoop目录中所有文件
+hadoop fs -put .bashrc test //上传到test文件夹中
+hadoop fs -get test /usr/local/hadoop //复制文件
+~~~
+
 
 
