@@ -157,3 +157,63 @@ Nowadays, many people use dating app to find love and romance. This involves wri
 
 **wokefishing**: pretending to share the same political and social opinions as a person that you are attracted to
 
+
+
+# Errors Summary
+
+## Test 1
+
+Paper Link: [IELTS Mock Test 2020 January Listening Practice Test 1 (ieltsonlinetests.com)](https://ieltsonlinetests.com/score/27186638)
+
+**part1：移民登记**
+
+
+
+**part2：旅游介绍**
+
+
+
+
+
+### What I learned
+
+启发
+
+* 三个词的容易拼错，有可能是专业名词
+* 时间上的关系，例如20 weeks = 5 months
+* 注意同义替换：catching trains -> take the train，不能听到什么就填什么，而是要听懂里面的逻辑细节（这是选择题考不到的地方）
+* 
+
+单词
+
+|  word  | meaning |                      original citation                       |
+| :----: | :-----: | :----------------------------------------------------------: |
+| hassle | 麻烦事  | So this tour is designed to help you handle the bureaucratic hassles. |
+|  visa  |  签证   | Nowadays as Nyan visas are needed by almost all nationalities. |
+|        |         |                                                              |
+
+## Test 2
+
+Paper Link: 
+
+**part1：**
+
+
+
+**part2：**
+
+
+
+### What I learned
+
+启发
+
+* 
+
+单词
+
+| word | meaning | original citation |
+| :--: | :-----: | :---------------: |
+|      |         |                   |
+|      |         |                   |
+|      |         |                   |
