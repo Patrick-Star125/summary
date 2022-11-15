@@ -182,15 +182,40 @@ Paper Link: [IELTS Mock Test 2020 January Listening Practice Test 1 (ieltsonline
 * 三个词的容易拼错，有可能是专业名词
 * 时间上的关系，例如20 weeks = 5 months
 * 注意同义替换：catching trains -> take the train，不能听到什么就填什么，而是要听懂里面的逻辑细节（这是选择题考不到的地方）
+* part-4的读题时间很短，把题干的主要意思读懂，再看选项有没有生词
+* 根据题目判断答案的位置，不能听到什么单词就选什么
+* 同义替换在part2会有少量涉及，在part3会更多，在par4基本上全都是了
+*  填空时注意题目的语义关系，不能听到什么填什么，这也是检查的重点
 * 
 
-单词
+单词短语
 
-|  word  | meaning |                      original citation                       |
-| :----: | :-----: | :----------------------------------------------------------: |
-| hassle | 麻烦事  | So this tour is designed to help you handle the bureaucratic hassles. |
-|  visa  |  签证   | Nowadays as Nyan visas are needed by almost all nationalities. |
-|        |         |                                                              |
+|     word      | meaning |                      original citation                       |
+| :-----------: | :-----: | :----------------------------------------------------------: |
+|    hassle     | 麻烦事  | So this tour is designed to help you handle the bureaucratic hassles. |
+|     visa      |  签证   | Nowadays as Nyan visas are needed by almost all nationalities. |
+|    hold up    |  耽误   | a lot of our regular travelers tell us that the price may change <br />without notice and hold up visa processing. |
+|    ring up    |  致电   | So ring up the Eze nyun embassy and check the price before sending out forms. |
+|    embassy    | 大使馆  |                             同上                             |
+|  consulates   | 领事馆  | some Asian consulates in neighboring countries require <br />you to provide a letter from your own embassy |
+| miscellaneous | 混杂的  |            Now some miscellaneous general advice             |
+|  concessions  |  妥协   | all of you here are students and there will be plenty of concessions for <br />young people traveling in Eze |
+|    Cashier    | 收银员  | I’ve left and I’m working in a bank now as a cashier. I just came to see a friend. |
+|   trudging    |  跋涉   | The weather’s so bad so it’s a bit miserable trudging from one little shop to another. |
+| retail outlet | 杂货铺  |       The department store or the small retail outlets       |
+|  occupation   |  职业   | The woman being interviewed is now working in the bank. Her occupation is Cashier |
+|   trousers    |  长裤   | Not many had trouble buying sweaters and things like that but shoes and trousers were really problematic. |
+
+同义替换
+
+|          Original          |         Replace         |
+| :------------------------: | :---------------------: |
+|          half of           |           50%           |
+|         extra sth          |    other useful sth     |
+|  two written assignments   |         essays          |
+| A regular one-hour session | one hour on an activity |
+|                            |                         |
+
 
 ## Test 2
 
@@ -216,4 +241,12 @@ Paper Link:
 | :--: | :-----: | :---------------: |
 |      |         |                   |
 |      |         |                   |
-|      |         |                   |
+|      |         |         z         |
+
+同义替换
+
+|      |      |
+| ---- | ---- |
+|      |      |
+|      |      |
+|      |      |

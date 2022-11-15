@@ -16,13 +16,36 @@
   * rich and precise vocabulary and good phrase
   * appropriate combination of simple sentences, compound sentences and complex sentences
 
+* Four scoring criteria
+  * question response
+  * coherence and cohesion
+  * vocabulary
+  * grammar(slow develop)
+* well organized structure
+  *  Introduction: 2 sentences (5 min)
+  * two main paragraphs: 10 sentences (20 min)
+  * conclusion: 1-2 sentences (5 min)
+
 ## Task1
 
 Objective, accurate, detailed description of the content of the chart
 
 ## Task2
 
+Type of questions
 
+* Discussion
+
+  > some people think that it is more effective for students to study in groups, while others believe that it is better for them to study alone. **Discuss both views and give your own opinion.**
+
+* Opinion
+
+  > some people believe that unpaid community service should be a compulsory part of high school programmes.
+  > To what extent do you agree or disagree?
+
+* Problem and solution
+
+* Tow-part question
 
 
 
@@ -98,6 +121,28 @@ However, in most of the cases, the outcome shows a different world. Young adults
 
 ### Efficiency
 
+#### example1
+
+question - discussion
+
+>  some people think that it is more effective for students to study in groups, while others believe that it is better for them to study alone. **Discuss both views and give your own opinion.**
+
+Topic - study in gruops or alone
+
+Answer - sometimes better alone, usually better in a group.
+
+Replacements
+
+|    originals    |           replace            |
+| :-------------: | :--------------------------: |
+|      think      |  have different views about  |
+|    effective    |         effctiveness         |
+|    effective    |          productive          |
+| study in groups |         group study          |
+|   study alone   |     study independently      |
+|   study alone   | (as opposed to)working alone |
+|                 |                              |
+
 
 
 ### Security
@@ -106,7 +151,29 @@ However, in most of the cases, the outcome shows a different world. Young adults
 
 ### Responsibility
 
+#### example1
 
+Question - opinion
+
+> some people believe that unpaid community service should be a compulsory part of high school programmes.
+> To what extent do you agree or disagree?
+
+Topic: community service for **all teenagers**
+
+Answer: It is argued that high school students should **be made to** do some work in their local communities.
+
+> * I completely agree that this kind of system is a good idea.
+> * In my opinion, it would be wrong to force teenagers to do any kind of unsalaried work.
+> * While I **disagree with the idea** making such programmes compulsory, I do believe that voluntary community service could benefit **young people**
+
+Replacements
+
+| originals | replace |
+| :-------: | :-----: |
+|           |         |
+|           |         |
+|           |         |
+|           |         |
 
 ### Healthy
 
@@ -122,7 +189,7 @@ However, in most of the cases, the outcome shows a different world. Young adults
 
 # Words
 
-这里统计一些关于写作的词汇
+
 
 **易错词**
 
@@ -150,7 +217,11 @@ However, in most of the cases, the outcome shows a different world. Young adults
 | | | |
 | | | |
 
-**替换词**
+**通用替换词**
 
-这里只记录不太好想的
+|  original  |    replace    |
+| :--------: | :-----------: |
+| instead of | as opposed to |
+|    let     |  be made to   |
+|            |               |
 
