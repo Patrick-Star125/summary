@@ -32,7 +32,7 @@ Objective, accurate, detailed description of the content of the chart
 
 ## Task2
 
-Type of questions
+**Type of questions**
 
 * Discussion
 
@@ -45,17 +45,61 @@ Type of questions
 
 * Problem and solution
 
+  > Many criminals reoffend after they have been punished. Why do some people continue to commit crimes after they have been punished, and what measures can be taken to tackle this problem?
+
 * Tow-part question
 
+  > As most people spend a major part of their adult life at work, job satisfaction is an important element of individual well-being. What factors contribute to job satisfaction? How realistic is the expectation of job satisfaction for all workers?
 
+**Introduction**
+
+* paraphrase the question and topic
+* Give the answer according to the question
+
+**Main Body**
+
+* vocabulary: topic words that can be only used for the certain writing task.
+
+  ![](http://pic.netpunk.space/images/2022/11/18/20221118165632.png)
+
+* task accomplishment:
+
+* coherence and cohesion:
+
+  ​	these lining words holding paraphrase together
+
+  ![](http://pic.netpunk.space/images/2022/11/18/20221118174249.png)
+
+* two types of writing structure：
+
+  * Firstly, Secondly, Finally
+  * Idea, Explain, Example
+
+**Conclusions**
+
+* just paraphrase the answer that you gave in your introduction by using different words
+
+* Discussion
+
+  ![](http://pic.netpunk.space/images/2022/11/18/20221118191603.png)
+
+* Opinion
+
+  ![](http://pic.netpunk.space/images/2022/11/18/20221118192704.png)
+
+* Problems and solutions
+
+  ![](http://pic.netpunk.space/images/2022/11/18/20221118193725.png)
+
+* Two-part question
+
+  ![](http://pic.netpunk.space/images/2022/11/18/20221118194515.png)
 
 # Topics
 
 从话题来看，所有讨论的话题都至少可以从以下12个关键词的一个或多个来入手进行探讨，对应的不同话题也有它们各自的`good phrase`和`native expression`
 
 ## National
-
-更宽泛的分类
 
 ### Skill
 
@@ -71,17 +115,34 @@ Type of questions
 
 ### Environment
 
-* the most amazing thing about nature is its infinite variety
-* 
+
 
 ### Employment
 
+#### example1
 
+Type - two-part question
 
+> **As most people spend a major part of their adult life at work, job satisfaction is an important element of individual well-being.(the paraphrase part)** What factors contribute to job satisfaction? How realistic is the expectation of job satisfaction for all workers?
+
+Topic: job satisfaction
+
+Answer: several factors,  unrealistic/impossible
+
+> Work plays a **central part** of our life, and we would all like to feel **fulfilled** professionally. While **a variety of factors** may lead to job satisfaction, it is impossible expect everyone to be happy at work.
+
+|  originals   |       replace        |
+| :----------: | :------------------: |
+|  major part  |     central role     |
+| many reasons | a variety of factors |
+|              |                      |
+|              |                      |
 
 ### Culture
 
-**例题：青少年粉丝文化**
+#### example1
+
+Type - opinion
 
 ![](http://pic.netpunk.space/images/2022/09/01/20220901114058.png)
 
@@ -131,6 +192,8 @@ Topic - study in gruops or alone
 
 Answer - sometimes better alone, usually better in a group.
 
+> People have different views about the effectiveness of group study as opposed to working alone. While there are some benefits to studying independently, I believe thatgroup work is usually more productive.
+
 Replacements
 
 |    originals    |           replace            |
@@ -147,7 +210,25 @@ Replacements
 
 ### Security
 
+#### example1
 
+Type - question and solution
+
+> Many **criminals** **reoffend** after they **have been punished**. **Why** do some people continue to commit crimes after they have been punished, and **what measures** can be taken to tackle this problem?
+
+Topic: criminals reoffend
+
+Answer: several reasons(why) and a variety of measures(what need to be done)
+
+> It is true that punishments do not always **deter** criminals from committing more crimes. There are **various reasons** why offenders **repeatedly** **break the law**, but governments could certainly **take steps** to address this issue.
+
+|     originals      |    replace    |
+| :----------------: | :-----------: |
+|        stop        |  deter from   |
+| criminals reoffend | break the law |
+|       tackle       |    address    |
+|                    |               |
+|                    |               |
 
 ### Responsibility
 
@@ -162,18 +243,30 @@ Topic: community service for **all teenagers**
 
 Answer: It is argued that high school students should **be made to** do some work in their local communities.
 
-> * I completely agree that this kind of system is a good idea.
-> * In my opinion, it would be wrong to force teenagers to do any kind of unsalaried work.
+> * I **completely agree** that this kind of **system** is a good idea.
+> * In my opinion, it would be wrong to **force** teenagers to do any kind of **unsalaried** work.
 > * While I **disagree with the idea** making such programmes compulsory, I do believe that voluntary community service could benefit **young people**
+
+Main body
+
+sketch: 
+
+![](http://pic.netpunk.space/images/2022/11/18/20221118163437.png)
+
+paragraph-1:
+
+![](http://pic.netpunk.space/images/2022/11/18/20221118164717.png)
+
+
 
 Replacements
 
-| originals | replace |
-| :-------: | :-----: |
-|           |         |
-|           |         |
-|           |         |
-|           |         |
+|      originals      |      replace      |
+| :-----------------: | :---------------: |
+| some people believe | It is argued that |
+|   compulsory part   |    force to do    |
+|       unpaid        |    unsalaried     |
+|                     |                   |
 
 ### Healthy
 
@@ -219,9 +312,14 @@ Replacements
 
 **通用替换词**
 
-|  original  |    replace    |
-| :--------: | :-----------: |
-| instead of | as opposed to |
-|    let     |  be made to   |
-|            |               |
+|     original      |       replace        |
+| :---------------: | :------------------: |
+|    instead of     |    as opposed to     |
+|        let        |      be made to      |
+|    monitoring     |     surveillance     |
+| be argued usually |     commonplace      |
+|      people       |       citizens       |
+|    free to pay    | financial concession |
+|       ease        |       mitigate       |
+|                   |                      |
 

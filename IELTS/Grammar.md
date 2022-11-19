@@ -1,3 +1,13 @@
+# Learning Grammar
+
+## Tense
+
+**would have been**
+
+[Using Could, Should and Would Have Been - Past Conditional Grammar (gonaturalenglish.com)](https://gonaturalenglish.com/past-conditional-english-grammar/)
+
+过去将来完成时，表假设、后悔、意见都可以，口语一般念成`woulda`
+
 # Grammar Mistakes
 
 ## Mistake types
