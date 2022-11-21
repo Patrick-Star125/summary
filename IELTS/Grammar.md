@@ -39,3 +39,11 @@
 
 ![](http://pic.netpunk.space/images/2022/11/15/20221115204236.png)
 
+# Others
+
+* 一般是形容词变副词的时候，看后面两个字母有这样的规律，“元音+e”去e加y，“副音+y”改成i+ly，le结尾的e改成y。
+* not only by but also by/through
+* 动词表修饰用ing
+* 主体为单数动词加s
+* 
+

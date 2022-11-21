@@ -32,6 +32,22 @@ Objective, accurate, detailed description of the content of the chart
 
 ## Task2
 
+**Planning**
+
+step1: understand the question
+
+![](http://pic.netpunk.space/images/2022/11/20/20221120183024.png)
+
+step2: come up with topic words as much as you can
+
+step3: plan ideas for main body paragraphs
+
+![](http://pic.netpunk.space/images/2022/11/20/20221120183522.png)
+
+step4: thinking about main paragraphs deeper
+
+![](http://pic.netpunk.space/images/2022/11/20/20221120195949.png)
+
 **Type of questions**
 
 * Discussion
@@ -276,13 +292,13 @@ Replacements
 
 * We will face strained global markets for food and other essential commodities
 
-### Enthusiasm
+### Social
 
 
 
 # Words
 
-
+尽量让中心段的每一句话都有 内容主体(不重复)-话题词-句式结构(不重复)，example除外
 
 **易错词**
 
@@ -294,21 +310,27 @@ Replacements
 | behaviour | behaviours | 在雅思里面没复数 |
 | outweigh | outweight | 拼写错误 |
 | traffic congestion | traffic congestions | 没复数 |
-|  | | |
+| having a conversation | having conversation | 少冠词 |
+| tend to do | be tend to do | 短语结构混淆 |
+| internet | the internet | 少冠词 |
+| for instance | for instances | 单复数错误 |
+| behavior | | |
 | | | |
 
 
 **易混词**
 
-| 原词      | 错词       | 用法                 |
+| 原词      | 混词     | 用法                 |
 | --------- | ---------- | -------------------- |
 | in conclusion | in a word | in a word是口语表达 |
 | economy | economic | 形容词 |
 | economy | economics | 名词 |
 | economy | economical | 形容词 |
 | benefit | benefit from | 及物动词不及物动词 |
-| | | |
-| | | |
+| many | a lot of | 不正式 |
+| adapt | adept | 一个是适应，一个是熟练的 |
+| adopt | adept | 一个是采纳，一个是熟练的 |
+|  |  | |
 
 **通用替换词**
 
@@ -321,5 +343,98 @@ Replacements
 |      people       |       citizens       |
 |    free to pay    | financial concession |
 |       ease        |       mitigate       |
+|      deliver      |       address        |
 |                   |                      |
+|                   |                      |
+
+
+
+## Topic vocabulary
+
+**描述词**
+
+| 学生             | 年轻人         | 监控                  |      |
+| ---------------- | -------------- | --------------------- | ---- |
+| school students  | young people   | video cameras         |      |
+| teenage students | school leavers | video surveillance    |      |
+|                  |                | monitoring            |      |
+|                  |                | video security system |      |
+
+
+
+**表示对比**
+
+| 积极性    | 程度          | 好坏     | 老旧         | 优缺点         |
+| --------- | ------------- | -------- | ------------ | -------------- |
+| motivated | greatly       | positive | traditional  | benefits       |
+| reluctant | extremely     | negative | conventional | dis/advantages |
+|           | poor          | better   | modern       | pitfalls       |
+|           | significantly | worse    |              | drawbacks      |
+
+|      |      |      |      |      |
+| ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |
+
+**抽象的词**
+
+| 项目/活动 | 课程       | 方法       | 原因/结果 | 环境                   |
+| --------- | ---------- | ---------- | --------- | ---------------------- |
+| programme | subjects   | measures   | sequences | modern societies       |
+| service   | curriculum | many steps | cause     | industrialised nations |
+| schemes   | timetable  | solution   |           | human cultures         |
+| schedule  |            |            |           | human existence        |
+
+
+
+**抽象的短语**
+
+| 积极表达                             | 数量表达                         |      |      |
+| ------------------------------------ | -------------------------------- | ---- | ---- |
+| enhance their skills(复数)           | increasing in popularity, number |      |      |
+| improve their career prospects(复数) | a ranges of                      |      |      |
+|                                      | various of                       |      |      |
+
+
+
+**动词替换**
+
+| 认为        | 付出       |      |
+| ----------- | ---------- | ---- |
+| think       | contribute |      |
+| believe     | voluntary  |      |
+| would argue | service    |      |
+
+
+
+## Highlight sentences
+
+> This essay will argue that the benefits of using modern technologies for interacting with others offset its drawbacks
+
+把抽象的social media化为具体的modern technologies for interacting with others，说明文比议论文好些的多
+
+> Accordingly, I can firmly state that the benefits clearly outweigh the pitfalls(disadvantages) in this case.
+
+一种某物优点大于缺点的表达
+
+
+
+## Analysis
+
+> Some people think that it is **more effective** for students to **study in groups**, while others believe that it is better for them to **study alone**. **Discuss both views** and **give your own opinion**.
+
+1. study in groups or alone, sometimes better in alone, usually better in groups.
+
+2. benefits of studying alone, []
+
+   concentrate more, no distraction, focus on task, stay with own pace, e.g doing reciting/memory task e.g read books/materials
+
+3. benefits of studying in groups(my view), []
+
+   more ideas, share knowledge, learn from each other, e.g research projects, more motivation, sense of competition.
+
+4. contain benefits both ways, but I prefer in groups.
+
+> 
+
+
 
