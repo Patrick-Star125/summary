@@ -434,7 +434,27 @@ Replacements
 
 4. contain benefits both ways, but I prefer in groups.
 
-> 
+> The use of **social media is replacing face-to-face interaction** among many people in society. Do you think **the advantages outweigh the disadvantages**?
+
+1. social media is replacing face-to-face interaction, the benefits more than drawbacks.
+
+2. benefits of face-to-face interaction. []
+
+   talk in face-to-face, feel emotion
+
+3. benefits of internet socialization(my view), []
+
+   online conversation, no limit of space, more effective, e.g online work, developing very fast, e.g new forms of social media(V)
+
+4. face-to-face interaction contain benefits in some way, but social media is better.
+
+> The **money** spent by governments on **space programmes** would be **better** spent on **vital public services** such as schools and hospitals. **To what extent do you agree or disagree**?
+
+1. people argue the expenditure in space programmes, agree-public services instead of space projects.
+
+2. 
+
+
 
 
 
