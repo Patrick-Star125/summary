@@ -8,6 +8,22 @@
 
 过去将来完成时，表假设、后悔、意见都可以，口语一般念成`woulda`
 
+
+
+只会用简单句、并列句、which/that是不行的
+
+> Being British is **all about** .... and **all the while** being suspicion of anything foreign.
+>
+> I completely agree with the idea that **these are a waste of money**.
+>
+> **There are several reasons** why space programmes should **be abandoned**.
+>
+> and **in my opinion** it is not worth the risk.
+>
+> It is much cheaper to train **doctors, teachers, police and other public service workers** than it is to train **astronauts or the scientists and engineers** who work on space exploration projects.
+>
+> If governments reallocated .. many thousands of people could ...
+
 # Grammar Mistakes
 
 ## Mistake types

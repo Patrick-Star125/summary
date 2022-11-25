@@ -377,14 +377,21 @@ Replacements
 
 **抽象的词**
 
-| 项目/活动 | 课程       | 方法       | 原因/结果 | 环境                   |
-| --------- | ---------- | ---------- | --------- | ---------------------- |
-| programme | subjects   | measures   | sequences | modern societies       |
-| service   | curriculum | many steps | cause     | industrialised nations |
-| schemes   | timetable  | solution   |           | human cultures         |
-| schedule  |            |            |           | human existence        |
+| 项目/活动  | 课程       | 方法       | 原因/结果 | 环境                   | 开销             |
+| ---------- | ---------- | ---------- | --------- | ---------------------- | ---------------- |
+| programmes | subjects   | measures   | sequences | modern societies       | expending        |
+| projects   | curriculum | many steps | cause     | industrialised nations | expenditure      |
+| schemes    | timetable  | solution   |           | human cultures         | spend money      |
+| schedule   |            |            |           | human existence        | money/funds/cost |
+| research   |            |            |           |                        |                  |
 
-
+| 所有人                 | 道德    | 种族     |      |      |      |
+| ---------------------- | ------- | -------- | ---- | ---- | ---- |
+| all members of society | moral   | racial   |      |      |      |
+|                        | ethical | ethnical |      |      |      |
+|                        |         |          |      |      |      |
+|                        |         |          |      |      |      |
+|                        |         |          |      |      |      |
 
 **抽象的短语**
 
@@ -393,16 +400,17 @@ Replacements
 | enhance their skills(复数)           | increasing in popularity, number |      |      |
 | improve their career prospects(复数) | a ranges of                      |      |      |
 |                                      | various of                       |      |      |
+|                                      | large amounts of                 |      |      |
 
 
 
 **动词替换**
 
-| 认为        | 付出       |      |
-| ----------- | ---------- | ---- |
-| think       | contribute |      |
-| believe     | voluntary  |      |
-| would argue | service    |      |
+| 认为        | 付出       | 放弃/停止           |
+| ----------- | ---------- | ------------------- |
+| think       | contribute | stop                |
+| believe     | voluntary  | suspend             |
+| would argue | service    | should be abandoned |
 
 
 
@@ -452,9 +460,33 @@ Replacements
 
 1. people argue the expenditure in space programmes, agree-public services instead of space projects.
 
-2. 
+2. explain why 'space' spending should be stopped, []
+
+   waste of money when projects fail, expensive(scientists, facilities, equipment), no benefit to normal people, politicians showing power, risk of accidents, deaths e.g. Challenger space shuttle
+
+3. explain why public service spending is **better**, []
+
+   cheaper e.g. doctors, teachers police instead of astronauts, public services impact on everyone,reduce poverty, better quality of life, we all use schools, hospitals, police, roads etc.
+
+4. conclusion: spend on service that benefit us all 
 
 
 
+## Band 9 Essays
 
+**Opinion**
+
+Governments in some countries spend **large amounts of money** on **space exploration programmes**. I completely agree with the idea that **these are a waste of money**, and that the **funds** should **be allocated** to public services.
+
+**There are several reasons** why space programmes should **be abandoned**. Firstly, it is extremely expensive to train scientists and other staff involved with **space missions**, and facilities and equipment also come at **a huge cost to** the government. Secondly, these programmes do not benefit normal people in our daily lives; they are simply **vanity** projects for politicians. Finally, many missions to space fail completely, and the smallest technological error can cost astronauts lives. The Challenger space shuttle disaster showed us that space travel is extremely dangerous, and **in my opinion** it is not worth the risk.
+
+I believe that **the money** from space programmes **should go to** vital public services instead. It is much cheaper to train doctors, teachers, police and other public service workers than it is to train astronauts or the scientists and engineers who work on space exploration projects. **Furthermore**, public servants do jobs that have a **positive impact on** every member of society. For example, we all **use** schools, hospitals and roads, and we all need the security that the police provide. If governments reallocated the money spent on space travel and research, many thousands of people could **be lifted out of poverty** or **given a better quality of life**.
+
+In conclusion, my view is that governments should spend money on services that benefit **all members of society**, and it is wrong to waste resources on projects that do not **improve our everyday lives.**
+
+* 结构上，总体遵循2-5-5-1的结构，完全同意-为什么不行-为什么行-重复同意
+* 开头段：经典的复述+强烈观点
+* 第一中心段：为什么太空不行+fsf三段式
+* 第二中心段：为什么公共投资行+view+furthermore+view+example
+* 结束段：重复观点
 
