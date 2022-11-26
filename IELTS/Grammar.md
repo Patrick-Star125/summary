@@ -23,6 +23,20 @@
 > It is much cheaper to train **doctors, teachers, police and other public service workers** than it is to train **astronauts or the scientists and engineers** who work on space exploration projects.
 >
 > If governments reallocated .. many thousands of people could ...
+>
+> The results can be depressed morale, lower productivity and unexpected costs.
+>
+> **One** particular wrinkle with the current tech lay-offs **is that** they affect numerous immigrants, **whose** eligibility to remain in America is now in doubt.
+>
+> It can plant another doubt in survivors' minds: if they can foul up once, why not again?
+>
+> Image deciding right now that you're going to do it.
+>
+> So this goes against conventional wisdom that they hold us to it.
+>
+> when it was acknowledged by others, it felt real in the mind.
+>
+> The final volume is due for publication in October.
 
 # Grammar Mistakes
 
