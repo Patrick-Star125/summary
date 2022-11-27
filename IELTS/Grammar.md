@@ -12,31 +12,29 @@
 
 只会用简单句、并列句、which/that是不行的
 
-> Being British is **all about** .... and **all the while** being suspicion of anything foreign.
+> Being (not a) British is **all about** .... and **all the while** being suspicion of anything foreign. - all about
 >
-> I completely agree with the idea that **these are a waste of money**.
+> I completely agree with the idea that **these are a waste of money**. - are-a 句型
 >
-> **There are several reasons** why space programmes should **be abandoned**.
+> **There are several reasons** why space programmes should **be abandoned**. - reasons why
 >
-> and **in my opinion** it is not worth the risk.
+> and **in my opinion** it is not worth the risk. - 插入意见
 >
 > It is much cheaper to train **doctors, teachers, police and other public service workers** than it is to train **astronauts or the scientists and engineers** who work on space exploration projects.
 >
-> If governments reallocated .. many thousands of people could ...
+> If governments reallocated .. **many thousands of** people could ...
 >
-> The results can be depressed morale, lower productivity and unexpected costs.
+> The **results can be** depressed morale, lower productivity and unexpected costs.
 >
-> **One** particular wrinkle with the current tech lay-offs **is that** they affect numerous immigrants, **whose** eligibility to remain in America is now in doubt.
+> **One** particular wrinkle with the current tech lay-offs **is that** they affect numerous immigrants, **whose** eligibility to remain in America is now in doubt. one is that
 >
-> It can plant another doubt in survivors' minds: if they can foul up once, why not again?
+> **Image** deciding right now that you're going to do it. - 动词原形开头
 >
-> Image deciding right now that you're going to do it.
+> So this **goes against** conventional wisdom that they hold us to it.  go against
 >
-> So this goes against conventional wisdom that they hold us to it.
+> Wheels were made from a variety of woods: **elm provided the hub, rose-wood the spokes and oak the felloes.** - 同构
 >
-> when it was acknowledged by others, it felt real in the mind.
->
-> The final volume is due for publication in October.
+> 
 
 # Grammar Mistakes
 
