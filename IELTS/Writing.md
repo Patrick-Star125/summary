@@ -1,6 +1,6 @@
 # Testing Structure
 
-### notice
+## notice
 
 * limited spelling errors are permitted only if they are not detracting the overall clarity of the answer.
 * we should take part1 exercise no more than 25 minutes, part2 exercise no more than 45 minutes.
@@ -28,7 +28,18 @@
 
 ## Task1
 
-Objective, accurate, detailed description of the content of the chart
+**Objective**, **accurate**, **detailed** description of the content of the chart
+
+* 六种题型：线型图、条形图、饼状图、表格、比较图、流程图
+* 结构
+  * introduction: paraphrase question
+  * Overview/Summary: the main, general things
+  * Details: just details about diagram
+* 线型图: compare the lines on the graph
+  * Overview/Summary: describe graph overall
+  * Details: Write at least one thing about each line
+
+
 
 ## Task2
 
@@ -117,25 +128,17 @@ step4: thinking about main paragraphs deeper
 
 ## National
 
-### Skill
+**Skill**
 
+**Technology**
 
+**Right**
 
-### Technology
+**Environment**
 
+### **Employment**
 
-
-### Right
-
-
-
-### Environment
-
-
-
-### Employment
-
-#### example1
+**example1**
 
 Type - two-part question
 
@@ -156,7 +159,7 @@ Answer: several factors,  unrealistic/impossible
 
 ### Culture
 
-#### example1
+**example1**
 
 Type - opinion
 
@@ -198,7 +201,7 @@ However, in most of the cases, the outcome shows a different world. Young adults
 
 ### Efficiency
 
-#### example1
+**example1**
 
 question - discussion
 
@@ -226,7 +229,7 @@ Replacements
 
 ### Security
 
-#### example1
+**example1**
 
 Type - question and solution
 
@@ -248,7 +251,7 @@ Answer: several reasons(why) and a variety of measures(what need to be done)
 
 ### Responsibility
 
-#### example1
+**example1**
 
 Question - opinion
 
@@ -284,17 +287,13 @@ Replacements
 |       unpaid        |    unsalaried     |
 |                     |                   |
 
-### Healthy
+**Healthy**
 
-
-
-### Money
+**Money**
 
 * We will face strained global markets for food and other essential commodities
 
-### Social
-
-
+**Social**
 
 # Words
 
@@ -349,16 +348,39 @@ Replacements
 
 
 
+## Analysis Phrase
+
+这里只记录在图表题里可能用上的词或者短语，不是什么词都记
+
+**describe**
+
+|   数量    |      |      |      |
+| :-------: | :--: | ---- | ---- |
+|  number   |      |      |      |
+|  figure   |      |      |      |
+| amount of |      |      |      |
+
+**changes/trends**
+
+|   波动    |   上升    |    对比     |      |
+| :-------: | :-------: | :---------: | ---- |
+| fluctuate |   surge   | by contrast |      |
+|  vibrate  | skyrocket |             |      |
+|           |   boost   |             |      |
+|           | increase  |             |      |
+
+
 ## Topic vocabulary
 
 **描述词**
 
-| 学生             | 年轻人         | 监控                  |      |
-| ---------------- | -------------- | --------------------- | ---- |
-| school students  | young people   | video cameras         |      |
-| teenage students | school leavers | video surveillance    |      |
-|                  |                | monitoring            |      |
-|                  |                | video security system |      |
+| 学生             | 年轻人         | 监控                  | 上下级         | 抽象量         |
+| ---------------- | -------------- | --------------------- | -------------- | -------------- |
+| school students  | young people   | video cameras         | superior-09kbj | amount of      |
+| teenage students | school leavers | video surveillance    | junior member  | source of      |
+| pupils           |                | monitoring            |                | produced sth   |
+|                  |                | video security system |                | generating sth |
+|                  |                |                       |                | provided sth   |
 
 
 
@@ -371,9 +393,11 @@ Replacements
 |           | poor          | better   | modern       | pitfalls       |
 |           | significantly | worse    |              | drawbacks      |
 
-|      |      |      |      |      |
-| ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |
+| 竞争合作                                |      |      |      |      |
+| --------------------------------------- | ---- | ---- | ---- | ---- |
+| competitive/competition/competitiveness |      |      |      |      |
+| co-operative/co-operation/co-operative  |      |      |      |      |
+| rivalry                                 |      |      |      |      |
 
 **抽象的词**
 
@@ -385,13 +409,13 @@ Replacements
 | schedule   |            |            |           | human existence        | money/funds/cost |
 | research   |            |            |           |                        |                  |
 
-| 所有人                 | 道德    | 种族     |      |      |      |
-| ---------------------- | ------- | -------- | ---- | ---- | ---- |
-| all members of society | moral   | racial   |      |      |      |
-|                        | ethical | ethnical |      |      |      |
-|                        |         |          |      |      |      |
-|                        |         |          |      |      |      |
-|                        |         |          |      |      |      |
+| 所有人                 | 道德    | 种族     | 生产方        |      |      |
+| ---------------------- | ------- | -------- | ------------- | ---- | ---- |
+| all members of society | moral   | racial   | brands        |      |      |
+|                        | ethical | ethnical | manufacturers |      |      |
+|                        |         |          | companies     |      |      |
+|                        |         |          | vendors       |      |      |
+|                        |         |          |               |      |      |
 
 **抽象的短语**
 
@@ -406,27 +430,39 @@ Replacements
 
 **动词替换**
 
-| 认为        | 付出       | 放弃/停止           |
-| ----------- | ---------- | ------------------- |
-| think       | contribute | stop                |
-| believe     | voluntary  | suspend             |
-| would argue | service    | should be abandoned |
+| 认为        | 付出       | 放弃/停止           | 损害       | 宣传/引入         |
+| ----------- | ---------- | ------------------- | ---------- | ----------------- |
+| think       | contribute | stop                | jeopardize | advocate/announce |
+| believe     | voluntary  | suspend             |            | introduce to      |
+| would argue | service    | should be abandoned |            |                   |
 
 
 
 ## Highlight sentences
 
+**核心观点句结构**
+
 > This essay will argue that the benefits of using modern technologies for interacting with others offset its drawbacks
 
-把抽象的social media化为具体的modern technologies for interacting with others，说明文比议论文好些的多
+把抽象的social media化为具体的modern technologies for interacting with others，说明文比议论文好写的多
+
+**主干观点句结构**
+
+
+
+**支撑论点句结构**
+
+
+
+**结尾观点句结构**
+
+
 
 > Accordingly, I can firmly state that the benefits clearly outweigh the pitfalls(disadvantages) in this case.
 
 一种某物优点大于缺点的表达
 
-
-
-## Analysis
+## Construction
 
 > Some people think that it is **more effective** for students to **study in groups**, while others believe that it is better for them to **study alone**. **Discuss both views** and **give your own opinion**.
 
@@ -472,21 +508,76 @@ Replacements
 
 
 
+提升句子丰富度的三个维度
+
+* 增加实体
+* 精准修饰
+* 变换动词
+
 ## Band 9 Essays
+
+**Line Graph**
+
+<img src="http://pic.netpunk.space/images/2022/11/29/20221129161253.png" style="zoom:50%;" />
+
+The line graph **compares** the amount of **electricity produced** in France **using four different sources of power** over **a period of** 32 years.
+
+It is clear that nuclear power was **by far the most important** part of electricity generation **over the period shown**. Renewables provided **the lowest amount** of electricity **in each year**.(highest, lowest)
+
+**ln 1980**, thermal power **stations** were the main **source of** electricity **in France**, **generating** around 120 terawatt hours of power. Nuclear and hydroelectric power stations produced **just under** 75 terawatt hours of electricity separately, and renewables **provided** a **negligible amount**. Just one year later, nuclear power **overtook** thermal **power** as the primary source of electricity.
+
+Between 1980 and 2005, electricity production from nuclear power **rose dramatically** to **a peak of** 430 terawatt hours. **By contrast**, the figure for thermal power **fell to** only 50 terawatt hours in1985, and **remained at** this level for **the rest of the period**. Hydroelectric power generation remained relatively stable, at between 50 and 80 terawatt hours, for the whole 32-year period, but renewable electricity production **saw only a small rise to** approximately 25 terawatt hours by 2012.
+
+* 第一段：一句话复述+主体
+* 第二段：最显著的元素一+最显著的元素二
+* 第三段：结合时间地点详细描述三个点
+* 第四段：结合时间地点详细描述三个趋势
+
+**Bar Chart**
+
+**The bar chart compares** the number of **mobile phones sold worldwide** by the **five most popular manufacturers** in the **years 2009,2011 and 2013.**
+
+**It is clear that** Nokia sold the most mobile phones between 2009 and 2011, but Samsung became the **best selling brand** in 2013. Samsung and Apple saw the **biggest rises in sales** over the 5-year period.
+
+In 2009, Nokia sold close to 450 million mobile phones, which was almost **double the number** of handsets sold by the **second most successful manufacturer**, Samsung. Over the following four years, however,Nokia's sales figures fell by approximately 200 million units, whereas Samsung **saw sales** rise by a similar amount. By 2013, Samsung had become the **market leader** withs ales reaching 450 million **units**.
+
+The other three **top selling** mobile phone brands between 2009 and 2013 were LG, ZTE and Apple. In 2009, these companies sold around 125 million,50 million and 25 million mobile handsets **respectively**, but Apple **overtook** the other two vendors in 2011.In 2013, purchases of Apple **handsets** reached 150 million units, while LG **saw declining sales** and the figures for ZTE rose only slightly.
 
 **Opinion**
 
-Governments in some countries spend **large amounts of money** on **space exploration programmes**. I completely agree with the idea that **these are a waste of money**, and that the **funds** should **be allocated** to public services.
+Governments in some countries spend **large amounts of money** on **space exploration programmes**. I **completely agree with** the idea that **these are a waste of money**, and that the **funds** should **be allocated** to public services.
 
-**There are several reasons** why space programmes should **be abandoned**. Firstly, it is extremely expensive to train scientists and other staff involved with **space missions**, and facilities and equipment also come at **a huge cost to** the government. Secondly, these programmes do not benefit normal people in our daily lives; they are simply **vanity** projects for politicians. Finally, many missions to space fail completely, and the smallest technological error can cost astronauts lives. The Challenger space shuttle disaster showed us that space travel is extremely dangerous, and **in my opinion** it is not worth the risk.
+**There are several reasons** why space programmes should **be abandoned**. Firstly, it is extremely expensive to train scientists and other staff **involved with** **space missions**, and facilities and equipment also come at **a huge cost to** the government. Secondly, these programmes do not benefit normal people in our daily lives; they are simply **vanity** projects for politicians. Finally, many missions to space fail completely, and the smallest technological error can cost astronauts lives. The Challenger space shuttle disaster showed us that space travel is extremely dangerous, and **in my opinion** it is not worth the risk.
 
 I believe that **the money** from space programmes **should go to** vital public services instead. It is much cheaper to train doctors, teachers, police and other public service workers than it is to train astronauts or the scientists and engineers who work on space exploration projects. **Furthermore**, public servants do jobs that have a **positive impact on** every member of society. For example, we all **use** schools, hospitals and roads, and we all need the security that the police provide. If governments reallocated the money spent on space travel and research, many thousands of people could **be lifted out of poverty** or **given a better quality of life**.
 
 In conclusion, my view is that governments should spend money on services that benefit **all members of society**, and it is wrong to waste resources on projects that do not **improve our everyday lives.**
 
-* 结构上，总体遵循2-5-5-1的结构，完全同意-为什么不行-为什么行-重复同意
+(意见类命题最好完全同意，或者完全不同意，表述较为强烈)
+
+* 结构上，总体遵循2-5-5-1的结构，完全同意-为什么不行-为什么行-重复同意，注意观点句的套路
 * 开头段：经典的复述+强烈观点
-* 第一中心段：为什么太空不行+fsf三段式
-* 第二中心段：为什么公共投资行+view+furthermore+view+example
-* 结束段：重复观点
+* 第一中心段：为什么太空不行+fsf三段式（因为观点之间是独立的），一共5句话（1.观点铺垫 2.Firstly 3.Secondly 4.Finally 5.example）
+* 第二中心段：为什么公共投资行+view+furthermore+view+example，一共5句话（1.观点 2.观点支持1 3.观点支持2 4.对3的例子 5.观点支持3）
+* 结束段：重复观点，因为只有一个观点所以只有一句话
+
+
+
+**Discussion**
+
+People have different views about whether children should be taught to be **competitive** or **co-operative**. **While** a spirit of competition can sometimes be useful in life, **l believe** that the ability to co-operate is more important.
+
+**On the one hand**, competition can be a great source of **motivation** for children. When teachers use games or prizes to introduce an element of **competitiveness** into lessons, it can encourage children to work harder to **outdo** the other **pupils** in the class. This kind of **healthy rivalry** may help to build children's self confidence, **while** pushing them to work independently and progress more quickly. When these children leave school, their confidence and determination will help them in competitive situations such as job interviews. **It can therefore be argued** that competition should be encouraged in order to prepare children for adult life.
+
+**On the other hand**, it is perhaps even **more important** to prepare children for the many **aspects** of adult life **that require co-operation.** In the workplace, adults **are expected to** work in teams, follow instructions given by their **superiors**, or supervise and support the more **junior members of staff**. **Team collaboration skills** are much more useful than **a competitive determination** to win. This is the attitude that **l believe** schools should **foster** in young people. **Instead of** **promoting** the idea that people are either winners or losers, teachers could show children that they could gain more from working together.
+
+In conclusion, **l can understand** why people might want to **encourage competitiveness** in children, but **it seems to me** that a **co-operative attitude** is much more **desirable** in adult life.
+
+(讨论类命题的特点就是有可能两边都有理，表述较为温和)
+
+* 结构上，总体遵循2-5-5-2的结构，AB都好但A更佳-为什么A好-为什么B**更好**-重复AB都好但A更佳，注意观点句的套路
+* 开头段：复述+A有时好但B更好
+* 第一中心段：一方面A很好+中心论点+支持论点，一共5句话（1.A好的观点 2.观点支持1 3.观点支持2 4.对3的例子 5.观点支持3）
+* 第二中心段：另一方面B更好+中心论点+支持论点+我的观点，一共5句话（1.B好的观点 2.观点支持1 3.B比A好的观点 4.我的观点）
+* 结束段：重复观点，因为有两个观点所以要写的长一些
 

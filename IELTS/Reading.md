@@ -72,6 +72,31 @@ step3：solve problems accordingly
 
   ![](http://pic.netpunk.space/images/2022/11/26/20221126213411.png)
 
+* 即使两个词意思看上去很接近，注意这里的其它两个点都对的上也不是对的，只能说明信息在这儿
+
+  <img src="http://pic.netpunk.space/images/2022/11/30/20221130100836.png" style="zoom:50%;" />
+
+* 要能看出来实体分散的表达方式
+
+  | example                                                      |
+  | ------------------------------------------------------------ |
+  | The **exhibition** **includes** **paintings of people** by **famous artists**. |
+  | **Vicenza’s show** **contains** detailed models of the major buildings and is leavened by **portraits of Palladio’s teachers and clients** by **Titian, Veronese and Tintoretto**; the paintings of his Venetia buildings are all by Canaletto, no less. |
+
+* 一旦在这种都是生词的地方出题就是绝杀
+
+  | example                                                      |
+  | ------------------------------------------------------------ |
+  | What **job** was **Palladio** training for **before he became an architect**? |
+  | where the **young** **Andrea** was **apprenticed** to a skilled **stonemason** |
+
+* 如果原文巨抽象那就直接找关键词吧
+
+  | example                                                      |
+  | ------------------------------------------------------------ |
+  | **CSR** in **many aspects of a company’s business**          |
+  | In short, nearly **every aspect of the company’s value chain** reinforces the **social dimensions of its value proposition**, distinguishing Whole Foods from its competitors. |
+
 
 
 

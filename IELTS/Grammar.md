@@ -70,6 +70,7 @@
 # Others
 
 * 一般是形容词变副词的时候，看后面两个字母有这样的规律，“元音+e”去e加y，“副音+y”改成i+ly，le结尾的e改成y。
+  * 否则不用去e，直接加ly，例如separately，te为辅音+e，不用做处理直接加ly
 * not only by but also by/through
 * 动词表修饰用ing
 * 主体为单数动词加s
