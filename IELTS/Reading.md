@@ -42,6 +42,8 @@ step3：solve problems accordingly
 
 
 
+
+
 # Summary
 
 * 如果选项和内容同时跳运气好是7分，如果选项好好看是7.5，都好好看是8
@@ -97,7 +99,14 @@ step3：solve problems accordingly
   | **CSR** in **many aspects of a company’s business**          |
   | In short, nearly **every aspect of the company’s value chain** reinforces the **social dimensions of its value proposition**, distinguishing Whole Foods from its competitors. |
 
+* 有些选择题也是匹配题，和选句子匹配的区别在于有很多干扰项
 
+  | example1                                                     | example2                                                     |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | The writer believes that when **young children have a firm grasp of their mother tongue** they **go on to do** **much better** throughout their time at school. | **They fear that** the programmes **will use up valuable time** in the school day. |
+  | Children who come to school with **a solid foundation in their mother tongue** **develop stronger literacy abilities** in the school language. | Some educators and parents are suspicious of **mother tongue-based teaching programs** because **they worry that** they **take time away** from the majority language. |
+
+  
 
 
 
