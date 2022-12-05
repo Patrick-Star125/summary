@@ -429,7 +429,7 @@ ps（process status）命令用于显示当前进程的状态，类似于 window
 当在前台运行某个作业时，终端被该作业占据；可以在命令后面加上& 实现后台运行。例如：sh test.sh &，如果放在后台运行的作业会产生大量的输出，最好使用下面的方法把它的输出重定向到某个文件中：
 
 ~~~bash
-command  >  out.file  2>&1  & #所有的标准输出和错误输出都将被重定向到一个叫做out.file 的文件中
+command  >  out.file  2>&1 & #所有的标准输出和错误输出都将被重定向到一个叫做out.file 的文件中
 ~~~
 
 使用&命令后，作业被提交到后台运行，当前控制台没有被占用，但是一但把当前控制台关掉(退出帐户时)，作业就会停止运行。nohup命令可以在你退出帐户之后继续运行相应的进程。nohup就是不挂起的意思( no hang up)。
@@ -592,5 +592,63 @@ whereis program
 
 
 
-# 增加磁盘和用户管理
+# 实战
+
+## 增加磁盘
+
+**查看系统当前磁盘的挂载情况**
+
+~~~bash
+$ lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda      8:0    0 119.2G  0 disk 
+├─sda1   8:1    0   512M  0 part /boot
+└─sda2   8:2    0 118.7G  0 part /var/lib/docker/btrfs
+                                 /var/log
+                                 /var/cache
+                                 /home
+                                 /
+sdb      8:16   0   3.6T  0 disk
+~~~
+
+**查看当前磁盘的分区详情**
+
+~~~bash
+$ fdisk -l
+Disk /dev/sda: 119.24 GiB, 128035676160 bytes, 250069680 sectors
+Disk model: SanDisk SD9SB8W1
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x91cbe80d
+
+Device     Boot   Start       End   Sectors   Size Id Type
+/dev/sda1  *       2048   1050623   1048576   512M  b W95 FAT32
+/dev/sda2       1050624 250068991 249018368 118.7G 83 Linux
+
+
+Disk /dev/sdb: 3.64 TiB, 4000787030016 bytes, 7814037168 sectors
+Disk model: WDC WD40EZAZ-00S
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+~~~
+
+**为空磁盘建立分区**
+
+~~~bash
+$ parted /dev/sdb
+(parted) mklabel gpt #将磁盘定为可大于2T的磁盘格式，其实就是启动方式的区别
+(parted) mkpart sdb1 primary 2048s 3584G
+
+~~~
+
+**并把空间扩容至/分区**
+
+
+
+
+
+
 
