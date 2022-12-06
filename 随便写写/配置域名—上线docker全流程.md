@@ -12,7 +12,7 @@ docker run -d --name proxy \
     -e WORDPRESS_DB_HOST=mysql:3306 \
     -e WORDPRESS_DB_NAME=proxy \
     -e WORDPRESS_DB_USER=root \
-    -e WORDPRESS_DB_PASSWORD=@abc123456 \
+    -e WORDPRESS_DB_PASSWORD=password \
 	jc21/nginx-proxy-manager:latest
 ~~~
 

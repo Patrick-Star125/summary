@@ -393,29 +393,29 @@ Replacements
 |           | poor          | better   | modern       | pitfalls       |
 |           | significantly | worse    |              | drawbacks      |
 
-| 竞争合作                                |      |      |      |      |
-| --------------------------------------- | ---- | ---- | ---- | ---- |
-| competitive/competition/competitiveness |      |      |      |      |
-| co-operative/co-operation/co-operative  |      |      |      |      |
-| rivalry                                 |      |      |      |      |
+| 竞争合作                                | 比..更多    |      |      |      |
+| --------------------------------------- | ----------- | ---- | ---- | ---- |
+| competitive/competition/competitiveness | saw a rise  |      |      |      |
+| co-operative/co-operation/co-operative  | rising from |      |      |      |
+| rivalry                                 | rose by     |      |      |      |
 
 **抽象的词**
 
-| 项目/活动  | 课程       | 方法       | 原因/结果 | 环境                   | 开销             |
-| ---------- | ---------- | ---------- | --------- | ---------------------- | ---------------- |
-| programmes | subjects   | measures   | sequences | modern societies       | expending        |
-| projects   | curriculum | many steps | cause     | industrialised nations | expenditure      |
-| schemes    | timetable  | solution   |           | human cultures         | spend money      |
-| schedule   |            |            |           | human existence        | money/funds/cost |
-| research   |            |            |           |                        |                  |
+| 项目/活动  | 课程       | 方法       | 原因/结果 | 环境                   | 开销                 |
+| ---------- | ---------- | ---------- | --------- | ---------------------- | -------------------- |
+| programmes | subjects   | measures   | sequences | modern societies       | expending            |
+| projects   | curriculum | many steps | cause     | industrialised nations | expenditure          |
+| schemes    | timetable  | solution   |           | human cultures         | spend money          |
+| schedule   |            |            |           | human existence        | money/funds/cost     |
+| research   |            |            |           |                        | percentage of budget |
 
-| 所有人                 | 道德    | 种族     | 生产方        |      |      |
-| ---------------------- | ------- | -------- | ------------- | ---- | ---- |
-| all members of society | moral   | racial   | brands        |      |      |
-|                        | ethical | ethnical | manufacturers |      |      |
-|                        |         |          | companies     |      |      |
-|                        |         |          | vendors       |      |      |
-|                        |         |          |               |      |      |
+| 所有人/大部分人        | 道德    | 种族     | 生产方        | 休闲/娱乐  |      |
+| ---------------------- | ------- | -------- | ------------- | ---------- | ---- |
+| all members of society | moral   | racial   | brands        | relaxation |      |
+| residents              | ethical | ethnical | manufacturers | amusement  |      |
+|                        |         |          | companies     | leisure    |      |
+|                        |         |          | vendors       | recreation |      |
+|                        |         |          |               |            |      |
 
 **抽象的短语**
 
@@ -430,11 +430,11 @@ Replacements
 
 **动词替换**
 
-| 认为        | 付出       | 放弃/停止           | 损害       | 宣传/引入         |
-| ----------- | ---------- | ------------------- | ---------- | ----------------- |
-| think       | contribute | stop                | jeopardize | advocate/announce |
-| believe     | voluntary  | suspend             |            | introduce to      |
-| would argue | service    | should be abandoned |            |                   |
+| 认为        | 付出       | 放弃/停止           | 损害       | 宣传/引入         | 利用    |
+| ----------- | ---------- | ------------------- | ---------- | ----------------- | ------- |
+| think       | contribute | stop                | jeopardize | advocate/announce | using   |
+| believe     | voluntary  | suspend             |            | introduce to      | harness |
+| would argue | service    | should be abandoned |            |                   | exploit |
 
 
 
@@ -518,6 +518,8 @@ Replacements
 
 **Line Graph**
 
+线型图的特点是几乎一定会有时间趋势上的数量变化
+
 <img src="http://pic.netpunk.space/images/2022/11/29/20221129161253.png" style="zoom:50%;" />
 
 The line graph **compares** the amount of **electricity produced** in France **using four different sources of power** over **a period of** 32 years.
@@ -535,6 +537,10 @@ Between 1980 and 2005, electricity production from nuclear power **rose dramatic
 
 **Bar Chart**
 
+条型图的特点有多种实体的数量对比
+
+<img src="http://pic.netpunk.space/images/2022/12/05/20221205145652.png" style="zoom:80%;" />
+
 **The bar chart compares** the number of **mobile phones sold worldwide** by the **five most popular manufacturers** in the **years 2009,2011 and 2013.**
 
 **It is clear that** Nokia sold the most mobile phones between 2009 and 2011, but Samsung became the **best selling brand** in 2013. Samsung and Apple saw the **biggest rises in sales** over the 5-year period.
@@ -550,11 +556,55 @@ The other three **top selling** mobile phone brands between 2009 and 2013 were L
 
 **Pie Chart**
 
-The pie charts compare five categories of household expenditure in the UK and New Zealand in the years 1980 and 2008.
+饼状图的特点是多种实体之间的比例对比
 
-It is noticeable that the proportion of spending on food and drink fell in both countries over the 28-year period, while spending on utility bills rose. Also,UK residents spent a significantly larger percentage of their household budgets on leisure than their New Zealand counterparts.
+![](http://pic.netpunk.space/images/2022/12/05/20221205145616.png)
 
-In 1980,29% of an average New Zealand household budget went on food and drink, while the equivalent figure for a UK home was 23%. By 2008, expenditure on food and drink had fallen by 4% in New Zealand, and by a full 10% in the UK. By contrast, both countries saw an increase in expenditure on utility bills for the average home,from 27% to 31% in New Zealand and from 26% to28% in the UK.
+The pie charts compare **five categories(kinds) of** **household expenditure** in the UK and New Zealand in the years 1980 and 2008.
+
+It is noticeable that the **proportion** of spending on food and drink fell in both countries over the 28-year period, while spending on utility bills rose. Also, **UK residents** **spent a significantly larger percentage** of their household budgets on leisure **than** their New Zealand **counterparts**.
+
+In 1980, 29% of **an average New Zealand household budget went on** food and drink, while the equivalent figure for a UK home was 23%. **By 2008**, expenditure on food and drink **had fallen by** 4% in New Zealand, and by a full 10% in the UK. **By contrast**, both countries saw an increase in expenditure on utility bills for the average home,from 27% to 31% in New Zealand and from 26% to 28% in the UK.
+
+**Leisure** activities **accounted for the highest proportion** of UK household spending in both years, but only the third highest proportion in New Zealand. In fact,in 2008, New Zealanders **spent only half as much in relative terms** on recreation(17%) as UK residents(34%). In both countries,transport costs and other costs took roughly 15% and 10% of household budgets respectively.
+
+要点
+
+* 不要单独描述每个国家和年份，把它们放在一起比较形成句子。这也是饼状图的作用
+* 5个种类的数据都要提到，将它们分为两组在两端主内容中进行讨论
+* Other类不重要，随便提一下就行
+
+**Tables**
+
+表格的特点是数据贼多，不能全部描述，但是之前三种图的技巧都能用（核心是一样的）
+
+![](http://pic.netpunk.space/images/2022/12/05/20221205211913.png)
+
+The table **compares** the **five highest ranking countries** in terms of **the numbers of visits** and **the money spent by tourists** over **a period of two years**.
+
+It is clear that France was the **world's** most popular tourist destination in the years 2012 and 2013. However, the USA **earned by far the most** **revenue from tourism** **over the same period**.
+
+In 2012, 83 million tourists visited France, and the USA was **the second most visited** country, with 66.7 million tourists. Spain and China each **received** just under 58 million **visitors**, while Italy was **ranked fifth** with 46.4 million tourists. **2013 saw a rise of** between 1 and 4 million tourist visits to each country, with the exception of China, which received 2 million **fewer visitors than in the previous year.**
+
+Spending by tourists visiting the USA increased from \$126.2 billion in 2012 to ​\$139.6 billion in2013, and **these figures were well over twice as high as** those for any other country. Spain received the second highest **amounts of tourist revenue**, rising from \$56.3 billion to \$60.4 billion, followed by France, China and Italy. Interestingly, **despite falling** numbers of tourists, Chinese revenue from tourism rose by $1.7 billion in 2013.
+
+要点
+
+* 发现必须要写的数据有哪些，可以不写的数据有哪些
+
+
+
+**two-charts**
+
+就是把内容分开到两张图上，尽量写重点
+
+The bar chart compares the numbers of male sand females who **took** four different evening **classes** in 2009, and the pie chart shows the age profile of these attendees.
+
+It is clear that **significantly more** women **than** men attended evening classes at the education central. We can also see that evening courses were much more popular among older adults.
+
+**According to the bar chart**, drama, painting and language **courses all attracted more women** than men to the education central in 2009. Language classes **had the highest number of** participants overall**, with** 40 female and 20 male **students**, while painting was **a popular choice among both genders**, attracting 30 female and 25 male **attendees**. The only course with a higher number of males was sculpture, but this course **was taken by a mere 15 people** in total.
+
+**Looking at the age profile pie chart**, we can see that **the majority of** people attending evening lessons were over 40 years of age. **To be precise**, 42% of them were aged 50 or more, and 26% were aged between 40 and 49.Younger adults were in the minority, with only 11% of **students** aged 20 to29, and only 5% aged under 20.
 
 **Opinion**
 
