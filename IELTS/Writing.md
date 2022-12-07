@@ -293,7 +293,29 @@ Replacements
 
 * We will face strained global markets for food and other essential commodities
 
-**Social**
+### Education
+
+**example1**
+
+> Some educationalists say that every **child** should be taught **how to play a musical instrument.** **To what extent do you agree or disagree**?
+
+paragraph1: children should be taught to without against personal willing.
+
+paragraph2: why music is good for children
+
+paragraph3: why children should be taught to play a musical instrument.
+
+paragraph4: children should be taught to without against personal willing.
+
+paragraph2:
+
+learning playing music instruments should not be mandatory, too stressful to children, miss important experience, (eg.force children playing in valuable leisure time), unefficient for study main subjects.
+
+paragraphe3:
+
+benefits of children being taught to play a musical instrument. discover talents, improve creativity, build patience(takes long time to practice, persistence),
+
+entities: parents,educators,educationalists,child,children,primary school students,young pupils
 
 # Words
 
@@ -354,20 +376,21 @@ Replacements
 
 **describe**
 
-|   数量    |      |      |      |
-| :-------: | :--: | ---- | ---- |
-|  number   |      |      |      |
-|  figure   |      |      |      |
-| amount of |      |      |      |
+|   数量    |     占有      |        时间        |      |
+| :-------: | :-----------: | :----------------: | ---- |
+|  number   |    provide    |    a period of     |      |
+|  figure   | was the means |  over the period   |      |
+| amount of |               |    in each year    |      |
+|           |               | the rest of period |      |
 
 **changes/trends**
 
-|   波动    |   上升    |    对比     |      |
-| :-------: | :-------: | :---------: | ---- |
-| fluctuate |   surge   | by contrast |      |
-|  vibrate  | skyrocket |             |      |
-|           |   boost   |             |      |
-|           | increase  |             |      |
+| 波动/平稳 | 上升/下降 |       对比       |      |
+| :-------: | :-------: | :--------------: | ---- |
+| fluctuate |   rise    |   by contrast    |      |
+|  vibrate  | increase  |     overtook     |      |
+|  remain   | decrease  |  least/minority  |      |
+|  stable   |   fall    | primary/majority |      |
 
 
 ## Topic vocabulary
@@ -430,11 +453,11 @@ Replacements
 
 **动词替换**
 
-| 认为        | 付出       | 放弃/停止           | 损害       | 宣传/引入         | 利用    |
-| ----------- | ---------- | ------------------- | ---------- | ----------------- | ------- |
-| think       | contribute | stop                | jeopardize | advocate/announce | using   |
-| believe     | voluntary  | suspend             |            | introduce to      | harness |
-| would argue | service    | should be abandoned |            |                   | exploit |
+| 认为        | 付出       | 放弃/停止           | 损害       | 宣传/引入         | 利用    | 会去做     |
+| ----------- | ---------- | ------------------- | ---------- | ----------------- | ------- | ---------- |
+| think       | contribute | stop                | jeopardize | advocate/announce | using   | would do   |
+| believe     | voluntary  | suspend             |            | introduce to      | harness | usually do |
+| would argue | service    | should be abandoned |            |                   | exploit | tend to do |
 
 
 
@@ -515,6 +538,8 @@ Replacements
 * 变换动词
 
 ## Band 9 Essays
+
+### Task1
 
 **Line Graph**
 
@@ -606,6 +631,8 @@ It is clear that **significantly more** women **than** men attended evening clas
 
 **Looking at the age profile pie chart**, we can see that **the majority of** people attending evening lessons were over 40 years of age. **To be precise**, 42% of them were aged 50 or more, and 26% were aged between 40 and 49.Younger adults were in the minority, with only 11% of **students** aged 20 to29, and only 5% aged under 20.
 
+### Task2
+
 **Opinion**
 
 Governments in some countries spend **large amounts of money** on **space exploration programmes**. I **completely agree with** the idea that **these are a waste of money**, and that the **funds** should **be allocated** to public services.
@@ -643,4 +670,10 @@ In conclusion, **l can understand** why people might want to **encourage competi
 * 第一中心段：一方面A很好+中心论点+支持论点，一共5句话（1.A好的观点 2.观点支持1 3.观点支持2 4.对3的例子 5.观点支持3）
 * 第二中心段：另一方面B更好+中心论点+支持论点+我的观点，一共5句话（1.B好的观点 2.观点支持1 3.B比A好的观点 4.我的观点）
 * 结束段：重复观点，因为有两个观点所以要写的长一些
+
+
+
+**problem and solution**
+
+**It is true that** the behavior of school **pupils** in some parts of the world **has been getting worse(have severe problems)** in recent years. There are **a variety of** possible **reasons** for this, but **steps can definitely be taken** to **tackle the problem.**
 
