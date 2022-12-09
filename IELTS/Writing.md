@@ -436,8 +436,8 @@ entities: parents,educators,educationalists,child,children,primary school studen
 | ---------------------- | ------- | -------- | ------------- | ---------- | ---- |
 | all members of society | moral   | racial   | brands        | relaxation |      |
 | residents              | ethical | ethnical | manufacturers | amusement  |      |
-|                        |         |          | companies     | leisure    |      |
-|                        |         |          | vendors       | recreation |      |
+| man and woman          |         |          | companies     | leisure    |      |
+| males and females      |         |          | vendors       | recreation |      |
 |                        |         |          |               |            |      |
 
 **抽象的短语**
@@ -621,7 +621,9 @@ Spending by tourists visiting the USA increased from \$126.2 billion in 2012 to 
 
 **two-charts**
 
-就是把内容分开到两张图上，尽量写重点
+就是把内容分开到两张图上，只写重点
+
+![](http://pic.netpunk.space/images/2022/12/07/20221207211859.png)
 
 The bar chart compares the numbers of male sand females who **took** four different evening **classes** in 2009, and the pie chart shows the age profile of these attendees.
 
@@ -677,3 +679,14 @@ In conclusion, **l can understand** why people might want to **encourage competi
 
 **It is true that** the behavior of school **pupils** in some parts of the world **has been getting worse(have severe problems)** in recent years. There are **a variety of** possible **reasons** for this, but **steps can definitely be taken** to **tackle the problem.**
 
+In my opinion, three main **factors(reasons)** are **to blame for** the way young pupils behave at school nowadays. Firstly, modern parents are **tend to** be too lenient or permissive. Many children **become accustomed to getting** whatever they want, and they find it **difficult to** accept the demands of teachers or the **limits imposed on them** by school rules. Secondly, if teachers cannot control their students, there **must be** an **issue with the quality** of classroom management training or support within schools. Finally, children **are influenced by** the behavior of celebrities**, many of** whom **set the example** that success can be achieved without **finishing school.**	
+
+Students behaviour can certainly be improved. **I believe that the change must be start with(Firstly)** parents, who need to be **persuaded** that it is important to **set firm rules for** their children. When children misbehave or break the rules, parents should use **reasonable** punishments to demonstrate that **actions have consequences.** Also, schools could **play an important role in** training both teachers and parents to use effective disciplinary techniques, and in improving the **communication between both groups.** At the same time, famous people, such as musicians and football players, need to understand the responsibility that they  have to **act as role models** to children.
+
+In conclusion, schools will **continue to face** discipline **problems** unless parents, teachers and public figures **set clear rules** and **demonstrate the right behaviour** themselves.
+
+* 结构上，总体遵循2-5-5-2的结构，问题有很多原因但是可以分步解决这个问题，注意原因和解决办法的套路
+* 开头段：复述+reason+solution
+* 第一中心段：有三个原因+fsf三段式（因为原因之间是独立的），一共5句话（1.观点铺垫 2.Firstly(example) 3.Secondly 4.Finally）
+* 第二中心段：有三个方面来解决+自然连词，一共5句话
+* 结束段：总结核心观点
