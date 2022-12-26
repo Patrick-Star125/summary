@@ -35,9 +35,7 @@
   * introduction: paraphrase question
   * Overview/Summary: the main, general things
   * Details: just details about diagram
-* 线型图: compare the lines on the graph
-  * Overview/Summary: describe graph overall
-  * Details: Write at least one thing about each line
+* 
 
 
 
