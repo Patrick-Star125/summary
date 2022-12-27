@@ -631,6 +631,44 @@ It is clear that **significantly more** women **than** men attended evening clas
 
 **Looking at the age profile pie chart**, we can see that **the majority of** people attending evening lessons were over 40 years of age. **To be precise**, 42% of them were aged 50 or more, and 26% were aged between 40 and 49.Younger adults were in the minority, with only 11% of **students** aged 20 to29, and only 5% aged under 20.
 
+**Process diagram**
+
+<img src="http://pic.netpunk.space/images/2022/12/26/20221226115923.png" style="zoom: 67%;" />
+
+The first diagram represents the process of glass containers production, and the second diagram shows steps/stages in the process of recycling used glass.(1 sentence)
+
+**We can see** that the glass is made using three main materials, **and that** the manufacturing process consists of four distinct stages. It requires five steps to turn used glass into new glass products. (2 sentences)
+
+At the first stage in the production of glass, sand, soda ash, limestone and other chemicals are mixed together. Next, this mixture is heated in a glass furnace at 1500 celsius to produce molten glass. the molten glass than will be shaped, by blowing, to create the final products, namely glass containers. (3 sentences)
+
+Glass recycling begins with the collection of used glass products. The collected glass is the sorted **according to** its color, and then washed in order to remove any impurities. In the stage 4 process, cleaned glass is crushed and melted, and then the molten glass can finally be moulded to create new items.
+
+**Comparison diagram**
+
+<img src="http://pic.netpunk.space/images/2022/12/26/20221226174357.png" style="zoom: 67%;" />
+
+The two chars compare current layout of the ground floor of a house with a plan to redesign the living space. 
+
+What we can see that the new proposed plan involves making a number of changes on the certain space, mainly in the central hall area. There are no plans to change external wall or entrance doors.
+
+The most noticeable change from existing design to proposed plan is that there will no longer be a separate hall area when building work has been done. This will be achieved by removing the internal wall and door between hall and living room, along with the current staircase and under-stair storage cupboard. With no separate hall area, the proposed living room layout will also contain the staircase to the first floor.
+
+To replace the current straight staircase, a new set of window stairs will be installed in the corner of the living room. The internal door between hall and kitchen will be replaced with double doors connecting the kitchen and new living room. Finally, the planned building work will also include the installation of some kitchen furniture.
+
+**Map diagram**
+
+(多用位置来填字数)
+
+The map shows the growth of a village called Chorleywood near London between 1868 and 1994.
+
+It is clear that village grew as the transport system development. Specifically, four periods of development are shown in the map, and each populated areas are near to the main roads, the railway or the motorway.
+
+From 1868 to 1883, Chorleywood covered a small area near to the main roads. Chorleywood park and Golf course is now located next to this original village area. The village grew along the main roads to the south between 1883 to 1922. Within the period in 1909, the railway was built across the map from west to east, and Chorleywood station is in this part of village.
+
+The expansion of Chorleywood continued to the east and west alongside the railway line until 1970. At that time, a motorway was built to the east of the village, and from 1970 to 1994, further development took place around the motorway intersections with the railway and one of the main roads.
+
+
+
 ### Task2
 
 **Opinion**
@@ -688,3 +726,4 @@ In conclusion, schools will **continue to face** discipline **problems** unless 
 * 第一中心段：有三个原因+fsf三段式（因为原因之间是独立的），一共5句话（1.观点铺垫 2.Firstly(example) 3.Secondly 4.Finally）
 * 第二中心段：有三个方面来解决+自然连词，一共5句话
 * 结束段：总结核心观点
+

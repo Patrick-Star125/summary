@@ -76,3 +76,12 @@
 * 主体为单数动词加s
 * 
 
+### How to start a sentence
+
+* 人称开头：We can see that ...
+* 动词开头：Comparing ...
+* There be
+* when/where/what
+* It is .. that ..
+* This/That
+* The/普通名词
