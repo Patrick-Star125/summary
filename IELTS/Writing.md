@@ -609,7 +609,7 @@ It is clear that France was the **world's** most popular tourist destination in 
 
 In 2012, 83 million tourists visited France, and the USA was **the second most visited** country, with 66.7 million tourists. Spain and China each **received** just under 58 million **visitors**, while Italy was **ranked fifth** with 46.4 million tourists. **2013 saw a rise of** between 1 and 4 million tourist visits to each country, with the exception of China, which received 2 million **fewer visitors than in the previous year.**
 
-Spending by tourists visiting the USA increased from \$126.2 billion in 2012 to ​\$139.6 billion in2013, and **these figures were well over twice as high as** those for any other country. Spain received the second highest **amounts of tourist revenue**, rising from \$56.3 billion to \$60.4 billion, followed by France, China and Italy. Interestingly, **despite falling** numbers of tourists, Chinese revenue from tourism rose by $1.7 billion in 2013.
+Spending by tourists visiting the USA increased from \$126.2 billion in 2012 to ​\$139.6 billion in 2013, and **these figures were well over twice as high as** those for any other country. Spain received the second highest **amounts of tourist revenue**, rising from \$56.3 billion to \$60.4 billion, followed by France, China and Italy. Interestingly, **despite falling** numbers of tourists, Chinese revenue from tourism rose by $1.7 billion in 2013.
 
 要点
 
@@ -726,4 +726,26 @@ In conclusion, schools will **continue to face** discipline **problems** unless 
 * 第一中心段：有三个原因+fsf三段式（因为原因之间是独立的），一共5句话（1.观点铺垫 2.Firstly(example) 3.Secondly 4.Finally）
 * 第二中心段：有三个方面来解决+自然连词，一共5句话
 * 结束段：总结核心观点
+
+
+
+**Two-part question**
+
+![](http://pic.netpunk.space/images/2022/12/27/20221227123035.png)
+
+It is true that editors have to make difficult decisions about which news stories they broadcast or publish, and their choices are no doubt influenced by a variety of factors. In my opinion, we are exposed to too much bad news, and I would welcome a greater emphasis on good news.
+
+Editors face a range of considerations when deciding what news stories to focus on. Firstly, I imagine that they have to consider whether viewers or readers will be interested enough to choose their television channel or their newspaper over competing providers. Secondly, news editors have a responsibility to inform the public about important events and issues, and they should therefore prioritise stories that are in the public interest. Finally, editors are probably under some pressure from the owners who employ them. For example, a newspaper owner might have particular political views that he or she wants to promote.
+
+It seems to me that people do become accustomed to negative news. We are exposed on a daily basis to stories about war, crime, natural disasters and tragic human suffering around the world. I believe that such repeated exposure gradually desensitises people, and we become more cynical about the world and more sceptical that we can do anything to change it. I would prefer to see more positive news stories, such as reports of the work of medical staff after a natural disaster, or the kindness of volunteers who help in their communities. This kind of news might inspire us all to lead better lives.
+
+In conclusion, it must be extremely difficult for editors to choose which news stories to present, but I would like to see a more positive approach to this vital public service.
+
+
+
+
+
+
+
+
 
