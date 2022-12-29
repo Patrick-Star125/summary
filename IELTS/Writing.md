@@ -743,9 +743,22 @@ In conclusion, it must be extremely difficult for editors to choose which news s
 
 
 
+## 简单的写作错误
+
+数量错误
+
+1. some governments
+2. many areas
 
 
 
+意思错误
+
+students are taught in numerous subjects in different areas. 去掉in areas改fields
+
+
+
+冠词错误
 
 
 
