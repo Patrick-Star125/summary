@@ -1,4 +1,4 @@
-## CUDA编程基础
+## CUDA基础概念
 
 * CUDA编程模型是一个异构模型，需要CPU和GPU协同工作。
 * CUDA程序中既包含host程序，又包含device程序，它们分别在CPU和GPU上运行。
