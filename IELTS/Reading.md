@@ -1,5 +1,7 @@
 # Reading
 
+脑袋里要有每一道题的答案范围
+
 ## Reading Format
 
 step1
