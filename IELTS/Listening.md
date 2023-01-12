@@ -186,7 +186,6 @@ Paper Link: [IELTS Mock Test 2020 January Listening Practice Test 1 (ieltsonline
 * 根据题目判断答案的位置，不能听到什么单词就选什么
 * 同义替换在part2会有少量涉及，在part3会更多，在par4基本上全都是了
 *  填空时注意题目的语义关系，不能听到什么填什么，这也是检查的重点
-* 
 
 单词短语
 
@@ -219,34 +218,38 @@ Paper Link: [IELTS Mock Test 2020 January Listening Practice Test 1 (ieltsonline
 
 ## Test 2
 
-Paper Link: 
+重点回放: [同桌英语丨雅思机考_剑桥雅思真题_精听练习 (itongzhuo.com)](https://ielts.itongzhuo.com/business/listen/stu/jumpIntensiveListening.do?type=1&sId=776&bindLId=333)
 
-**part1：**
+section1讲一个母亲申请登记她的女儿到儿童中心，我们帮她记录信息
 
+section2讲一个环境保护者宣传海豚保护
 
+section3讲戏剧学院学姐帮学弟构思报告内容和留学年的注意事项
 
-**part2：**
+（戏剧现场，学生计划）
 
-
+|           words            |  meaning   |
+| :------------------------: | :--------: |
+| in-depth analysis/reporter |  学术报告  |
+|         rehearsal          |    排练    |
+|       study modules        |  学习部分  |
+|     scheme coordinator     | 项目指派员 |
+|     academic programme     |  学术项目  |
+|    preferred specialism    | 偏好的专长 |
 
 ### What I learned
 
 启发
 
-* 
+* 注意时间和数字
 
 单词
 
-| word | meaning | original citation |
-| :--: | :-----: | :---------------: |
-|      |         |                   |
-|      |         |                   |
-|      |         |         z         |
+|    word    | meaning |                      original citation                      |
+| :--------: | :-----: | :---------------------------------------------------------: |
+|  invoice   |  发票   | we send out invoices once the children start at the centre. |
+| visualise  |  想象   |                            nope                             |
+| aspiration |  志向   |            I never had any political aspiration.            |
+|   emerge   |  产生   |              So did one emerge as the leader?               |
 
-同义替换
 
-|      |      |
-| ---- | ---- |
-|      |      |
-|      |      |
-|      |      |
