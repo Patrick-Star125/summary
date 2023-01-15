@@ -44,6 +44,51 @@ step3：solve problems accordingly
 
 
 
+# Words
+
+**能源产业**
+
+|       word        |  meaning   |
+| :---------------: | :--------: |
+|     wind farm     | 风力发电厂 |
+|    new energy     |   新能源   |
+| turbine generator | 涡轮发电机 |
+
+**旅游业**
+
+|                             word                             |                          paraphrase                          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+|          The context, meaning and scope of tourism           |                   旅游业的历史、意义和范围                   |
+|                     religious conviction                     |                           宗教信仰                           |
+|                        economics gain                        |                           经济利益                           |
+|                    compelling motivations                    |                          有力的动机                          |
+|                       tourism industry                       |                            旅游业                            |
+|                       foreign exchange                       |                             外汇                             |
+|                    industrialised country                    |                          工业化国家                          |
+|                value-added capital investment                |                         资本增值投资                         |
+|                      tax contributions                       |                           税收贡献                           |
+|                        gross product                         |                            总产值                            |
+|                         major income                         |                         主要收入来源                         |
+|                       profound impact                        |                          深刻的影响                          |
+|                        In many cases                         |                         在很多情况下                         |
+|                    tourism participation                     |                       旅游业的涉业范围                       |
+| Once the **exclusive** province of the wealthy, travel and tourism have become an **institutionalised** way of life for most of the **population**. | 旅游观光曾一度是富人的专属领域，现在则已成为大多数人习以为常的一种生活方式。 |
+| accounting for capital investment **in excess of** $422 billion in direct, indirect and personal taxes each year. | 每年在直接、间接和个人税收领域创造了超过4220亿美元资本投资。 |
+| the world’s largest employer with almost 130 million jobs, or almost 7 percent of all employees | 全球最大的就业行业，提供了近1.3亿个工作岗位，几乎占所有就业人数的7%。 |
+
+**环境科学**
+
+|                             word                             |                          paraphrase                          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                     northern hemisphere                      |                            北半球                            |
+|                           molecule                           |                             分子                             |
+|                        photosynthesis                        |                           光合作用                           |
+|                      evergreen conifer                       |                          常绿针叶林                          |
+|                      chemical compounds                      |                            化合物                            |
+| It has also been recognised for decades that the best conditions for intense red colours |      几十年来，人们也一直知道：形成浓艳红色的最佳条件是      |
+| it is created by anthocyanins, water-soluble plant pigments reflecting the red to blue range of the visible spectrum | 它是由花青素产生的，花青素是一种水溶性植物色素，能反射从红到蓝这一段的可见光谱。 |
+|      ships their valuable nitrogen back into the twigs       |               将其中有价值的氮元素运回枝干中去               |
+
 
 
 # Summary
