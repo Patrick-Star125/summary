@@ -675,6 +675,8 @@ The expansion of Chorleywood continued to the east and west alongside the railwa
 
 **Opinion**
 
+opinion argument肯定有两方面，即A和B会发生，那么论述文章就要回答，为什么A和B都会/不会发生，即分两段，一段是A会/不会发生，另一段是B会/不会发生
+
 Governments in some countries spend **large amounts of money** on **space exploration programmes**. I **completely agree with** the idea that **these are a waste of money**, and that the **funds** should **be allocated** to public services.
 
 **There are several reasons** why space programmes should **be abandoned**. Firstly, it is extremely expensive to train scientists and other staff **involved with** **space missions**, and facilities and equipment also come at **a huge cost to** the government. Secondly, these programmes do not benefit normal people in our daily lives; they are simply **vanity** projects for politicians. Finally, many missions to space fail completely, and the smallest technological error can cost astronauts lives. The Challenger space shuttle disaster showed us that space travel is extremely dangerous, and **in my opinion** it is not worth the risk.
