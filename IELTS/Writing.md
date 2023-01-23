@@ -721,7 +721,7 @@ In conclusion, **l can understand** why people might want to **encourage competi
 
 In my opinion, three main **factors(reasons)** are **to blame for** the way young pupils behave at school nowadays. Firstly, modern parents are **tend to** be too lenient or permissive. Many children **become accustomed to getting** whatever they want, and they find it **difficult to** accept the demands of teachers or the **limits imposed on them** by school rules. Secondly, if teachers cannot control their students, there **must be** an **issue with the quality** of classroom management training or support within schools. Finally, children **are influenced by** the behavior of celebrities**, many of** whom **set the example** that success can be achieved without **finishing school.**	
 
-Students behaviour can certainly be improved. **I believe that the change must be start with(Firstly)** parents, who need to be **persuaded** that it is important to **set firm rules for** their children. When children misbehave or break the rules, parents should use **reasonable** punishments to demonstrate that **actions have consequences.** Also, schools could **play an important role in** training both teachers and parents to use effective disciplinary techniques, and in improving the **communication between both groups.** At the same time, famous people, such as musicians and football players, need to understand the responsibility that they  have to **act as role models** to children.
+Students **behaviour** can certainly be improved. **I believe that the change must be start with(Firstly)** parents, who need to be **persuaded** that it is important to **set firm rules for** their children. When children misbehave or break the rules, parents should use **reasonable** punishments to demonstrate that **actions have consequences.** Also, schools could **play an important role in** training both teachers and parents to use effective disciplinary techniques, and in improving the **communication between both groups.** At the same time, famous people, such as musicians and football players, need to understand the responsibility that they  have to **act as role models** to children.
 
 In conclusion, schools will **continue to face** discipline **problems** unless parents, teachers and public figures **set clear rules** and **demonstrate the right behaviour** themselves.
 
@@ -737,32 +737,42 @@ In conclusion, schools will **continue to face** discipline **problems** unless 
 
 ![](http://pic.netpunk.space/images/2022/12/27/20221227123035.png)
 
-It is true that editors have to make difficult decisions about which news stories they broadcast or publish, and their choices are no doubt influenced by a variety of factors. In my opinion, we are exposed to too much bad news, and I would welcome a greater emphasis on good news.
+It is true that editors have to make difficult decisions about which news stories they broadcast or publish, and their choices are no doubt influenced by a variety of factors. In my opinion, **we are exposed to** too much bad news, and **I would welcome** a greater emphasis on good news.
 
-Editors face a range of considerations when deciding what news stories to focus on. Firstly, I imagine that they have to consider whether viewers or readers will be interested enough to choose their television channel or their newspaper over competing providers. Secondly, news editors have a responsibility to inform the public about important events and issues, and they should therefore prioritise stories that are in the public interest. Finally, editors are probably under some pressure from the owners who employ them. For example, a newspaper owner might have particular political views that he or she wants to promote.
+Editors face a range of **considerations** when **deciding** what news stories to focus on. Firstly, I imagine that they have to consider whether viewers or readers will be interested enough to choose their television channel or their newspaper over competing providers. Secondly, news editors have a responsibility to inform the public about important events and issues, and they should therefore prioritise stories that are in the public interest. Finally, editors are probably under some pressure from the owners who employ them. For example, a newspaper owner might have particular political views that he or she wants to promote.
 
-It seems to me that people do become accustomed to negative news. We are exposed on a daily basis to stories about war, crime, natural disasters and tragic human suffering around the world. I believe that such repeated exposure gradually desensitises people, and we become more cynical about the world and more sceptical that we can do anything to change it. I would prefer to see more positive news stories, such as reports of the work of medical staff after a natural disaster, or the kindness of volunteers who help in their communities. This kind of news might inspire us all to lead better lives.
+**It seems to me** that people do become **accustomed to** negative news. We are exposed on a daily basis to stories about war, crime, natural disasters and tragic human suffering around the world. I believe that such repeated exposure gradually desensitises people, and we become more cynical about the world and more sceptical that we can do anything to change it. I would prefer to see more positive news stories, such as reports of the work of medical staff after a natural disaster, or the kindness of volunteers who help in their communities. This kind of news might inspire us all to lead better lives.
 
-In conclusion, it must be extremely difficult for editors to choose which news stories to present, but I would like to see a more positive approach to this vital public service.
-
-
-
-## 简单的写作错误
-
-数量错误
-
-1. some governments
-2. many areas
+In conclusion, it must be **extremely difficult** for editors to choose which news stories to present, but I would like to see a more **positive approach** to this vital public service.
 
 
 
-意思错误
+## Reusable
 
-students are taught in numerous subjects in different areas. 去掉in areas改fields
+**开头**
 
+* I **completely agree with** the idea that **these are a waste of money**, and that the **funds** should **be allocated** to public services.
+* **While** a spirit of competition can sometimes be useful in life, **l believe** that the ability to co-operate is more important.
+* There are **a variety of** possible **reasons** for this, but **steps can definitely be taken** to **tackle the problem.**
+* In my opinion, **we are exposed to** too much bad news, and **I would welcome** a greater emphasis on good news.
 
+**正文一**
 
-冠词错误
+* **There are several reasons** why space programmes should **be abandoned**.
+* **On the one hand**, competition can be a great source of **motivation** for children.
+* In my opinion, three main **factors(reasons)** are **to blame for** the way young pupils behave at school nowadays.
+* Editors face a range of **considerations** when **deciding** what news stories to focus on.
 
+**正文二**
 
+* I believe that **the money** from space programmes **should go to** vital public services instead.
+* **On the other hand**, it is perhaps even **more important** to prepare children for the many **aspects** of adult life **that require co-operation.**
+* Students **behaviour** can certainly be improved.（简洁的表达）
+* **It seems to me** that people do become **accustomed to** negative news.
 
+**总结**
+
+* In conclusion, my view is that governments should spend money on services that benefit **all members of society**, and it is wrong to waste resources on projects that do not **improve our everyday lives.**
+* In conclusion, **l can understand** why people might want to **encourage competitiveness** in children, but **it seems to me** that a **co-operative attitude** is much more **desirable** in adult life.
+* In conclusion, schools will **continue to face** discipline **problems** unless parents, teachers and public figures **set clear rules** and **demonstrate the right behaviour** themselves.
+* In conclusion, it must be **extremely difficult** for editors to choose which news stories to present, but I would like to see a more **positive approach** to this vital public service.
