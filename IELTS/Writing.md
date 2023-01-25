@@ -697,7 +697,7 @@ In conclusion, my view is that governments should spend money on services that b
 
 **Discussion**
 
-People have different views about whether children should be taught to be **competitive** or **co-operative**. **While** a spirit of competition can sometimes be useful in life, **l believe** that the ability to co-operate is more important.
+**People have different views about whether** children should be taught to be **competitive** or **co-operative**. **While** a spirit of competition can sometimes be useful in life, **l believe** that the ability to co-operate is more important.
 
 **On the one hand**, competition can be a great source of **motivation** for children. When teachers use games or prizes to introduce an element of **competitiveness** into lessons, it can encourage children to work harder to **outdo** the other **pupils** in the class. This kind of **healthy rivalry** may help to build children's self confidence, **while** pushing them to work independently and progress more quickly. When these children leave school, their confidence and determination will help them in competitive situations such as job interviews. **It can therefore be argued** that competition should be encouraged in order to prepare children for adult life.
 
@@ -737,7 +737,7 @@ In conclusion, schools will **continue to face** discipline **problems** unless 
 
 ![](http://pic.netpunk.space/images/2022/12/27/20221227123035.png)
 
-It is true that editors have to make difficult decisions about which news stories they broadcast or publish, and their choices are no doubt influenced by a variety of factors. In my opinion, **we are exposed to** too much bad news, and **I would welcome** a greater emphasis on good news.
+**It is true that** editors have to make difficult decisions about which news stories they broadcast or publish, and their choices are no doubt influenced by a variety of factors. In my opinion, **we are exposed to** too much bad news, and **I would welcome** a greater emphasis on good news.
 
 Editors face a range of **considerations** when **deciding** what news stories to focus on. Firstly, I imagine that they have to consider whether viewers or readers will be interested enough to choose their television channel or their newspaper over competing providers. Secondly, news editors have a responsibility to inform the public about important events and issues, and they should therefore prioritise stories that are in the public interest. Finally, editors are probably under some pressure from the owners who employ them. For example, a newspaper owner might have particular political views that he or she wants to promote.
 
@@ -750,6 +750,9 @@ In conclusion, it must be **extremely difficult** for editors to choose which ne
 ## Reusable
 
 **开头**
+
+* **People have different views about whether** xxx
+* It is true that xxx
 
 * I **completely agree with** the idea that **these are a waste of money**, and that the **funds** should **be allocated** to public services.
 * **While** a spirit of competition can sometimes be useful in life, **l believe** that the ability to co-operate is more important.
