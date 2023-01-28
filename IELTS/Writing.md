@@ -570,7 +570,7 @@ Between 1980 and 2005, electricity production from nuclear power **rose dramatic
 
 **It is clear that** Nokia sold the most mobile phones between 2009 and 2011, but Samsung became the **best selling brand** in 2013. Samsung and Apple saw the **biggest rises in sales** over the 5-year period.
 
-In 2009, Nokia sold close to 450 million mobile phones, which was almost **double the number** of handsets sold by the **second most successful manufacturer**, Samsung. Over the following four years, however,Nokia's sales figures fell by approximately 200 million units, whereas Samsung **saw sales** rise by a similar amount. By 2013, Samsung had become the **market leader** withs ales reaching 450 million **units**.
+In 2009, Nokia sold close to 450 million mobile phones, which was almost **double the number** of handsets sold by the **second most successful manufacturer**, Samsung. Over the following four years, however,Nokia's sales figures fell by approximately 200 million units, whereas Samsung **saw sales** rise by a similar amount. By 2013, Samsung had become the **market leader** withs a les reaching 450 million **units**.
 
 The other three **top selling** mobile phone brands between 2009 and 2013 were LG, ZTE and Apple. In 2009, these companies sold around 125 million,50 million and 25 million mobile handsets **respectively**, but Apple **overtook** the other two vendors in 2011.In 2013, purchases of Apple **handsets** reached 150 million units, while LG **saw declining sales** and the figures for ZTE rose only slightly.
 
@@ -589,7 +589,7 @@ The pie charts compare **five categories(kinds) of** **household expenditure** i
 
 It is noticeable that the **proportion** of spending on food and drink fell in both countries over the 28-year period, while spending on utility bills rose. Also, **UK residents** **spent a significantly larger percentage** of their household budgets on leisure **than** their New Zealand **counterparts**.
 
-In 1980, 29% of **an average New Zealand household budget went on** food and drink, while the equivalent figure for a UK home was 23%. **By 2008**, expenditure on food and drink **had fallen by** 4% in New Zealand, and by a full 10% in the UK. **By contrast**, both countries saw an increase in expenditure on utility bills for the average home,from 27% to 31% in New Zealand and from 26% to 28% in the UK.
+In 1980, 29% of **an average New Zealand household budget went on** food and drink, while the **equivalent figure** for a UK home was 23%. **By 2008**, expenditure on food and drink **had fallen by** 4% in New Zealand, and by a full 10% in the UK. **By contrast**, both countries saw an increase in expenditure on utility bills for the average home,from 27% to 31% in New Zealand and from 26% to 28% in the UK.
 
 **Leisure** activities **accounted for the highest proportion** of UK household spending in both years, but only the third highest proportion in New Zealand. In fact,in 2008, New Zealanders **spent only half as much in relative terms** on recreation(17%) as UK residents(34%). In both countries,transport costs and other costs took roughly 15% and 10% of household budgets respectively.
 
@@ -608,6 +608,8 @@ In 1980, 29% of **an average New Zealand household budget went on** food and dri
 The table **compares** the **five highest ranking countries** in terms of **the numbers of visits** and **the money spent by tourists** over **a period of two years**.
 
 It is clear that France was the **world's** most popular tourist destination in the years 2012 and 2013. However, the USA **earned by far the most** **revenue from tourism** **over the same period**.
+
+（表格不可能把流水账全列出来）
 
 In 2012, 83 million tourists visited France, and the USA was **the second most visited** country, with 66.7 million tourists. Spain and China each **received** just under 58 million **visitors**, while Italy was **ranked fifth** with 46.4 million tourists. **2013 saw a rise of** between 1 and 4 million tourist visits to each country, with the exception of China, which received 2 million **fewer visitors than in the previous year.**
 
@@ -643,23 +645,21 @@ The first diagram represents the process of glass containers production, and the
 
 At the first stage in the production of glass, sand, soda ash, limestone and other chemicals are mixed together. Next, this mixture is heated in a glass furnace at 1500 celsius to produce molten glass. the molten glass than will be shaped, by blowing, to create the final products, namely glass containers. (3 sentences)
 
-Glass recycling begins with the collection of used glass products. The collected glass is the sorted **according to** its color, and then washed in order to remove any impurities. In the stage 4 process, cleaned glass is crushed and melted, and then the molten glass can finally be moulded to create new items.
+Glass recycling begins with the collection of used glass products. The collected glass is then sorted **according to** its color, and then washed in order to remove any impurities. In the stage 4 process, cleaned glass is crushed and melted, and then the molten glass can finally be moulded to create new items.
 
 **Comparison diagram**
 
 <img src="http://pic.netpunk.space/images/2022/12/26/20221226174357.png" style="zoom: 67%;" />
 
-The two chars compare current layout of the ground floor of a house with a plan to redesign the living space. 
+The two chars **compare** current layout of the ground floor of a house with a plan to redesign the living space. 
 
-What we can see that the new proposed plan involves making a number of changes on the certain space, mainly in the central hall area. There are no plans to change external wall or entrance doors.
+What we can see that the new proposed plan involves making a number of changes on the **certain space**, mainly in the **central hall area.** There are no plans to change **external wall** or entrance doors.
 
 The most noticeable change from existing design to proposed plan is that there will no longer be a separate hall area when building work has been done. This will be achieved by removing the internal wall and door between hall and living room, along with the current staircase and under-stair storage cupboard. With no separate hall area, the proposed living room layout will also contain the staircase to the first floor.
 
 To replace the current straight staircase, a new set of window stairs will be installed in the corner of the living room. The internal door between hall and kitchen will be replaced with double doors connecting the kitchen and new living room. Finally, the planned building work will also include the installation of some kitchen furniture.
 
 **Map diagram**
-
-(多用位置来填字数)
 
 The map shows the growth of a village called Chorleywood near London between 1868 and 1994.
 
@@ -753,15 +753,39 @@ In conclusion, it must be **extremely difficult** for editors to choose which ne
 
 **开头**
 
+line graph, pie chart, bar chart, table, map, process diagram
 
+* The line graph **compares** the amount of **electricity produced** in France using four different sources of power **over a period of** 32 years.
+* **The bar chart compares** the number of **mobile phones sold worldwide** by the **five most popular manufacturers** in the **years 2009,2011 and 2013.**
+* The pie charts compare **five categories(kinds) of** **household expenditure** in the UK and New Zealand in the years 1980 and 2008.
+* The table **compares** the **five highest ranking countries** in terms of **the numbers of visits** and **the money spent by tourists** over **a period of two years**.
 
 **总结段**
 
+注意时态，数据大部分是过去时
 
+* It is clear that nuclear power was **by far the most important** part of electricity generation **over the period shown**. Renewables provided **the lowest amount** of electricity **in each year**.
+* **It is clear that** Nokia sold the most mobile phones between 2009 and 2011, but Samsung became the **best selling brand** in 2013. Samsung and Apple saw the **biggest rises in sales** over the 5-year period.
+* It is noticeable that the **proportion** of spending on food and drink fell in both countries over the 28-year period, while spending on utility bills rose. Also, **UK residents** **spent a significantly larger percentage** of their household budgets on leisure **than** their New Zealand **counterparts**.
+* What we can see that the new proposed plan involves making a number of changes on the certain space, mainly in the central hall area. There are no plans to change external wall or entrance doors.
 
 **正文**
 
+|               时间               |            位置            |                             数量                             |                增减                |                      过程                      |
+| :------------------------------: | :------------------------: | :----------------------------------------------------------: | :--------------------------------: | :--------------------------------------------: |
+|    over a period of xx years     |     central hall area      |           provided **a/the highest/lowest amount**           |         rose to a peak of          |        show the steps in the process of        |
+|           in each year           |       external wall        |                    the main **source of**                    |              fall to               |   process A consists of four distinct stages   |
+|      over the period shown       |       certain space        |            was **by far the most important** part            |             remain at              |    It requires five steps to turn A into B     |
+| in the years 2009,2011 and 2013. |          near to           |              A is almost **double the number**               |         sth saw a rise to          |         the final products, namely xxx         |
+|      the rest of the period      |     is located next to     |                       was ranked fifth                       | saw the **biggest rises in sales** | next, the xxx is sorted according to its color |
+|                                  |  grew along the main road  | **Leisure** activities **accounted for the highest proportion** |                                    |      and then the xxx can be finally done      |
+|                                  |  was built across the map  |                                                              |                                    |                                                |
+|                                  | alongside the railway line |                                                              |                                    |                                                |
+|                                  | to the east of the village |                                                              |                                    |                                                |
 
+* these companies sold around 125 million,50 million and 25 million mobile handsets **respectively**
+* **2013 saw a rise of** between 1 and 4 million tourist visits to each country, with the exception of China, which received 2 million **fewer visitors than in the previous year.**
+* and **these figures were well over twice as high as** those for any other country.
 
 ### Task2
 
