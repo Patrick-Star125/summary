@@ -771,17 +771,17 @@ line graph, pie chart, bar chart, table, map, process diagram
 
 **正文**
 
-|               时间               |            位置            |                             数量                             |                增减                |                      过程                      |
-| :------------------------------: | :------------------------: | :----------------------------------------------------------: | :--------------------------------: | :--------------------------------------------: |
-|    over a period of xx years     |     central hall area      |           provided **a/the highest/lowest amount**           |         rose to a peak of          |        show the steps in the process of        |
-|           in each year           |       external wall        |                    the main **source of**                    |              fall to               |   process A consists of four distinct stages   |
-|      over the period shown       |       certain space        |            was **by far the most important** part            |             remain at              |    It requires five steps to turn A into B     |
-| in the years 2009,2011 and 2013. |          near to           |              A is almost **double the number**               |         sth saw a rise to          |         the final products, namely xxx         |
-|      the rest of the period      |     is located next to     |                       was ranked fifth                       | saw the **biggest rises in sales** | next, the xxx is sorted according to its color |
-|                                  |  grew along the main road  | **Leisure** activities **accounted for the highest proportion** |                                    |      and then the xxx can be finally done      |
-|                                  |  was built across the map  |                                                              |                                    |                                                |
-|                                  | alongside the railway line |                                                              |                                    |                                                |
-|                                  | to the east of the village |                                                              |                                    |                                                |
+|               时间               |            位置            |                             数量                             |                  增减                  |                      过程                      |
+| :------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------: | :--------------------------------------------: |
+|    over a period of xx years     |     central hall area      |           provided **a/the highest/lowest amount**           |           rose to a peak of            |        show the steps in the process of        |
+|           in each year           |       external wall        |                    the main **source of**                    |                fall to                 |   process A consists of four distinct stages   |
+|      over the period shown       |       certain space        |            was **by far the most important** part            | remain/fluctuating at between xx to xx |    It requires five steps to turn A into B     |
+| in the years 2009,2011 and 2013. |          near to           |              A is almost **double the number**               |           sth saw a rise to            |         the final products, namely xxx         |
+|      the rest of the period      |     is located next to     |                       was ranked fifth                       |   saw the **biggest rises in sales**   | next, the xxx is sorted according to its color |
+|                                  |  grew along the main road  | **Leisure** activities **accounted for the highest proportion** |                                        |      and then the xxx can be finally done      |
+|                                  |  was built across the map  |                                                              |                                        |                                                |
+|                                  | alongside the railway line |                                                              |                                        |                                                |
+|                                  | to the east of the village |                                                              |                                        |                                                |
 
 * these companies sold around 125 million,50 million and 25 million mobile handsets **respectively**
 * **2013 saw a rise of** between 1 and 4 million tourist visits to each country, with the exception of China, which received 2 million **fewer visitors than in the previous year.**
