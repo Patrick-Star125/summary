@@ -1,6 +1,6 @@
 最近有在服务器的docker中编译一个大型项目的需求，但是发现编译过程中要在线clone许多其它的项目，因此需要配置代理到到git上。
 
-## Arch配置代理
+## Linux配置代理
 
 首先是给系统配置代理，我的情况如下：
 
@@ -83,6 +83,21 @@ sudo systemctl enable v2raya.service
 > 1.安装ntpdate：`yum install -y ntpdate`
 >
 > 2.同步时间：`ntpdate 0.asia.pool.ntp.org`
+
+如果是Arch系统，那么到这里就算配好了，但如果是Ubuntu系统，还要手动配置一下系统的代理，如果想要暂时的代理
+
+~~~bash
+export http_proxy='http://127.0.0.1:20171'
+export socks5_proxy='socks5://127.0.0.1:20170'
+export no_proxy='localhost,127.0.0.1'
+~~~
+
+如果想要持久的代理，到用户目录下，将上面的语句添加到.bashrc文件中，然后重新载入文件即可。
+
+~~~bash
+vim .bashrc
+source .bashrc
+~~~
 
 我们尝试一下git clone
 
