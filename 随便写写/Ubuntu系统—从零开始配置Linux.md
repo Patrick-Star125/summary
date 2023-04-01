@@ -32,10 +32,6 @@
 >
 > multipass recover [name]
 
-docker run -d --name sqlite \
-    -p 3306:3306 \
-    nouchka/sqlite3
-
 ## 基础配置
 
 我们以一个Ubuntu-server系统为例，这也是我用的最多的系统
