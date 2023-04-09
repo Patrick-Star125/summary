@@ -96,29 +96,16 @@
 
 上面说了很多项目相关的要求，简单总结就是实现一个可用的缓冲池
 
-缓冲池是数据库的缓存的抽象，缓存是数据库内存空间在磁盘上的拓展
+缓冲池是数据库的缓存的抽象，缓存是数据库内存空间在磁盘上的拓展，本次实现的抽象有三个，用于实现缓存淘汰的LRU算法，用于单个线程的缓存池实例，以及负责分配缓冲实例的缓冲池本体。
 
+这一部分没有什么值得优化的算法，不过我注意到基于宏的原生异常实现，感觉挺有用的
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+~~~cpp
+namespace bustub {
+#define BUSTUB_ASSERT(expr, message) assert((expr) && (message))
+    BUSTUB_ASSERT(num_instances > 0, "If BPI is not part of a pool, then the pool size should just be 1");
+}
+~~~
 
 
 
