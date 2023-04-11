@@ -182,9 +182,131 @@ DistinctExecutor可以消除从其子执行器中收到的重复元组。你的D
 
 在这个项目中，我们使用你在项目2中对可扩展哈希表的实现作为所有索引操作的底层数据结构。因此，本项目的成功完成依赖于可扩展哈希表的工作实现。
 
+## 我的实现
 
+因为比较复杂，因此把一个算子的全套代码单独拎出来看一看
 
+~~~cpp
+class LimitPlanNode : public AbstractPlanNode {
+ public:
+  /**
+   * Construct a new LimitPlanNode instance.
+   * @param child The child plan from which tuples are obtained
+   * @param limit The number of output tuples
+   */
+  LimitPlanNode(SchemaRef output, AbstractPlanNodeRef child, std::size_t limit)
+      : AbstractPlanNode(std::move(output), {std::move(child)}), limit_{limit} {}
 
+  /** @return The type of the plan node */
+  auto GetType() const -> PlanType override { return PlanType::Limit; }
 
+  /** @return The limit */
+  auto GetLimit() const -> size_t { return limit_; }
+
+  /** @return The child plan node */
+  auto GetChildPlan() const -> AbstractPlanNodeRef {
+    BUSTUB_ASSERT(GetChildren().size() == 1, "Limit should have at most one child plan.");
+    return GetChildAt(0);
+  }
+
+  BUSTUB_PLAN_NODE_CLONE_WITH_CHILDREN(LimitPlanNode);
+
+  /** The limit */
+  std::size_t limit_;
+
+ protected:
+  auto PlanNodeToString() const -> std::string override;
+};
+
+}  // namespace bustub
+~~~
+
+~~~cpp
+class LimitExecutor : public AbstractExecutor {
+ public:
+  LimitExecutor(ExecutorContext *exec_ctx, const LimitPlanNode *plan,
+                std::unique_ptr<AbstractExecutor> &&child_executor);
+
+  /** Initialize the limit */
+  void Init() override;
+
+  bool Next(Tuple *tuple, RID *rid) override;
+
+  /** @return The output schema for the limit */
+  const Schema *GetOutputSchema() override { return plan_->OutputSchema(); };
+
+ private:
+  /** The limit plan node to be executed */
+  const LimitPlanNode *plan_;
+  /** The child executor from which tuples are obtained */
+  std::unique_ptr<AbstractExecutor> child_executor_;
+  size_t tuple_count_;
+};
+~~~
+
+~~~cpp
+LimitExecutor::LimitExecutor(ExecutorContext *exec_ctx, const LimitPlanNode *plan,
+                             std::unique_ptr<AbstractExecutor> &&child_executor)
+    : AbstractExecutor(exec_ctx), plan_(plan), child_executor_(std::move(child_executor)) {}
+
+void LimitExecutor::Init() {
+  child_executor_->Init();
+  tuple_count_ = 0;
+}
+
+bool LimitExecutor::Next(Tuple *tuple, RID *rid) {
+  if (tuple_count_ >= plan_->GetLimit()) {
+    return false;
+  }
+
+  bool res = child_executor_->Next(tuple, rid);
+  tuple_count_++;
+  return res;
+}
+~~~
+
+~~~cpp
+auto ExecutorFactory::CreateExecutor(ExecutorContext *exec_ctx, const AbstractPlanNodeRef &plan)
+    -> std::unique_ptr<AbstractExecutor> {
+  auto check_options_set = exec_ctx->GetCheckOptions()->check_options_set_;
+  switch (plan->GetType()) {
+    // Create a new limit executor
+    case PlanType::Limit: {
+      auto limit_plan = dynamic_cast<const LimitPlanNode *>(plan.get());
+      auto child_executor = ExecutorFactory::CreateExecutor(exec_ctx, limit_plan->GetChildPlan());
+      return std::make_unique<LimitExecutor>(exec_ctx, limit_plan, std::move(child_executor));
+    }
+}
+~~~
+
+~~~cpp
+  bool Execute(const AbstractPlanNode *plan, std::vector<Tuple> *result_set, Transaction *txn,
+               ExecutorContext *exec_ctx) {
+    // Construct and executor for the plan
+    auto executor = ExecutorFactory::CreateExecutor(exec_ctx, plan);
+
+    // Prepare the root executor
+    executor->Init();
+
+    // Execute the query plan
+    try {
+      Tuple tuple; //元组
+      RID rid; //元组相对于它所属的表的唯一标识符
+      while (executor->Next(&tuple, &rid)) {
+        if (result_set != nullptr && tuple.IsAllocated()) {  // 判断元组是否分配内存
+          result_set->push_back(tuple);
+        }
+      }
+    } catch (Exception &e) {
+      // TODO(student): handle exceptions
+      printf("exception occur!\n");  // 删除失败，直接返回false
+      return false;
+    }
+
+    return true;
+  }
+~~~
+
+首先plan进入工厂类，根据plan的结构递归的构造执行器，所谓执行器就是实现了Init()和Next()两个方法的执行器实例，执行器顺序的将tuple
 
 
