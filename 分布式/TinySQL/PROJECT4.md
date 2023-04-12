@@ -135,7 +135,7 @@ func (s *columnPruner) optimize(ctx context.Context, lp LogicalPlan) (LogicalPla
 
 其记忆化搜索的过程大致可以用如下伪代码表示：
 
-```
+```go
 // The OrderProp tells whether the output data should be ordered by some column or expression. (e.g. For select * from t order by a, we need to make the data ordered by column a, that is the exactly information that OrderProp should store)
 func findBestTask(p LogicalPlan, prop OrderProp) PhysicalPlan {
 

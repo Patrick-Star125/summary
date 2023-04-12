@@ -189,11 +189,6 @@ DistinctExecutor可以消除从其子执行器中收到的重复元组。你的D
 ~~~cpp
 class LimitPlanNode : public AbstractPlanNode {
  public:
-  /**
-   * Construct a new LimitPlanNode instance.
-   * @param child The child plan from which tuples are obtained
-   * @param limit The number of output tuples
-   */
   LimitPlanNode(SchemaRef output, AbstractPlanNodeRef child, std::size_t limit)
       : AbstractPlanNode(std::move(output), {std::move(child)}), limit_{limit} {}
 
@@ -307,6 +302,6 @@ auto ExecutorFactory::CreateExecutor(ExecutorContext *exec_ctx, const AbstractPl
   }
 ~~~
 
-首先plan进入工厂类，根据plan的结构递归的构造执行器，所谓执行器就是实现了Init()和Next()两个方法的执行器实例，执行器顺序的将tuple
+首先plan进入工厂类，根据plan的结构递归的构造执行器，所谓执行器就是实现了Init()和Next()两个方法的执行器实例，执行器顺序的将计算tuple
 
 

@@ -42,7 +42,7 @@ Parser 主要的功能是将 SQL 语句文本按照预先定义的 SQL 语法规
 [a-z]    {
             yylval = *yytext - 'a';
             return VARIABLE;
-         }   
+         }
 /* 整数 */
 [0-9]+   {
             yylval = atoi(yytext);
