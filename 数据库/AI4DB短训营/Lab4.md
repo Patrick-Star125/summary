@@ -71,17 +71,17 @@ Plan 会被提取特征，并编码成一棵树，来每个节点的特征包含
 
 编码后的数据会按照深度进行组织，下面是 operators 和 mapping 的例子：
 
-[![plan_mapping](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/raw/main/lab4/doc/plan_mapping.png)](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/blob/main/lab4/doc/plan_mapping.png)
+![plan_mapping](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/blob/main/lab4/doc/plan_mapping.png)
 
 在编码后的 operators 中，会按照 level 进行组织，mapping 能够确定当前节点在下一个 level 中孩子节点的位置；
 
 编码时会对多个 plan 的结果按照 level 进行 batch 和 padding，如下：
 
-[![plan_batch](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/raw/main/lab4/doc/plan_batch.png)](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/blob/main/lab4/doc/plan_batch.png)
+![plan_batch](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/raw/main/lab4/doc/plan_batch.png)
 
 在进行 tree-based LSTM 迭代时，可以利用 mapping 来得到当前节点的左右儿子的数据，下面是一个例子：
 
-[![lstm](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/raw/main/lab4/doc/lstm.png)](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/blob/main/lab4/doc/lstm.png)
+![lstm](https://github.com/learned-optimizer/learned-optimizer-Patrick-Star125/raw/main/lab4/doc/lstm.png)
 
 通过 mapping 分别获取 level2 节点的左右孩子(level3)的 hidden_state 和 cell_state，计算后作为 level2 的 state，并传递给 LSTM 进行训练；
 
