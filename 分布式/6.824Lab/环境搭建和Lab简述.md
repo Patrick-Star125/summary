@@ -37,6 +37,6 @@ $ make lab1
 
 ### Lab1
 
-实现分布式mr，一个coordinator，一个worker（启动多个），在这次实验都在一个机器上运行。worker通过rpc和coordinator交互。worker请求任务，进行运算，写结果到文件。coordinator需要关心worker的任务是否完成，在超时情况下将任务重新分配给别的worker。
+实现分布式mapreduce，一个coordinator，一个worker（启动多个），在这次实验都在一个机器上运行。worker通过rpc和coordinator交互。worker请求任务，进行运算，写结果到文件。coordinator需要关心worker的任务是否完成，在超时情况下将任务重新分配给别的worker。
 
-在这里看规则和提升：[送餐员小李/mit6.824 (gitee.com)](https://gitee.com/songcanyuan/mit6.824)
+在这里看规则和提升：[Sorosliu1029/6.824: 🤹 MIT 6.824 Distributed Systems (github.com)](https://github.com/Sorosliu1029/6.824)
