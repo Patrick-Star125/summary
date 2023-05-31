@@ -74,7 +74,7 @@ sudo systemctl enable v2raya.service
 
 访问控制台，新建管理员账号后，就能够看到控制台界面了，直接点击创建，v2ray相信配置过的人也都会配，创建完节点之后界面如下图所示
 
-![](http://pic.netpunk.space/images/2022/07/11/20220711111913.png)
+![](http://pic.netpunk.top/images/2022/07/11/20220711111913.png)
 
 比较关键的部分我用红框标出，配过代理的人点进去看一下也就知道什么意思了，都配置完毕后，我们点击运行，主机的代理就算是配好了
 
@@ -101,7 +101,7 @@ source .bashrc
 
 我们尝试一下git clone
 
-![](http://pic.netpunk.space/images/2022/07/11/20220711112214.png)
+![](http://pic.netpunk.top/images/2022/07/11/20220711112214.png)
 
 可以看到速度还是不错的
 

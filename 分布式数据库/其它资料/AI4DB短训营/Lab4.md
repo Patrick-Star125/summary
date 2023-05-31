@@ -4,13 +4,13 @@
 
 在 Lab4 中，你将会完成一个端到端的学习模型，他能接受查询计划作为输入，然后对这个计划进行基数估算和代价估算。
 
-![](http://pic.netpunk.space/images/2022/12/05/QQ20221123203903.png)
+![](http://pic.netpunk.top/images/2022/12/05/QQ20221123203903.png)
 
 对比起 Lab2，他不需要依赖额外单独的基数估算模块，便能对计划的代价进行估算。
 
 在离线训练中，整个过程如下：
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124193644.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124193644.png)
 
 1. 首先依赖传统的优化器生成 Plan，并得到实际的 Cost 和 Cardinality；
 2. 在 Plan 上提取特征，并进行编码，最终每个 Plan 会形成一棵树，树的节点就是向量，包含了这个节点的特征；
@@ -27,17 +27,17 @@ Plan 会被提取特征，并编码成一棵树，来每个节点的特征包含
 3. MetaData: 这个节点涉及的 table、column、index 等信息，如 Scan 使用的 table 和 index，Sort 和 Agg 使用的 column；
 4. Sample-Bitmap: Scan 节点上用来表示对应的数据能否被当前的 Scan Fitler 选中；如 `bitmap[i]==True` 则说明第 i 行能满足这个过滤条件；由于整表的数据会比较大，这里我们在采样数据上维护这个 bitmap；
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124193714.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124193714.png)
 
 对于非复合的谓词条件，如 `movie.movie_id = mi_idx.movie_id`、`production_year > 1988` 等，会按照 `[Operator, Column, Operand]` 的形式进行编码；
 
 对于复合的谓词条件，即多个非复合谓词通过 AND 和 OR 组合构成的谓词条件，会先对其中的非复合谓词进行编码，然后递归的把整个谓词条件映射成一个一维向量，下面是一个例子：
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124194207.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124194207.png)
 
 下面是一个完整的对 Plan 进行特征提取和编码的例子：
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124194219.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124194219.png)
 
 每个节点最终的编码情况在右下角对应的表格中，有几点需要注意：
 
@@ -49,7 +49,7 @@ Plan 会被提取特征，并编码成一棵树，来每个节点的特征包含
 
 整个模型的结构图如下：
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124194235.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124194235.png)
 
 端到端的模型主要分为三个模块：
 

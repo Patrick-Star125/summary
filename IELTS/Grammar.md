@@ -53,19 +53,19 @@
 
 > 最基础的，一句话里面不应该没有动词
 
-![](http://pic.netpunk.space/images/2022/11/15/20221115182543.png)
+![](http://pic.netpunk.top/images/2022/11/15/20221115182543.png)
 
 2. about sometime - sometime
 
 > 注意介词的语义
 
-![](http://pic.netpunk.space/images/2022/11/15/20221115204115.png)
+![](http://pic.netpunk.top/images/2022/11/15/20221115204115.png)
 
 3. card - cards
 
 > 物品名词一定要注意数量
 
-![](http://pic.netpunk.space/images/2022/11/15/20221115204236.png)
+![](http://pic.netpunk.top/images/2022/11/15/20221115204236.png)
 
 # Others
 

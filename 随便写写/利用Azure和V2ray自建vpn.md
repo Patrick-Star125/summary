@@ -10,23 +10,23 @@
 
 首先你要有一个微软账号，相信大部分人都是有的，然后进入[Azure官网](https://portal.azure.com)。登陆后进行学生认证，或者直接在微软官网进行认证。
 
-![](http://pic.netpunk.space/images/2022/06/12/20220612222601.png)
+![](http://pic.netpunk.top/images/2022/06/12/20220612222601.png)
 
 认证后在Azure主页面搜索教育就能够看到自己已经获得了100美元的教育额度
 
-![](http://pic.netpunk.space/images/2022/06/12/20220612222748.png)
+![](http://pic.netpunk.top/images/2022/06/12/20220612222748.png)
 
 当然重点并不在这儿，我们点击免费服务-浏览所有
 
-![](http://pic.netpunk.space/images/2023/03/26/20230326103630.png)
+![](http://pic.netpunk.top/images/2023/03/26/20230326103630.png)
 
 可以看到Azure全家桶服务，不得不感叹微软真是有钱，这些全都是free for students，点击创建Linux虚拟机
 
-![](http://pic.netpunk.space/images/2023/03/26/20230326103843.png)
+![](http://pic.netpunk.top/images/2023/03/26/20230326103843.png)
 
 即可按照自己的配置创建虚拟机，其它的没什么好注意的，除了区域和大小，注意大小一定是B1s，这样才可以用750小时/月的免费服务
 
-![](http://pic.netpunk.space/images/2022/06/12/20220612223037.png)
+![](http://pic.netpunk.top/images/2022/06/12/20220612223037.png)
 
 如果你不用B1s，而是选择用其它虚拟机，那么要注意而大小尽量选小一些，节省余额，不能按照 每月*12 来算，因为通过教育余额购买的虚拟机是不享受 1TB/Month 的免费流量的，所有流量都按0.09$/GB来算，我们只用vps来搭建vpn，因此不需要除了这一目的以外硬件性能。
 
@@ -48,23 +48,23 @@
 
 接下来的配置如果你了解的话可以自己配置，如果不了解的话和我一样即可
 
-![](http://pic.netpunk.space/images/2022/06/13/20220613211246.png)
+![](http://pic.netpunk.top/images/2022/06/13/20220613211246.png)
 
 这里选1
 
-![](http://pic.netpunk.space/images/2023/03/26/20230326104428.png)
+![](http://pic.netpunk.top/images/2023/03/26/20230326104428.png)
 
 这里默认，enter即可
 
-![](http://pic.netpunk.space/images/2022/06/13/20220613212955.png)
+![](http://pic.netpunk.top/images/2022/06/13/20220613212955.png)
 
 默认enter
 
-![](http://pic.netpunk.space/images/2022/06/13/20220613213022.png)
+![](http://pic.netpunk.top/images/2022/06/13/20220613213022.png)
 
 这里随意，实测影响不大
 
-![](http://pic.netpunk.space/images/2022/06/13/T90PDTF5UVGKTB5KX7.png)
+![](http://pic.netpunk.top/images/2022/06/13/T90PDTF5UVGKTB5KX7.png)
 
 这里直接默认N即可
 
@@ -72,7 +72,7 @@
 
 就能够看到自己的服务器信息了
 
-![](http://pic.netpunk.space/images/2022/06/13/20220613213816.png)
+![](http://pic.netpunk.top/images/2022/06/13/20220613213816.png)
 
 这里比较重要的有三个信息，地址、用户ID和路径
 

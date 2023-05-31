@@ -13,7 +13,7 @@
 
 首先介绍一下B站早期的存储演进。
 
-![](http://pic.netpunk.space/images/2022/10/11/20221011164742.png)
+![](http://pic.netpunk.top/images/2022/10/11/20221011164742.png)
 
 针对不同的场景，早期的KV存储包括Redix/Memcache，Redis+MySQL，HBASE。
 

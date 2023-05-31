@@ -8,11 +8,11 @@
 
 SQL如何查询KV数据？TiDB 的整体架构如下图所示
 
-![](http://pic.netpunk.space/images/2022/07/12/20220712175951.png)
+![](http://pic.netpunk.top/images/2022/07/12/20220712175951.png)
 
 TiKV Cluster主要作用是作为 KV 引擎存储数据，而TiDB Servers就是SQL层，这一层的节点都是无状态的节点，本身并不存储数据，节点之间完全对等。TiDB Server 这一层最重要的工作是处理用户请求，执行 SQL 运算逻辑，在这一层需要将计算尽量靠近存储节点，以避免大量的 RPC 调用。其次，我们需要将 Filter 也下推到存储节点进行计算，这样只需要返回有效的行，避免无意义的网络传输。最后，我们可以将聚合函数、GroupBy 也下推到存储节点，进行预聚合，每个节点只需要返回一个Count值即可，再由tidb-server将Count值 Sum 起来。 
 
-<img src="http://pic.netpunk.space/images/2022/07/12/20220712180155.png" style="zoom:80%;" />
+<img src="http://pic.netpunk.top/images/2022/07/12/20220712180155.png" style="zoom:80%;" />
 
 ## 实现
 
@@ -78,7 +78,7 @@ Value：null
 
 **参考实现**
 
-<img src="http://pic.netpunk.space/images/2022/07/14/20220714110702.png" style="zoom:80%;" />
+<img src="http://pic.netpunk.top/images/2022/07/14/20220714110702.png" style="zoom:80%;" />
 
 
 

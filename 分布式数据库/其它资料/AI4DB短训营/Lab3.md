@@ -6,7 +6,7 @@
 
 下图是 TiDB SQL 层部分模块的结构图，在处理 SQL 过程中，优化器会多次调用基数估算和代价估算，你需要修改部分 TiDB 及你在 Lab1 和 Lab2 中的代码，以完成图中虚线部分内容：
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124174141.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124174141.png)
 
 ## Preparation
 
@@ -51,7 +51,7 @@ mysql> select @@tidb_external_cardinality_estimator_address, @@tidb_external_cos
 
 如果在调用远程服务的过程中发生了任何错误，TiDB 会以 warning 的形式反馈出来，如：
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124174257.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124174257.png)
 
 ### Your Estimator
 

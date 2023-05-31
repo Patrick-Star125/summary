@@ -14,7 +14,7 @@
 
 > 将一组输入的数据应用map函数返回一个k/v对的结构作为中间数据集,并将具有相同key的数据输入到一个reduce函数中执行,最终返回处理后的结果。
 
-![](http://pic.netpunk.space/images/2022/09/07/20220907163909.png)
+![](http://pic.netpunk.top/images/2022/09/07/20220907163909.png)
 
 左图和右图合起来一起看，假如按map函数规则来看数据能够分为n类，那么会产生n个key，reduce对相同key的数据集进行收集整理得到计算结果。以一个统计文档单词数的java代码为例，理解一下MapReduce的作用方式。
 
@@ -61,7 +61,7 @@ reduce(String key, Iterator values):
 
 ## 计算过程
 
-![](http://pic.netpunk.space/images/2022/09/07/20220907165841.png)
+![](http://pic.netpunk.top/images/2022/09/07/20220907165841.png)
 
 1. 用户编写map函数和reduce函数，并且指定有m个map任务和R个reduce任务可以同时执行
 2. 用户程序中的MapReduce库首先将输入文件切分为M块，每块的大小从16MB到64MB（用户可通过一个可选参数控制此大小）

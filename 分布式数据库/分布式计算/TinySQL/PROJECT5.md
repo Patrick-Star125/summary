@@ -179,13 +179,13 @@ Outer Fetcher 是一个后台 goroutine，他的主要计算逻辑在 fetchOuter
 
 此时 AVG 函数 的整个计算过程只有一个阶段，如图所示：
 
-![](http://pic.netpunk.space/images/2022/08/04/20220804142336.png)
+![](http://pic.netpunk.top/images/2022/08/04/20220804142336.png)
 
 - Partial1Mode --> FinalMode
 
 此时我们将 AVG 函数的计算过程拆成两个阶段进行，如图所示：
 
-![](http://pic.netpunk.space/images/2022/08/04/20220804142353.png)
+![](http://pic.netpunk.top/images/2022/08/04/20220804142353.png)
 
 除了上面的两个例子外，还可能聚合被下推到 TinyKV 上进行计算（Partial1Mode），并返回经过预聚合的中间结果。为了充分利用 TinySQL 所在机器的 CPU 和内存资源，加快 TinySQL 层的聚合计算，TinySQL 层的聚合函数计算可以这样进行：Partial2Mode --> FinalMode。
 
@@ -206,7 +206,7 @@ TiDB 的并行 Hash Aggregation 算子执行过程中的主要线程有：Main T
 
 Hash Aggregation 的执行阶段可分为如下图所示的 5 步：
 
-![](http://pic.netpunk.space/images/2022/08/04/20220804142419.png)
+![](http://pic.netpunk.top/images/2022/08/04/20220804142419.png)
 
 1. 启动 Data Fetcher，Partial Workers 及 Final Workers
 

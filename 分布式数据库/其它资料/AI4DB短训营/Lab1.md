@@ -18,7 +18,7 @@ And all columns that appear in our queries are INT column, more specifically, yo
 
 These files are supposed to be used as below:
 
-![](http://pic.netpunk.space/images/2022/11/24/20221124103227.png)
+![](http://pic.netpunk.top/images/2022/11/24/20221124103227.png)
 
 ### The Code
 

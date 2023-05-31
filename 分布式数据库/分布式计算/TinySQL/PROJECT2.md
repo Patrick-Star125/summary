@@ -12,7 +12,7 @@
 
 Parser 主要的功能是将 SQL 语句文本按照预先定义的 SQL 语法规则进行解析，并将其转换为抽象语法树(Abstract Syntax Tree, AST)。抽象语法树是计算机科学中编译原理的一个术语。它以树形表现编程语言的语法结构。举个简单的例子，对于 SQL: Select a from t where b > 0; 将会被转换为：
 
-![](http://pic.netpunk.space/images/2022/07/17/20220717225813.png)
+![](http://pic.netpunk.top/images/2022/07/17/20220717225813.png)
 
 其中，Projection 和 Selection 是关系代数中的投影和选择。简单来讲，这个抽象语法树从下至上的含义是：从表 t 中读取数据，只选择满足条件 t.b > 0 的数据，最后只需要列 t.a，与原 SQL 语句的含义一致。
 
@@ -476,7 +476,7 @@ make
 
 因此，整个SQL解析的过程如下图所示
 
-![](http://pic.netpunk.space/images/2022/07/18/20220718185755.png)
+![](http://pic.netpunk.top/images/2022/07/18/20220718185755.png)
 
 # 实现
 
