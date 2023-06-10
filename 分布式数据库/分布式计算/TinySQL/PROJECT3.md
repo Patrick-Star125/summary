@@ -14,7 +14,7 @@ TinySQL 中的异步 schema 变更是参照了 Google F1 中的 schema 变更的
 
 这里简单说一下我的理解，算了，一图胜百句
 
-![](http://pic.netpunk.top/images/2022/07/23/20220723162056.png)
+![](http://1.14.100.228:8002/images/2022/07/23/20220723162056.png)
 
 
 

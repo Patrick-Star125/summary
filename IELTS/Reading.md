@@ -6,17 +6,17 @@
 
 step1
 
-![](http://pic.netpunk.top/images/2022/11/03/20221103224659.png)
+![](http://1.14.100.228:8002/images/2022/11/03/20221103224659.png)
 
-![](http://pic.netpunk.top/images/2022/11/03/20221103224825.png)
+![](http://1.14.100.228:8002/images/2022/11/03/20221103224825.png)
 
 step2
 
-![](http://pic.netpunk.top/images/2022/11/03/20221103225120.png)
+![](http://1.14.100.228:8002/images/2022/11/03/20221103225120.png)
 
 step3：solve problems accordingly
 
-![](http://pic.netpunk.top/images/2022/11/03/20221103230039.png)
+![](http://1.14.100.228:8002/images/2022/11/03/20221103230039.png)
 
 ## synonyms replacement
 
@@ -97,33 +97,33 @@ step3：solve problems accordingly
 
 * 选对错不明显的直接选NOT GIVEN，例如（自行转义题目，不要傻傻的找同一个词，看到bigger找different size）
 
-  ![](http://pic.netpunk.top/images/2022/11/26/20221126200946.png)
+  ![](http://1.14.100.228:8002/images/2022/11/26/20221126200946.png)
 
 * 填空题搞懂题意在找答案，性质都不一样是不可能对的
 
-  ![](http://pic.netpunk.top/images/2022/11/26/20221126204553.png)
+  ![](http://1.14.100.228:8002/images/2022/11/26/20221126204553.png)
 
-  ![](http://pic.netpunk.top/images/2022/11/26/20221126210425.png)
+  ![](http://1.14.100.228:8002/images/2022/11/26/20221126210425.png)
 
 * 填空题可以适当根据语法结构推断答案位置，例如排序，并列，转折等
 
-  ![](http://pic.netpunk.top/images/2022/11/26/20221126204717.png)
+  ![](http://1.14.100.228:8002/images/2022/11/26/20221126204717.png)
 
 * 观点概括不是看到什么就是什么，还得看看主题句的内容
 
-  ![](http://pic.netpunk.top/images/2022/11/26/20221126211620.png)
+  ![](http://1.14.100.228:8002/images/2022/11/26/20221126211620.png)
 
 * 观点匹配不能只匹配一半，要不然一定是陷阱（in worldwide）
 
-  ![](http://pic.netpunk.top/images/2022/11/26/20221126212902.png)
+  ![](http://1.14.100.228:8002/images/2022/11/26/20221126212902.png)
 
 * 没话说了，就是tomb complex，根据语法做题，不要只根据感觉做题
 
-  ![](http://pic.netpunk.top/images/2022/11/26/20221126213411.png)
+  ![](http://1.14.100.228:8002/images/2022/11/26/20221126213411.png)
 
 * 即使两个词意思看上去很接近，注意这里的其它两个点都对的上也不是对的，只能说明信息在这儿
 
-  <img src="http://pic.netpunk.top/images/2022/11/30/20221130100836.png" style="zoom:50%;" />
+  <img src="http://1.14.100.228:8002/images/2022/11/30/20221130100836.png" style="zoom:50%;" />
 
 * 要能看出来实体分散的表达方式
 
@@ -163,7 +163,7 @@ step3：solve problems accordingly
 
 **不李姐**
 
-![](http://pic.netpunk.top/images/2022/11/26/20221126210259.png)
+![](http://1.14.100.228:8002/images/2022/11/26/20221126210259.png)
 
 
 

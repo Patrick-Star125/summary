@@ -4,7 +4,7 @@
 
 在 lab2 的实验中你需要分别用上述两个方法实现 Cost Model，在 `plan.py` 中，实现了 Plan 结构体，能帮你解析如下的 TiDB Plan：
 
-![](http://pic.netpunk.top/images/2022/11/24/20221124173124.png)
+![](http://1.14.100.228:8002/images/2022/11/24/20221124173124.png)
 
 为了简单，在 lab2 的实验数据中只会出现 HashAgg, HashJoin, Sort, Selection, Projection, TableReader, TableScan(包含 TableRangeScan, TableFullScan 和 TableRowIDScan), IndexReader, IndexScan(包含 IndexRangeScan 和 IndexFullScan), IndexLookup 这些算子。
 
@@ -28,6 +28,6 @@ lab2 使用 TiDB 校准前的 cost model 作为 baseline，完成所有代码后
 
 评估使用 `est_cost` 和 `act_exec_time` 的相关性作为指标，好的 cost model 会让他俩呈现比较好的正相关，如下：
 
-![](http://pic.netpunk.top/images/2022/11/24/20221124173156.png)
+![](http://1.14.100.228:8002/images/2022/11/24/20221124173156.png)
 
 同时会产生一个 `/eval/results.json` 文件，请提交这个文件，classroom 会根据这个文件做一个简单的打分。

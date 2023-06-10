@@ -46,7 +46,7 @@ TiDB 主要分为两个模块对计划进行优化：
 
 这里会简单介绍一些逻辑算子可选择的物理算子。例如语句：`select sum(*) from t join s on t.c = s.c group by a`。此语句中逻辑算子有 DataSource、Aggregation、Join 和 Projection，接下来会对其中几个典型的逻辑算子对应的物理算子进行一个简单介绍，如下表：
 
-![](http://pic.netpunk.top/images/2022/08/03/20220803154047.png)
+![](http://1.14.100.228:8002/images/2022/08/03/20220803154047.png)
 
 
 

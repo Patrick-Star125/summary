@@ -45,17 +45,17 @@
 
 step1: understand the question
 
-![](http://pic.netpunk.top/images/2022/11/20/20221120183024.png)
+![](http://1.14.100.228:8002/images/2022/11/20/20221120183024.png)
 
 step2: come up with topic words as much as you can
 
 step3: plan ideas for main body paragraphs
 
-![](http://pic.netpunk.top/images/2022/11/20/20221120183522.png)
+![](http://1.14.100.228:8002/images/2022/11/20/20221120183522.png)
 
 step4: thinking about main paragraphs deeper
 
-![](http://pic.netpunk.top/images/2022/11/20/20221120195949.png)
+![](http://1.14.100.228:8002/images/2022/11/20/20221120195949.png)
 
 **Type of questions**
 
@@ -85,7 +85,7 @@ step4: thinking about main paragraphs deeper
 
 * vocabulary: topic words that can be only used for the certain writing task.
 
-  ![](http://pic.netpunk.top/images/2022/11/18/20221118165632.png)
+  ![](http://1.14.100.228:8002/images/2022/11/18/20221118165632.png)
 
 * task accomplishment:
 
@@ -93,7 +93,7 @@ step4: thinking about main paragraphs deeper
 
   ​	these lining words holding paraphrase together
 
-  ![](http://pic.netpunk.top/images/2022/11/18/20221118174249.png)
+  ![](http://1.14.100.228:8002/images/2022/11/18/20221118174249.png)
 
 * two types of writing structure：
 
@@ -106,19 +106,19 @@ step4: thinking about main paragraphs deeper
 
 * Discussion
 
-  ![](http://pic.netpunk.top/images/2022/11/18/20221118191603.png)
+  ![](http://1.14.100.228:8002/images/2022/11/18/20221118191603.png)
 
 * Opinion
 
-  ![](http://pic.netpunk.top/images/2022/11/18/20221118192704.png)
+  ![](http://1.14.100.228:8002/images/2022/11/18/20221118192704.png)
 
 * Problems and solutions
 
-  ![](http://pic.netpunk.top/images/2022/11/18/20221118193725.png)
+  ![](http://1.14.100.228:8002/images/2022/11/18/20221118193725.png)
 
 * Two-part question
 
-  ![](http://pic.netpunk.top/images/2022/11/18/20221118194515.png)
+  ![](http://1.14.100.228:8002/images/2022/11/18/20221118194515.png)
 
 # Topics
 
@@ -161,7 +161,7 @@ Answer: several factors,  unrealistic/impossible
 
 Type - opinion
 
-![](http://pic.netpunk.top/images/2022/09/01/20220901114058.png)
+![](http://1.14.100.228:8002/images/2022/09/01/20220901114058.png)
 
 核心观点：盲目崇拜明星的坏处大于好处
 
@@ -268,11 +268,11 @@ Main body
 
 sketch: 
 
-![](http://pic.netpunk.top/images/2022/11/18/20221118163437.png)
+![](http://1.14.100.228:8002/images/2022/11/18/20221118163437.png)
 
 paragraph-1:
 
-![](http://pic.netpunk.top/images/2022/11/18/20221118164717.png)
+![](http://1.14.100.228:8002/images/2022/11/18/20221118164717.png)
 
 
 
@@ -545,7 +545,7 @@ entities: parents,educators,educationalists,child,children,primary school studen
 
 线型图的特点是几乎一定会有时间趋势上的数量变化
 
-<img src="http://pic.netpunk.top/images/2022/11/29/20221129161253.png" style="zoom:50%;" />
+<img src="http://1.14.100.228:8002/images/2022/11/29/20221129161253.png" style="zoom:50%;" />
 
 The line graph **compares** the amount of **electricity produced** in France **using four different sources of power** over **a period of** 32 years.
 
@@ -564,7 +564,7 @@ Between 1980 and 2005, electricity production from nuclear power **rose dramatic
 
 条型图的特点有多种实体的数量对比
 
-<img src="http://pic.netpunk.top/images/2022/12/05/20221205145652.png" style="zoom:80%;" />
+<img src="http://1.14.100.228:8002/images/2022/12/05/20221205145652.png" style="zoom:80%;" />
 
 **The bar chart compares** the number of **mobile phones sold worldwide** by the **five most popular manufacturers** in the **years 2009,2011 and 2013.**
 
@@ -583,7 +583,7 @@ The other three **top selling** mobile phone brands between 2009 and 2013 were L
 
 饼状图的特点是多种实体之间的比例对比
 
-![](http://pic.netpunk.top/images/2022/12/05/20221205145616.png)
+![](http://1.14.100.228:8002/images/2022/12/05/20221205145616.png)
 
 The pie charts compare **five categories(kinds) of** **household expenditure** in the UK and New Zealand in the years 1980 and 2008.
 
@@ -603,7 +603,7 @@ In 1980, 29% of **an average New Zealand household budget went on** food and dri
 
 表格的特点是数据贼多，不能全部描述，但是之前三种图的技巧都能用（核心是一样的）
 
-![](http://pic.netpunk.top/images/2022/12/05/20221205211913.png)
+![](http://1.14.100.228:8002/images/2022/12/05/20221205211913.png)
 
 The table **compares** the **five highest ranking countries** in terms of **the numbers of visits** and **the money spent by tourists** over **a period of two years**.
 
@@ -625,7 +625,7 @@ Spending by tourists visiting the USA increased from \$126.2 billion in 2012 to 
 
 就是把内容分开到两张图上，只写重点
 
-![](http://pic.netpunk.top/images/2022/12/07/20221207211859.png)
+![](http://1.14.100.228:8002/images/2022/12/07/20221207211859.png)
 
 The bar chart compares the numbers of male sand females who **took** four different evening **classes** in 2009, and the pie chart shows the age profile of these attendees.
 
@@ -637,7 +637,7 @@ It is clear that **significantly more** women **than** men attended evening clas
 
 **Process diagram**
 
-<img src="http://pic.netpunk.top/images/2022/12/26/20221226115923.png" style="zoom: 67%;" />
+<img src="http://1.14.100.228:8002/images/2022/12/26/20221226115923.png" style="zoom: 67%;" />
 
 The first diagram represents the process of glass containers production, and the second diagram shows steps/stages in the process of recycling used glass.(1 sentence)
 
@@ -649,7 +649,7 @@ Glass recycling begins with the collection of used glass products. The collected
 
 **Comparison diagram**
 
-<img src="http://pic.netpunk.top/images/2022/12/26/20221226174357.png" style="zoom: 67%;" />
+<img src="http://1.14.100.228:8002/images/2022/12/26/20221226174357.png" style="zoom: 67%;" />
 
 The two chars **compare** current layout of the ground floor of a house with a plan to redesign the living space. 
 
@@ -735,7 +735,7 @@ In conclusion, schools will **continue to face** discipline **problems** unless 
 
 **Two-part question**
 
-![](http://pic.netpunk.top/images/2022/12/27/20221227123035.png)
+![](http://1.14.100.228:8002/images/2022/12/27/20221227123035.png)
 
 **It is true that** editors have to make difficult decisions about which news stories they broadcast or publish, and their choices are no doubt influenced by a variety of factors. In my opinion, **we are exposed to** too much bad news, and **I would welcome** a greater emphasis on good news.
 
