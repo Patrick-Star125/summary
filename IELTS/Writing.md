@@ -1,30 +1,29 @@
 # Testing Structure
 
-## notice
+## structural writing
 
-* limited spelling errors are permitted only if they are not detracting the overall clarity of the answer.
-* we should take part1 exercise no more than 25 minutes, part2 exercise no more than 45 minutes.
-* English academic writing demands
-  * abbreviation is not allowed
-  * do not use non-formal expression
-  * empirical evidences as argument material
-  * imperative sentences is not allowed
-  * clarity counts
+陈述类和论述类的英语作文，无论是高考、四六级、考研还是雅思托福，都是在相对固定的格式下写出内容，像做完型填空一样的写作文
 
-* fabulous IELTS writing can be broken down into three parts
-  * clear overall structure
-  * rich and precise vocabulary and good phrase
-  * appropriate combination of simple sentences, compound sentences and complex sentences
+* 结构
+  * task1
+    * 开头：复述题目
+    * 总览：两句，将数据分为两类一句描述一类
+    * 主体1：三个数据特征
+    * 主体2：三个数据特征
+  * task2
+    * 开头：复述题目+提出中心
+    * 主体1
+    * 主体2
+    * 总结
+* 丰富度
+  * 不同描述主体的方式
+  * 同一类句子的不同句式
+* 语料
+  * 单词：精确描述
+  * 短语：
+  * 主题：
 
-* Four scoring criteria
-  * question response
-  * coherence and cohesion
-  * vocabulary
-  * grammar(slow develop)
-* well organized structure
-  *  Introduction: 2 sentences (5 min)
-  * two main paragraphs: 10 sentences (20 min)
-  * conclusion: 1-2 sentences (5 min)
+
 
 ## Task1
 
@@ -376,21 +375,21 @@ entities: parents,educators,educationalists,child,children,primary school studen
 
 **describe**
 
-|   数量    |     占有      |        时间        |      |
-| :-------: | :-----------: | :----------------: | ---- |
-|  number   |    provide    |    a period of     |      |
-|  figure   | was the means |  over the period   |      |
-| amount of |               |    in each year    |      |
-|           |               | the rest of period |      |
+|  数量   |          比例量          |          时间          | 比例 |
+| :-----: | :----------------------: | :--------------------: | :--: |
+| number  |         provided         |      a period of       |      |
+| figure  |         means of         |    over the period     |      |
+| peak of |        amount of         |      in each year      |      |
+|         | as the primary source of | the rest of the period |      |
 
 **changes/trends**
 
-| 波动/平稳 | 上升/下降 |       对比       |      |
-| :-------: | :-------: | :--------------: | ---- |
-| fluctuate |   rise    |   by contrast    |      |
-|  vibrate  | increase  |     overtook     |      |
-|  remain   | decrease  |  least/minority  |      |
-|  stable   |   fall    | primary/majority |      |
+|      波动/平稳       | 上升/下降 |       对比       |      |
+| :------------------: | :-------: | :--------------: | ---- |
+|      fluctuate       |   rise    |   by contrast    |      |
+|       vibrate        | increase  |     overtook     |      |
+| remain at this level | decrease  |  least/minority  |      |
+|        stable        |   fall    | primary/majority |      |
 
 
 ## Topic vocabulary
@@ -537,7 +536,7 @@ entities: parents,educators,educationalists,child,children,primary school studen
 * 精准修饰
 * 变换动词
 
-## Band 9 Essays
+# Band 9 Essays
 
 ### Task1
 
@@ -545,13 +544,13 @@ entities: parents,educators,educationalists,child,children,primary school studen
 
 线型图的特点是几乎一定会有时间趋势上的数量变化
 
-<img src="http://1.14.100.228:8002/images/2022/11/29/20221129161253.png" style="zoom:50%;" />
+<img src="http://1.14.100.228:8002/images/2022/11/29/20221129161253.png" style="zoom: 67%;" />
 
 The line graph **compares** the amount of **electricity produced** in France **using four different sources of power** over **a period of** 32 years.
 
-It is clear that nuclear power was **by far the most important** part of electricity generation **over the period shown**. Renewables provided **the lowest amount** of electricity **in each year**.(highest, lowest)
+It is clear that nuclear power was **by far the most important** part of electricity generation **over the period shown**. Renewables provided **the lowest amount** of electricity **in each year**.
 
-**ln 1980**, thermal power **stations** were the main **source of** electricity **in France**, **generating** around 120 terawatt hours of power. Nuclear and hydroelectric power stations produced **just under** 75 terawatt hours of electricity separately, and renewables **provided** a **negligible amount**. Just one year later, nuclear power **overtook** thermal **power** as the primary source of electricity.
+**ln 1980**, thermal power stations were the main **source of** electricity **in France**, **generating** around 120 terawatt hours of power. Nuclear and hydroelectric power stations produced **just under** 75 terawatt hours of electricity separately, and renewables **provided** a **negligible amount**. Just one year later, nuclear power **overtook** thermal power as the primary source of electricity.
 
 Between 1980 and 2005, electricity production from nuclear power **rose dramatically** to **a peak of** 430 terawatt hours. **By contrast**, the figure for thermal power **fell to** only 50 terawatt hours in1985, and **remained at** this level for **the rest of the period**. Hydroelectric power generation remained relatively stable, at between 50 and 80 terawatt hours, for the whole 32-year period, but renewable electricity production **saw only a small rise to** approximately 25 terawatt hours by 2012.
 
@@ -559,6 +558,8 @@ Between 1980 and 2005, electricity production from nuclear power **rose dramatic
 * 第二段：最显著的元素一+最显著的元素二
 * 第三段：结合时间地点详细描述三个点
 * 第四段：结合时间地点详细描述三个趋势
+
+
 
 **Bar Chart**
 
@@ -658,6 +659,8 @@ What we can see that the new proposed plan involves making a number of changes o
 The most noticeable change from existing design to proposed plan is that there will no longer be a separate hall area when building work has been done. This will be achieved by removing the internal wall and door between hall and living room, along with the current staircase and under-stair storage cupboard. With no separate hall area, the proposed living room layout will also contain the staircase to the first floor.
 
 To replace the current straight staircase, a new set of window stairs will be installed in the corner of the living room. The internal door between hall and kitchen will be replaced with double doors connecting the kitchen and new living room. Finally, the planned building work will also include the installation of some kitchen furniture.
+
+
 
 **Map diagram**
 
