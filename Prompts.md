@@ -24,13 +24,13 @@ head: main idea
 part1: three idea and one example
 part2: three idea and one example
 3.给出作文样例
-I want you to write a band 9 essay based on the following structure and content.
+I want you to write a band 9 essay in roughly 250 words based on the following structure and content.
 head: main idea
-part1: three idea and one example
-part2: three idea and one example
+part1: three idea and one example (roughly 100 words)
+part2: three idea and one example (roughly 100 words)
 conclution: rephrase main idea
+here are the detailed ideas:
 4.修改作文
 please give me some advices on improving the following essay (words, coherence, grammar)
-z
 ~~~
 
