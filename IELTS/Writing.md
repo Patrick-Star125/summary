@@ -758,10 +758,10 @@ In conclusion, it must be **extremely difficult** for editors to choose which ne
 
 line graph, pie chart, bar chart, table, map, process diagram
 
-* The line graph **compares** the amount of **electricity produced** in France using four different sources of power **over a period of** 32 years.
+* The line graph compares the amount of **electricity produced** in France using four different sources of power **over a period of** 32 years.
 * **The bar chart compares** the number of **mobile phones sold worldwide** by the **five most popular manufacturers** in the **years 2009,2011 and 2013.**
 * The pie charts compare **five categories(kinds) of** **household expenditure** in the UK and New Zealand in the years 1980 and 2008.
-* The table **compares** the **five highest ranking countries** in terms of **the numbers of visits** and **the money spent by tourists** over **a period of two years**.
+* The table compares the **five highest ranking countries** in terms of **the numbers of visits** and **the money spent by tourists** over **a period of two years**.
 
 **总结段**
 
@@ -822,3 +822,18 @@ line graph, pie chart, bar chart, table, map, process diagram
 * In conclusion, **l can understand** why people might want to **encourage competitiveness** in children, but **it seems to me** that a **co-operative attitude** is much more **desirable** in adult life.
 * In conclusion, schools will **continue to face** discipline **problems** unless parents, teachers and public figures **set clear rules** and **demonstrate the right behaviour** themselves.
 * In conclusion, it must be **extremely difficult** for editors to choose which news stories to present, but I would like to see a more **positive approach** to this vital public service.
+
+# 真题
+
+medical: healthcare advancement, innovative medicine, disease prevention, life expectancy
+
+environment: environmental sustainability, climate change, renewable energy, pullution regulation, conservation protection, solar power system
+
+food security: agriculture, food production and distribution, genetic engineering, sustainable farming practice
+
+education: online class, people's access to education and information, education resource
+
+economics: poverty reduction, economic development, job creation, 
+
+life quality: convenient transportation, electric vehicles, assistive devices, smart home
+
