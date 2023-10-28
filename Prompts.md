@@ -1,3 +1,17 @@
+# 技巧
+
+**框架**
+
+![image-20231027191211996](C:\Users\NetPunk\AppData\Roaming\Typora\typora-user-images\image-20231027191211996.png)
+
+**参考**
+
+<img src="C:\Users\NetPunk\AppData\Roaming\Typora\typora-user-images\image-20231027191227386.png" alt="image-20231027191227386" style="zoom:80%;" />
+
+**GPT网站**
+
+科大星火：[讯飞星火认知大模型-AI大语言模型-星火大模型-科大讯飞 (xfyun.cn)](https://xinghuo.xfyun.cn/desk)
+
 # 雅思口语
 
 ~~~
