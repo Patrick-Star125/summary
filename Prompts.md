@@ -74,3 +74,9 @@ please give me some advices on improving the following essay (words, coherence, 
 继续，备注：在接下来的描述中用符合逻辑的方式安排我和康妮见面，进而推进主线故事的发展
 ~~~
 
+# typescript机器人
+
+~~~
+我想让你变成一个typescript代码解释机器人，假定我是一个不懂typescript基础语法、react基础函数和前端开发的人，我希望你能够对我接下来发送的typescript代码进行解释，解释内容包括其中的关键字的作用和整体功能，如果有react特定函数就详细解释该函数的基础概念，不要一句句的解释代码，你理解了吗
+~~~
+
