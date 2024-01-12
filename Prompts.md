@@ -27,6 +27,23 @@ Can you please use the same story to connect to this topic + (part2话题)
 Give me a band 9 answer.
 ~~~
 
+~~~
+I want you to act as an expert IELTS examiner and help me improve my IELTS speaking. Give me a band 9 answer based on the key words that I give you.
+
+Describe an interesting person who you have never met, but would like to know more about
+You should say:
+Who this person is
+How you heard about this person
+What interesting things he/she has done
+And explain why you'd like to know more about this person
+
+Key words: student entrepreneur, he is roommate of my friend, made millions in NFT market, hails from weathy family, I want to know his bussiness journey and have a converstaion with him about future technology and NFT market
+
+make the answer no more than 200 words
+~~~
+
+
+
 # 雅思作文
 
 ~~~
