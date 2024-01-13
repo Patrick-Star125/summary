@@ -30,14 +30,14 @@ Give me a band 9 answer.
 ~~~
 I want you to act as an expert IELTS examiner and help me improve my IELTS speaking. Give me a band 9 answer based on the key words that I give you.
 
-Describe an interesting person who you have never met, but would like to know more about
+Describe a public facility that has been renovated and improved
 You should say:
-Who this person is
-How you heard about this person
-What interesting things he/she has done
-And explain why you'd like to know more about this person
+What the facility is
+When it was renovated and improved
+What has been renovated and improved
+And explain how you feel about it
 
-Key words: student entrepreneur, he is roommate of my friend, made millions in NFT market, hails from weathy family, I want to know his bussiness journey and have a converstaion with him about future technology and NFT market
+Key words: hospital in my hometown, two years ago, bigger area, more advanced medical devices, self-service registration machine, better decoration, higher service quality, I feel good about it because people in my hometown own higher medical level and local goverment spend money on right place.
 
 make the answer no more than 200 words
 ~~~
