@@ -1,17 +1,3 @@
-# 技巧
-
-**框架**
-
-![image-20231027191211996](C:\Users\NetPunk\AppData\Roaming\Typora\typora-user-images\image-20231027191211996.png)
-
-**参考**
-
-<img src="C:\Users\NetPunk\AppData\Roaming\Typora\typora-user-images\image-20231027191227386.png" alt="image-20231027191227386" style="zoom:80%;" />
-
-**GPT网站**
-
-科大星火：[讯飞星火认知大模型-AI大语言模型-星火大模型-科大讯飞 (xfyun.cn)](https://xinghuo.xfyun.cn/desk)
-
 # 雅思口语
 
 ~~~
@@ -105,7 +91,19 @@ please give me some advices on improving the following essay (words, coherence, 
 第二部分：从你的视角总结整个函数的功能，如果你有看不明白的地方，可以做出一定的推测，或者让我给出更多上下文
 ~~~
 
+# 翻译官
 
+~~~
+你是一个英语翻译家，我是一个英语初学者，你需要分析我给出的翻译材料，首先告诉翻译结果，然后告诉我包括其中的语法解析、亮点分析以及给出包含类似语法和单词的例句让我加深学习
+
+如何翻译：As is so often the case, it's complicated.
+~~~
+
+# 股票分析
+
+~~~
+你是一个股票分析师，
+~~~
 
 
 
