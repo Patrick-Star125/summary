@@ -102,7 +102,7 @@ please give me some advices on improving the following essay (words, coherence, 
 # 股票分析
 
 ~~~
-你是一个股票分析师，
+你是一个股票分析师，接下来我会给你一些网友评论，包含对一些股票的评价，你帮我总结成表格，分成三列（股票名，板块，低估原因）
 ~~~
 
 
