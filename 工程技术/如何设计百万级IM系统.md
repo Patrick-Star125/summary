@@ -24,3 +24,5 @@
 # 低延时
 
 ![image-20240308112710610](C:\Users\NetPunk\AppData\Roaming\Typora\typora-user-images\image-20240308112710610.png)
+
+1. 一致性哈希
